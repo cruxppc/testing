@@ -1,0 +1,209 @@
+Making check in port
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/port'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/port'
+Making check in libtiff
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/libtiff'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/libtiff'
+Making check in tools
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/tools'
+make  rgb2ycbcr thumbnail
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/tools'
+make[2]: 'rgb2ycbcr' is up to date.
+make[2]: 'thumbnail' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/tools'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/tools'
+Making check in build
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/build'
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/build'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/build'
+Making check in contrib
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib'
+Making check in addtiffo
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/addtiffo'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/addtiffo'
+Making check in dbs
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs'
+Making check in xtiff
+make[3]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs/xtiff'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs/xtiff'
+make[3]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs'
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/dbs'
+Making check in iptcutil
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/iptcutil'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/iptcutil'
+Making check in mfs
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/mfs'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/mfs'
+Making check in pds
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/pds'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/pds'
+Making check in ras
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/ras'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/ras'
+Making check in stream
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/stream'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/stream'
+Making check in tags
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/tags'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/tags'
+Making check in win_dib
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/win_dib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib/win_dib'
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/contrib'
+Making check in test
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make  ascii_tag long_tag short_tag strip_rw rewrite custom_dir defer_strile_loading defer_strile_writing testtypes raw_decode
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make[2]: 'ascii_tag' is up to date.
+make[2]: 'long_tag' is up to date.
+make[2]: 'short_tag' is up to date.
+make[2]: 'strip_rw' is up to date.
+make[2]: 'rewrite' is up to date.
+make[2]: 'custom_dir' is up to date.
+make[2]: 'defer_strile_loading' is up to date.
+make[2]: 'defer_strile_writing' is up to date.
+make[2]: 'testtypes' is up to date.
+make[2]: 'raw_decode' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make[3]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+PASS: ascii_tag
+PASS: long_tag
+PASS: short_tag
+PASS: strip_rw
+PASS: rewrite
+PASS: custom_dir
+PASS: defer_strile_loading
+PASS: defer_strile_writing
+PASS: testtypes
+PASS: raw_decode
+PASS: ppm2tiff_pbm.sh
+PASS: ppm2tiff_pgm.sh
+PASS: ppm2tiff_ppm.sh
+PASS: fax2tiff.sh
+PASS: tiffcp-g3.sh
+PASS: tiffcp-g3-1d.sh
+PASS: tiffcp-g3-1d-fill.sh
+PASS: tiffcp-g3-2d.sh
+PASS: tiffcp-g3-2d-fill.sh
+PASS: tiffcp-g4.sh
+PASS: tiffcp-logluv.sh
+PASS: tiffcp-thumbnail.sh
+PASS: tiffcp-lzw-compat.sh
+PASS: tiffcp-lzw-scanline-decode.sh
+PASS: tiffdump.sh
+PASS: tiffinfo.sh
+PASS: tiffcp-split.sh
+PASS: tiffcp-split-join.sh
+PASS: tiff2ps-PS1.sh
+PASS: tiff2ps-PS2.sh
+PASS: tiff2ps-PS3.sh
+PASS: tiff2ps-EPS1.sh
+PASS: tiff2pdf.sh
+PASS: tiffcrop-doubleflip-logluv-3c-16b.sh
+PASS: tiffcrop-doubleflip-minisblack-1c-16b.sh
+PASS: tiffcrop-doubleflip-minisblack-1c-8b.sh
+PASS: tiffcrop-doubleflip-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-doubleflip-miniswhite-1c-1b.sh
+PASS: tiffcrop-doubleflip-palette-1c-1b.sh
+PASS: tiffcrop-doubleflip-palette-1c-4b.sh
+PASS: tiffcrop-doubleflip-palette-1c-8b.sh
+PASS: tiffcrop-doubleflip-rgb-3c-16b.sh
+PASS: tiffcrop-doubleflip-rgb-3c-8b.sh
+PASS: tiffcrop-extract-logluv-3c-16b.sh
+PASS: tiffcrop-extract-minisblack-1c-16b.sh
+PASS: tiffcrop-extract-minisblack-1c-8b.sh
+PASS: tiffcrop-extract-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-extract-miniswhite-1c-1b.sh
+PASS: tiffcrop-extract-palette-1c-1b.sh
+PASS: tiffcrop-extract-palette-1c-4b.sh
+PASS: tiffcrop-extract-palette-1c-8b.sh
+PASS: tiffcrop-extract-rgb-3c-16b.sh
+PASS: tiffcrop-extract-rgb-3c-8b.sh
+PASS: tiffcrop-extractz14-logluv-3c-16b.sh
+PASS: tiffcrop-extractz14-minisblack-1c-16b.sh
+PASS: tiffcrop-extractz14-minisblack-1c-8b.sh
+PASS: tiffcrop-extractz14-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-extractz14-miniswhite-1c-1b.sh
+PASS: tiffcrop-extractz14-palette-1c-1b.sh
+PASS: tiffcrop-extractz14-palette-1c-4b.sh
+PASS: tiffcrop-extractz14-palette-1c-8b.sh
+PASS: tiffcrop-extractz14-rgb-3c-16b.sh
+PASS: tiffcrop-extractz14-rgb-3c-8b.sh
+PASS: tiffcrop-R90-logluv-3c-16b.sh
+PASS: tiffcrop-R90-minisblack-1c-16b.sh
+PASS: tiffcrop-R90-minisblack-1c-8b.sh
+PASS: tiffcrop-R90-minisblack-2c-8b-alpha.sh
+PASS: tiffcrop-R90-miniswhite-1c-1b.sh
+PASS: tiffcrop-R90-palette-1c-1b.sh
+PASS: tiffcrop-R90-palette-1c-4b.sh
+PASS: tiffcrop-R90-palette-1c-8b.sh
+PASS: tiffcrop-R90-rgb-3c-16b.sh
+PASS: tiffcrop-R90-rgb-3c-8b.sh
+PASS: tiff2bw-palette-1c-8b.sh
+PASS: tiff2bw-quad-lzw-compat.sh
+PASS: tiff2bw-rgb-3c-8b.sh
+PASS: tiff2rgba-logluv-3c-16b.sh
+PASS: tiff2rgba-minisblack-1c-16b.sh
+PASS: tiff2rgba-minisblack-1c-8b.sh
+PASS: tiff2rgba-minisblack-2c-8b-alpha.sh
+PASS: tiff2rgba-miniswhite-1c-1b.sh
+PASS: tiff2rgba-palette-1c-1b.sh
+PASS: tiff2rgba-palette-1c-4b.sh
+PASS: tiff2rgba-palette-1c-8b.sh
+PASS: tiff2rgba-rgb-3c-16b.sh
+PASS: tiff2rgba-rgb-3c-8b.sh
+PASS: tiff2rgba-quad-tile.jpg.sh
+============================================================================
+Testsuite summary for LibTIFF Software 4.1.0
+============================================================================
+# TOTAL: 87
+# PASS:  87
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/test'
+Making check in man
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/man'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/man'
+Making check in html
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html'
+Making check in images
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html/images'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html/images'
+Making check in man
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html/man'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html/man'
+make[2]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html'
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0/html'
+make[1]: Entering directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/opt/libtiff/work/src/tiff-4.1.0'

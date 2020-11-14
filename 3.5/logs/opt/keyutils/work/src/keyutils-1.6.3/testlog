@@ -1,0 +1,400 @@
+/bin/sh: 1: rpmspec: not found
+make -C tests run
+make[1]: Entering directory '/usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests'
+bash runtest.sh  bugzillas/bz1031154 bugzillas/bz1033467 bugzillas/bz1071346 keyctl/timeout/bad-args keyctl/timeout/valid keyctl/timeout/noargs keyctl/permitting/bad-args keyctl/permitting/valid keyctl/permitting/noargs keyctl/session/valid2 keyctl/session/bad-args keyctl/session/valid keyctl/instantiating/bad-args keyctl/instantiating/noargs keyctl/search/bad-args keyctl/search/valid keyctl/search/noargs keyctl/clear/bad-args keyctl/clear/valid keyctl/clear/noargs keyctl/restrict/bad-args keyctl/restrict/valid keyctl/requesting/bad-args keyctl/requesting/piped keyctl/requesting/valid keyctl/requesting/noargs keyctl/move/bad-args keyctl/move/recursion keyctl/move/valid keyctl/move/noargs keyctl/describing/bad-args keyctl/describing/valid keyctl/describing/noargs keyctl/add/bad-args keyctl/add/noargs keyctl/add/useradd keyctl/pupdate/userupdate keyctl/pupdate/bad-args keyctl/pupdate/noargs keyctl/supports/bad-args keyctl/supports/valid keyctl/id/bad-args keyctl/id/valid keyctl/id/noargs keyctl/dh_compute/bad-args keyctl/dh_compute/valid keyctl/dh_compute/noargs keyctl/listing/bad-args keyctl/listing/valid keyctl/listing/noargs keyctl/invalidate/bad-args keyctl/invalidate/valid keyctl/invalidate/noargs keyctl/link/bad-args keyctl/link/recursion keyctl/link/valid keyctl/link/noargs keyctl/reading/bad-args keyctl/reading/valid keyctl/reading/noargs keyctl/show/valid keyctl/show/noargs keyctl/revoke/bad-args keyctl/revoke/valid keyctl/revoke/noargs keyctl/update/userupdate keyctl/update/bad-args keyctl/update/noargs keyctl/padd/bad-args keyctl/padd/noargs keyctl/padd/useradd keyctl/watch/bad-args keyctl/watch/noargs keyctl/unlink/bad-args keyctl/unlink/all keyctl/unlink/valid keyctl/unlink/noargs keyctl/newring/bad-args keyctl/newring/valid keyctl/newring/noargs keyctl/noargs features/builtin_trusted features/limits
+### RUNNING TEST bugzillas/bz1031154
+Running with session keyring RHTS/keyctl/25743
+Joined session keyring: 33697034
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/bugzillas/bz1031154/test.out ===
++++ [33mSKIP DUE TO DISABLED SELINUX[0m
+### RUNNING TEST bugzillas/bz1033467
+Running with session keyring RHTS/keyctl/25780
+Joined session keyring: 683246827
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/bugzillas/bz1033467/test.out ===
++++ [33mADD SANDBOX KEYRING[0m
++++ [33mADD NESTED KEYRINGS[0m
++++ [33mADD KEYS[0m
++++ [33mSEARCH KEYS[0m
++++ [33mCOMPARE KEY LISTS[0m
++++ [33mSEARCH MISSES[0m
+### RUNNING TEST bugzillas/bz1071346
+Running with session keyring RHTS/keyctl/25987
+Joined session keyring: 308412881
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/bugzillas/bz1071346/test.out ===
++++ [33mADD SANDBOX KEYRING[0m
++++ [33mADD SECOND SANDBOX KEYRING[0m
++++ [33mCHECK NO LINK SESSION TO SECOND[0m
++++ [33mCHECK NO LINK SANDBOX TO SECOND[0m
++++ [33mCHECK NO LINK SECOND TO SECOND[0m
++++ [33mADD SIDE KEYRING[0m
++++ [33mADD THIRD SANDBOX KEYRING[0m
++++ [33mCHECK NO LINK SESSION TO THIRD[0m
++++ [33mCHECK NO LINK SANDBOX TO THIRD[0m
++++ [33mCHECK NO LINK SIDE TO THIRD[0m
++++ [33mCHECK NO LINK THIRD TO THIRD[0m
++++ [33mCHECK LINK SECOND TO THIRD[0m
++++ [33mCHECK NO LINK THIRD TO SECOND[0m
++++ [33mUNLINK SECOND FROM THIRD[0m
++++ [33mCHECK LINK THIRD TO SECOND[0m
++++ [33mCHECK NO LINK SECOND TO THIRD[0m
+### RUNNING TEST keyctl/timeout/bad-args
+Running with session keyring RHTS/keyctl/26080
+Joined session keyring: 120275353
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/timeout/bad-args/test.out ===
++++ [33mCHECK BAD KEY ID[0m
++++ [33mCREATE KEY[0m
++++ [33mDESTROY KEY ID[0m
++++ [33mCHECK NON-EXISTENT KEY ID[0m
+### RUNNING TEST keyctl/timeout/valid
+Running with session keyring RHTS/keyctl/26155
+Joined session keyring: 455905781
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/timeout/valid/test.out ===
++++ [33mADD KEYRING[0m
++++ [33mADD KEY[0m
++++ [33mLIST KEYRING[0m
++++ [33mCHECK VALIDATE KEY[0m
++++ [33mCHECK READ PAYLOAD[0m
++++ [33mSET BIG TIMEOUT[0m
++++ [33mCHECK READ PAYLOAD 2[0m
++++ [33mSET SMALL TIMEOUT[0m
++++ [33mWAIT FOR TIMEOUT[0m
++++ [33mCHECK NO READ PAYLOAD[0m
++++ [33mCHECK NO REVOKE KEY[0m
++++ [33mCHECK NO TIMEOUT KEY[0m
++++ [33mUNLINK KEY[0m
++++ [33mADD KEY[0m
++++ [33mSET BIG TIMEOUT[0m
++++ [33mREVOKE KEY[0m
++++ [33mCHECK NO SET KEY TIMEOUT[0m
++++ [33mUNLINK KEY[0m
++++ [33mTIMEOUT KEYRING[0m
++++ [33mWAIT FOR KEYRING TIMEOUT[0m
++++ [33mCHECK NO LIST SESSION KEYRING[0m
++++ [33mCHECK NO VALIDATE KEYRING[0m
++++ [33mCHECK NO SET KEYRING TIMEOUT[0m
++++ [33mCHECK NO INVALIDATE KEYRING[0m
++++ [33mCHECK NO REVOKE KEYRING[0m
++++ [33mUNLINK KEYRING[0m
+### RUNNING TEST keyctl/timeout/noargs
+Running with session keyring RHTS/keyctl/26361
+Joined session keyring: 132940432
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/timeout/noargs/test.out ===
++++ [33mADD NO ARGS[0m
++++ [33mADD ONE ARG[0m
++++ [33mADD THREE ARGS[0m
+### RUNNING TEST keyctl/permitting/bad-args
+Running with session keyring RHTS/keyctl/26400
+Joined session keyring: 937224388
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/permitting/bad-args/test.out ===
++++ [33mCHECK BAD KEY ID[0m
++++ [33mCREATE KEY[0m
++++ [33mCHECK PERMS[0m
++++ [33mUNLINK KEY[0m
++++ [33mCHECK CLEAR NON-EXISTENT KEY ID[0m
+### RUNNING TEST keyctl/permitting/valid
+Running with session keyring RHTS/keyctl/26508
+Joined session keyring: 350358998
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/permitting/valid/test.out ===
++++ [33mADD KEYRING[0m
++++ [33mADD KEY[0m
++++ [33mCHOWN[0m
++++ [33mCHOWN BACK[0m
++++ [33mCHGRP[0m
++++ [33mITERATE PERMISSIONS[0m
++++ [33mVIEW GROUP PERMISSIONS[0m
++++ [33mVIEW OTHER PERMISSIONS[0m
++++ [33mREMOVE SETATTR[0m
++++ [33mREINSTATE SETATTR[0m
++++ [33mUNLINK KEYRING[0m
+### RUNNING TEST keyctl/permitting/noargs
+Running with session keyring RHTS/keyctl/26639
+Joined session keyring: 705404531
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/permitting/noargs/test.out ===
++++ [33mNO ARGS[0m
++++ [33mONE ARG[0m
++++ [33mTHREE ARGS[0m
+### RUNNING TEST keyctl/session/valid2
+Running with session keyring RHTS/keyctl/26684
+Joined session keyring: 1033428928
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/session/valid2/test.out ===
++++ [33mANON SESSION TO PARENT[0m
++++ [33mNAMED SESSION TO PARENT[0m
+### RUNNING TEST keyctl/session/bad-args
+Running with session keyring RHTS/keyctl/26737
+Joined session keyring: 532037121
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/session/bad-args/test.out ===
++++ [33mSESSION WITH EMPTY KEYRING NAME[0m
++++ [33mSESSION WITH OVERLONG KEYRING NAME[0m
+### RUNNING TEST keyctl/session/valid
+Running with session keyring RHTS/keyctl/26797
+Joined session keyring: 467304935
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/session/valid/test.out ===
++++ [33mNAMED SESSION[0m
+### RUNNING TEST keyctl/instantiating/bad-args
+Running with session keyring RHTS/keyctl/26843
+Joined session keyring: 278991520
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/instantiating/bad-args/test.out ===
++++ [33mCHECK BAD KEY ID[0m
++++ [33mCREATE KEY[0m
++++ [33mCHECK ALREADY INSTANTIATED KEY[0m
++++ [33mCHECK REJECT TIMEOUT[0m
++++ [33mCHECK REJECT ERRORS[0m
++++ [33mCHECK NEGATE TIMEOUT[0m
++++ [33mUNLINK KEY[0m
++++ [33mCHECK NON-EXISTENT KEY ID[0m
+### RUNNING TEST keyctl/instantiating/noargs
+Running with session keyring RHTS/keyctl/26932
+Joined session keyring: 156141187
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/instantiating/noargs/test.out ===
++++ [33mNO ARGS[0m
++++ [33mONE ARG[0m
++++ [33mTWO ARGS[0m
++++ [33mTHREE ARGS[0m
++++ [33mFOUR ARGS[0m
+### RUNNING TEST keyctl/search/bad-args
+Running with session keyring RHTS/keyctl/26994
+Joined session keyring: 1008795349
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/search/bad-args/test.out ===
++++ [33mCHECK EMPTY KEY TYPE[0m
++++ [33mCHECK UNSUPPORTED KEY TYPE[0m
++++ [33mCHECK INVALID KEY TYPE[0m
++++ [33mCHECK OVERLONG KEY TYPE[0m
++++ [33mCHECK MAXLEN DESC[0m
++++ [33mCHECK OVERLONG DESC[0m
++++ [33mCHECK BAD KEY ID[0m
++++ [33mCREATE KEY[0m
++++ [33mSEARCH KEY[0m
++++ [33mUNLINK KEY[0m
+### RUNNING TEST keyctl/search/valid
+Running with session keyring RHTS/keyctl/27083
+Joined session keyring: 885527895
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/search/valid/test.out ===
++++ [33mADD KEYRING[0m
++++ [33mADD KEY[0m
++++ [33mLIST KEYRING WITH ONE[0m
++++ [33mSEARCH SESSION FOR NON-EXISTENT KEY[0m
++++ [33mSEARCH SESSION[0m
++++ [33mSEARCH SESSION USING WRONG TYPE[0m
++++ [33mSEARCH SESSION AND ATTACH[0m
++++ [33mCHECK ATTACHED[0m
++++ [33mCHECK PAYLOAD[0m
++++ [33mDETACH KEY[0m
++++ [33mCHECK PAYLOADS[0m
++++ [33mSEARCH SESSION AGAIN[0m
++++ [33mSEARCH FIRST KEYRING[0m
++++ [33mSEARCH SECOND KEYRING[0m
++++ [33mLINK FIRST KEYRING TO SECOND[0m
++++ [33mSEARCH FIRST KEYRING AGAIN[0m
++++ [33mUNLINK FIRST KEY[0m
++++ [33mSEARCH FIRST KEYRING AGAIN 2[0m
++++ [33mSEARCH SESSION KEYRING AGAIN 2[0m
++++ [33mUNLINK SECOND KEYRING FROM FIRST[0m
++++ [33mSEARCH FIRST KEYRING FOR FAIL[0m
++++ [33mSEARCH SESSION KEYRING AGAIN 3[0m
++++ [33mMOVE SECOND KEYRING INTO FIRST[0m
++++ [33mSEARCH FIRST KEYRING AGAIN 4[0m
++++ [33mSEARCH WITH NO-SEARCH KEYRING[0m
++++ [33mSEARCH WITH NO-SEARCH KEYRING2[0m
++++ [33mSEARCH WITH NO-SEARCH KEY2[0m
++++ [33mUNLINK KEYRING[0m
+### RUNNING TEST keyctl/search/noargs
+Running with session keyring RHTS/keyctl/27267
+Joined session keyring: 1026698255
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/search/noargs/test.out ===
++++ [33mNO ARGS[0m
++++ [33mONE ARGS[0m
++++ [33mTWO ARGS[0m
++++ [33mFIVE ARGS[0m
+### RUNNING TEST keyctl/clear/bad-args
+Running with session keyring RHTS/keyctl/27307
+Joined session keyring: 504110335
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/clear/bad-args/test.out ===
++++ [33mCHECK CLEAR BAD KEY ID[0m
++++ [33mCREATE KEY[0m
++++ [33mCHECK CLEAR NON-KEYRING KEY[0m
++++ [33mUNLINK KEY[0m
++++ [33mCHECK CLEAR NON-EXISTENT KEY ID[0m
+### RUNNING TEST keyctl/clear/valid
+Running with session keyring RHTS/keyctl/27366
+Joined session keyring: 811327573
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/clear/valid/test.out ===
++++ [33mADD KEYRING[0m
++++ [33mVALIDATE KEYRING[0m
++++ [33mLIST KEYRING[0m
++++ [33mCLEAR EMPTY KEYRING[0m
++++ [33mLIST KEYRING 2[0m
++++ [33mADD KEY[0m
++++ [33mLIST KEYRING WITH ONE[0m
++++ [33mCLEAR KEYRING WITH ONE[0m
++++ [33mLIST KEYRING 3[0m
++++ [33mADD FORTY KEYS[0m
++++ [33mCHECK KEYRING CONTENTS[0m
++++ [33mSHOW KEYRING[0m
++++ [33mCLEAR KEYRING WITH MANY[0m
++++ [33mLIST KEYRING 4[0m
++++ [33mUNLINK KEY[0m
+### RUNNING TEST keyctl/clear/noargs
+Running with session keyring RHTS/keyctl/27705
+Joined session keyring: 577338719
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/clear/noargs/test.out ===
++++ [33mNO ARGS[0m
++++ [33mTWO ARGS[0m
+### RUNNING TEST keyctl/restrict/bad-args
+Running with session keyring RHTS/keyctl/27743
+Joined session keyring: 63316502
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/restrict/bad-args/test.out ===
++++ [33mADD CA KEYRING[0m
++++ [33mADD KEYRING TO RESTRICT[0m
++++ [33mINVALID EXTRA PARAMETER 1[0m
++++ [33mINVALID EXTRA PARAMETER 2[0m
++++ [33mINVALID RESTRICT METHOD[0m
++++ [33mINVALID KEY TYPE[0m
++++ [33mINVALID KEY ID[0m
++++ [33mUSE KEY ID 0 FOR KEYRING[0m
+### RUNNING TEST keyctl/restrict/valid
+Running with session keyring RHTS/keyctl/27806
+Joined session keyring: 119403583
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/restrict/valid/test.out ===
++++ [33mADD CA KEYRING[0m
++++ [33mADD RESTRICTED USER KEYRING (parent keyring)[0m
++++ [33mREJECT RESTRICTION CYCLE[0m
++++ [33mREJECT REPEATED RESTRICTION[0m
++++ [33mADD RESTRICTED BUILTIN KEYRING[0m
++++ [33mADD USER SIGNED CERT[0m
++++ [33mREJECT KEY SIGNED BY UNKNOWN CA[0m
++++ [33mREJECT KEY NOT SIGNED BY BUILTIN[0m
++++ [33mADD SECOND CA KEY[0m
++++ [33mADD RESTRICTED USER KEYRING (parent key)[0m
++++ [33mADD KEY SIGNED BY KNOWN CA[0m
++++ [33mREJECT SELF-SIGNED KEY[0m
++++ [33mREJECT RESTRICTION CHANGE[0m
++++ [33mADD USER KEYRINGS (self)[0m
++++ [33mADD FIRST CERT TO SELF-RESTRICTED KEYRINGS[0m
++++ [33mRESTRICT USER KEYRINGS[0m
++++ [33mREJECT CERTS FOR SELF-RESTRICTED KEYRING[0m
++++ [33mADD CERT TO SELF-RESTRICTED KEYRING[0m
++++ [33mADD INTERMEDIATE SIGNED CERT TO SELF-RESTRICTED KEYRING[0m
++++ [33mREJECT INTERMEDIATE SIGNED CERT WITHOUT INTERMEDIATE CA[0m
++++ [33mADD INTERMEDIATE SIGNED CERT WITH INTERMEDIATE CA[0m
++++ [33mADD FULLY-RESTRICTED KEYRING[0m
++++ [33mREJECT CERTS FOR FULLY-RESTRICTED KEYRING[0m
+### RUNNING TEST keyctl/requesting/bad-args
+Running with session keyring RHTS/keyctl/27920
+Joined session keyring: 1048960532
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/requesting/bad-args/test.out ===
++++ [33mCHECK EMPTY KEY TYPE[0m
++++ [33mCHECK UNSUPPORTED KEY TYPE[0m
++++ [33mCHECK INVALID KEY TYPE[0m
++++ [33mCHECK MAXLEN INVALID KEY TYPE[0m
++++ [33mCHECK OVERLONG KEY TYPE[0m
++++ [33mCHECK MAXLEN DESC[0m
++++ [33mCHECK OVERLONG DESC[0m
++++ [33mCHECK MAXLEN CALLOUT[0m
++++ [33mCHECK OVERLONG CALLOUT[0m
++++ [33mCHECK MAXLEN PIPED CALLOUT[0m
++++ [33mCHECK OVERLONG PIPED CALLOUT[0m
+### RUNNING TEST keyctl/requesting/piped
+Running with session keyring RHTS/keyctl/28065
+Joined session keyring: 500034164
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/requesting/piped/test.out ===
+Set /proc/sys/kernel/keys/gc_delay to 10, orig: 300
++++ [33mCREATE KEYRINGS[0m
++++ [33mCHECK REQUEST FAILS[0m
++++ [33mADD USER KEY[0m
++++ [33mREQUEST KEY[0m
++++ [33mDETACH KEY FROM KEYRING[0m
++++ [33mPIPED CALL OUT REQUEST KEY TO SESSION[0m
++++ [33mCHECK ATTACHMENT TO SESSION KEYRING[0m
++++ [33mREDO PIPED CALL OUT REQUEST KEY TO SESSION[0m
++++ [33mDETACH KEY FROM SESSION[0m
++++ [33mPIPED CALL OUT REQUEST KEY TO KEYRING[0m
++++ [33mCHECK ATTACHMENT TO KEYRING[0m
++++ [33mCHECK ATTACHMENT TO SESSION[0m
++++ [33mREDO PIPED CALL OUT REQUEST KEY TO KEYRING[0m
++++ [33mDETACH KEY[0m
++++ [33mUNLINK KEYRINGS[0m
+Set /proc/sys/kernel/keys/gc_delay to 300, orig: 300
+### RUNNING TEST keyctl/requesting/valid
+Running with session keyring RHTS/keyctl/28182
+Joined session keyring: 881143115
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/requesting/valid/test.out ===
+Set /proc/sys/kernel/keys/gc_delay to 10, orig: 300
++++ [33mCREATE KEYRINGS[0m
++++ [33mCHECK REQUEST FAILS[0m
++++ [33mADD USER KEY[0m
++++ [33mREQUEST KEY[0m
++++ [33mDETACH KEY FROM KEYRING[0m
++++ [33mCALL OUT REQUEST KEY TO SESSION[0m
++++ [33mCHECK ATTACHMENT TO SESSION KEYRING[0m
++++ [33mREDO CALL OUT REQUEST KEY TO SESSION[0m
++++ [33mDETACH KEY FROM SESSION[0m
++++ [33mCALL OUT REQUEST KEY TO KEYRING[0m
++++ [33mCHECK ATTACHMENT TO KEYRING[0m
++++ [33mCHECK ATTACHMENT TO SESSION[0m
++++ [33mREDO CALL OUT REQUEST KEY TO KEYRING[0m
++++ [33mDETACH KEY[0m
++++ [33mUNLINK KEYRINGS[0m
+Set /proc/sys/kernel/keys/gc_delay to 300, orig: 300
+### RUNNING TEST keyctl/requesting/noargs
+Running with session keyring RHTS/keyctl/28292
+Joined session keyring: 42427308
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/requesting/noargs/test.out ===
++++ [33mNO ARGS[0m
++++ [33mONE ARG[0m
++++ [33mTWO ARGS[0m
++++ [33mFOUR ARGS[0m
++++ [33mFIVE ARGS[0m
+### RUNNING TEST keyctl/move/bad-args
+Running with session keyring RHTS/keyctl/28338
+Joined session keyring: 89620350
+keyutils version: keyctl from keyutils-1.6.3 (Built 2020-11-02)
+=== /usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests/keyctl/move/bad-args/test.out ===
++++ [33mCHECK MOVE OF BAD KEY ID[0m
+[31;1mFAILED[0m
++++ [33mCHECK MOVE FROM BAD KEYRING ID[0m
+[31;1mFAILED[0m
++++ [33mCHECK MOVE TO BAD KEYRING ID[0m
+[31;1mFAILED[0m
++++ [33mCHECK FORCED MOVE OF BAD KEY ID[0m
+[31;1mFAILED[0m
++++ [33mCHECK FORCED MOVE FROM BAD KEYRING ID[0m
+[31;1mFAILED[0m
++++ [33mCHECK FORCED MOVE TO BAD KEYRING ID[0m
+[31;1mFAILED[0m
++++ [33mCREATE KEY[0m
++++ [33mCREATE KEY2[0m
++++ [33mCHECK MOVE FROM NON-KEYRING KEY[0m
+[31;1mFAILED[0m
++++ [33mCHECK MOVE TO NON-KEYRING KEY[0m
+[31;1mFAILED[0m
++++ [33mUNLINK KEY[0m
++++ [33mUNLINK KEY2[0m
+make[1]: *** [Makefile:41: run] Error 1
+make[1]: Leaving directory '/usr/ports/opt/keyutils/work/src/keyutils-1.6.3/tests'
+make: *** [Makefile:250: test] Error 2

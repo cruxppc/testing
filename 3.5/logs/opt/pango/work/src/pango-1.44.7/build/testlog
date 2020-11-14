@@ -1,0 +1,170 @@
+[0/1] Running all tests.
+ 1/18 test-coverage           OK             0.08s
+ 2/18 testboundaries          OK             0.11s
+ 3/18 testboundaries_ucd      OK             0.18s
+ 4/18 testcolor               OK             0.12s
+ 5/18 testscript              OK             0.07s
+ 6/18 test-harfbuzz           OK             0.14s
+ 7/18 cxx-test                OK             0.10s
+ 9/18 test-ot-tags            OK             0.33s
+10/18 testiter                OK             0.22s
+11/18 test-ellipsize          OK             0.22s
+12/18 markup-parse            OK             0.30s
+15/18 test-shape              OK             0.06s
+16/18 test-font               OK             0.22s
+17/18 testattributes          OK             0.09s
+18/18 test-pangocairo-threads OK             4.91s
+
+The output from the failed tests:
+
+ 8/18 test-break              FAIL           0.34s (killed by signal 6 SIGABRT)
+
+--- command ---
+20:58:40 srcdir='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_SRCDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_BUILDDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/build/tests' /usr/ports/opt/pango/work/src/pango-1.44.7/build/tests/test-break
+--- stdout ---
+# random seed: R02S92e2c1ab6fa63381485ed956e420b582
+1..4
+# Start of break tests
+ok 1 /break/three.break
+ok 2 /break/two.break
+ok 3 /break/one.break
+not ok 4 /break/four.break
+Bail out!
+--- stderr ---
+Contents don't match expected contents:
+--- /usr/ports/opt/pango/work/src/pango-1.44.7/tests/breaks/four.expected	2019-10-25 03:45:11.000000000 +0000
++++ /tmp/.379PT0	2020-11-13 20:58:40.513300990 +0000
+@@ -1,5 +1,5 @@
+-Text:         ภ า ษ า   ไ ท ย  [ ]   ห รื อ  [ ]   ภ า ษ า   ไ ท ย   ก ล า ง  [ ]   เ ป็ น   ภ า ษ า   ร า ช ก า ร   แ ล ะ   ภ า ษ า   ป ร ะ จ ำ   ช า ติ   ข อ ง   ป ร ะ เ ท ศ   ไ ท ย  [ ]   ภ า ษ า   ไ ท ย   เ ป็ น   ภ า ษ า   ใ น   ก ลุ่ ม   ภ า ษ า   ไ ท   ซึ่ ง   เ ป็ น   ก ลุ่ ม   ย่ อ ย   ข อ ง   ต ร ะ กู ล   ภ า ษ า   ข ร้ า  -   ไ ท  [ ]   สั น นิ ษ ฐ า น   ว่ า  [ ]   ภ า ษ า   ใ น   ต ร ะ กู ล   นี้   มี   ถิ่ น   ก ำ เ นิ ด   จ า ก   ท า ง   ต อ น   ใ ต้   ข อ ง   ป ร ะ เ ท ศ   จี น  [ ]   แ ล ะ   นั ก   ภ า ษ า ศ า ส ต ร์   บ า ง   ส่ ว น   เ ส น อ   ว่ า  [ ]   ภ า ษ า   ไ ท ย   น่ า   จ ะ   มี   ค ว า ม   เ ชื่ อ ม   โ ย ง   กั บ   ต ร ะ กู ล   ภ า ษ า   อ อ   ส โ ต ร  -   เ อ เ ชี ย   ติ ก  [ ]   ต ร ะ กู ล   ภ า ษ า   อ อ   ส โ ต ร นี เ ซี ย น  [ ]   แ ล ะ   ต ร ะ กู ล   ภ า ษ า   จี น  -   ทิ เ บ ต  [0x0a] 
+-Breaks:     c  c c c lc  c c c    lc  c  c c    lc  c c c lc  c c lc  c c c c    lc  c  c lc  c c c lc  c c c c c lc  c c lc  c c c lc  c c c c lc  c c  lc  c c lc  c c c c c lc  c c c    lc  c c c lc  c c lc  c  c lc  c c c lc  c lc  c   c lc  c c c lc  c lc    c lc  c  c lc  c   c lc   c c lc  c c lc  c c c  c lc  c c c lc  c  c c  lc  c c    lc   c c  c c c c lc   c c    lc  c c c lc  c lc  c c c  c lc    lc   lc    c lc  c c c  c lc  c c lc  c c lc  c c lc  c  lc  c c lc  c c c c c lc   c c    lc  c c lc   c lc  c c c c c c c c  lc  c c lc   c c lc  c c c lc   c c    lc  c c c lc  c c lc   c lc  c lc   lc  c c c lc  c   c c lc  c c lc   c lc  c c c  c lc  c c c lc  c lc  c c c c  lc  c c c  c lc   c c    lc  c c c  c lc  c c c lc  c lc  c c c c  c c  c c c    lc  c c lc  c c c  c lc  c c c lc   c c  lc   c c c c       c
+-Whitespace:                  x             x                                x                                                                                                          x                                                                                                                                                              x                             x                                                                                                                             x                                                                          x                                                                                                                                           x                                                       x                                                        w       w
+-Words:      bs b b b bse b b be   bse b  b be   bse b b b bse b b bse b b b be   bse b  b bse b b b bse b b b b b bse b b bse b b b bse b b b b bse b b  bse b b bse b b b b b bse b b be   bse b b b bse b b bse b  b bse b b b bse b bse b   b bse b b b bse b bse   b bse b  b bse b   b bse  b b bse b b bse b b b  b bse b b b bse b  b be bse b be   bse  b b  b b b b bse  b be   bse b b b bse b bse b b b  b bse   bse  bse   b bse b b b  b bse b b bse b b bse b b bse b  bse b b bse b b b b b bse  b be   bse b b bse  b bse b b b b b b b b  bse b b bse  b b bse b b b bse  b be   bse b b b bse b b bse  b bse b bse  bse b b b bse b   b b bse b b bse  b bse b b b  b bse b b b bse b bse b b b be bse b b b  b bse  b be   bse b b b  b bse b b b bse b bse b b b b  b b  b b be   bse b b bse b b b  b bse b b b bse  b be bse  b b b be      b
+-Sentences:  bs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            e       b
++Text:         ภ า ษ า ไ ท ย  [ ]  ห รื อ  [ ]  ภ า ษ า ไ ท ย ก ล า ง  [ ]  เ ป็ น ภ า ษ า ร า ช ก า ร แ ล ะ ภ า ษ า ป ร ะ จ ำ ช า ติ ข อ ง ป ร ะ เ ท ศ ไ ท ย  [ ]  ภ า ษ า ไ ท ย เ ป็ น ภ า ษ า ใ น ก ลุ่ ม ภ า ษ า ไ ท ซึ่ ง เ ป็ น ก ลุ่ ม ย่ อ ย ข อ ง ต ร ะ กู ล ภ า ษ า ข ร้ า  -  ไ ท  [ ]  สั น นิ ษ ฐ า น ว่ า  [ ]  ภ า ษ า ใ น ต ร ะ กู ล นี้ มี ถิ่ น ก ำ เ นิ ด จ า ก ท า ง ต อ น ใ ต้ ข อ ง ป ร ะ เ ท ศ จี น  [ ]  แ ล ะ นั ก ภ า ษ า ศ า ส ต ร์ บ า ง ส่ ว น เ ส น อ ว่ า  [ ]  ภ า ษ า ไ ท ย น่ า จ ะ มี ค ว า ม เ ชื่ อ ม โ ย ง กั บ ต ร ะ กู ล ภ า ษ า อ อ ส โ ต ร  -  เ อ เ ชี ย ติ ก  [ ]  ต ร ะ กู ล ภ า ษ า อ อ ส โ ต ร นี เ ซี ย น  [ ]  แ ล ะ ต ร ะ กู ล ภ า ษ า จี น  -  ทิ เ บ ต  [0x0a] 
++Breaks:     c  c c c c c c c    lc c  c c    lc c c c c c c c c c c c    lc c  c c c c c c c c c c c c c c c c c c c c c c c c c c  c c c c c c c c c c c c c    lc c c c c c c c c  c c c c c c c c c   c c c c c c c c   c c c  c c c   c c  c c c c c c c c c  c c c c c c c  c c  lc c c    lc  c c  c c c c c  c c    lc c c c c c c c c c  c c   c  c   c c c c c  c c c c c c c c c c c c  c c c c c c c c c c  c c    lc c c c  c c c c c c c c c c  c c c c  c c c c c c c  c c    lc c c c c c c c  c c c c  c c c c c c   c c c c c c  c c c c c  c c c c c c c c c c c c  lc c c c  c c  c c    lc c c c  c c c c c c c c c c c c  c c  c c c    lc c c c c c c  c c c c c c  c c  lc  c c c c       c
++Whitespace:                x            x                           x                                                                                       x                                                                                                                              x                          x                                                                                                  x                                                             x                                                                                                               x                                                x                                                w       w
++Words:      bs b b b b b b be   bs b  b be   bs b b b b b b b b b b be   bs b  b b b b b b b b b b b b b b b b b b b b b b b b b b  b b b b b b b b b b b b be   bs b b b b b b b b  b b b b b b b b b   b b b b b b b b   b b b  b b b   b b  b b b b b b b b b  b b b b b b b  b be bs b be   bs  b b  b b b b b  b be   bs b b b b b b b b b  b b   b  b   b b b b b  b b b b b b b b b b b b  b b b b b b b b b b  b be   bs b b b  b b b b b b b b b b  b b b b  b b b b b b b  b be   bs b b b b b b b  b b b b  b b b b b b   b b b b b b  b b b b b  b b b b b b b b b b b be bs b b b  b b  b be   bs b b b  b b b b b b b b b b b b  b b  b b be   bs b b b b b b  b b b b b b  b be bs  b b b be      b
++Sentences:  bs                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           e       b
+-------
+
+13/18 test-layout             FAIL           0.23s (killed by signal 6 SIGABRT)
+
+--- command ---
+20:58:40 srcdir='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_SRCDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_BUILDDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/build/tests' /usr/ports/opt/pango/work/src/pango-1.44.7/build/tests/test-layout
+--- stdout ---
+# random seed: R02Sffb39ff58f68f485c67e8aadd31f82ae
+1..5
+# Start of layout tests
+ok 1 /layout/valid-3.markup
+not ok 2 /layout/valid-4.markup
+Bail out!
+--- stderr ---
+Contents don't match expected contents:
+--- /usr/ports/opt/pango/work/src/pango-1.44.7/tests/layouts/valid-4.expected	2019-10-25 03:45:11.000000000 +0000
++++ /tmp/.15A1T0	2020-11-13 20:58:40.993301417 +0000
+@@ -4,7 +4,7 @@
+ 
+ wrapped: 1
+ ellipsized: 0
+-lines: 6
++lines: 7
+ width: 194560
+ 
+ --- attributes
+@@ -13,24 +13,27 @@
+ 
+ --- lines
+ 
+-i=1, index=0, paragraph-start=1, dir=ltr 'This paragraph should ac­tual­'
+-i=2, index=32, paragraph-start=0, dir=ltr 'ly have multiple lines, unlike '
+-i=3, index=63, paragraph-start=0, dir=ltr 'all the other wannabe äöü pa­'
+-i=4, index=96, paragraph-start=0, dir=ltr 'ra­graph tests in this ugh '
+-i=5, index=124, paragraph-start=0, dir=ltr 'test-case. Grow some lines!
++i=1, index=0, paragraph-start=1, dir=ltr 'This paragraph should ac­'
++i=2, index=26, paragraph-start=0, dir=ltr 'tual­ly have multiple '
++i=3, index=49, paragraph-start=0, dir=ltr 'lines, unlike all the other '
++i=4, index=77, paragraph-start=0, dir=ltr 'wannabe äöü pa­ra­graph '
++i=5, index=106, paragraph-start=0, dir=ltr 'tests in this ugh test-'
++i=6, index=129, paragraph-start=0, dir=ltr 'case. Grow some lines!
+ '
+-i=6, index=152, paragraph-start=1, dir=ltr ''
++i=7, index=152, paragraph-start=1, dir=ltr ''
+ 
+ --- runs
+ 
+-i=1, index=0, chars=30, level=0, gravity=south, flags=4, font=OMITTED, script=latin, language=en-us, 'This paragraph should ac­tual­'
+-i=2, index=32, no run, line end
+-i=3, index=32, chars=31, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'ly have multiple lines, unlike '
+-i=4, index=63, no run, line end
+-i=5, index=63, chars=29, level=0, gravity=south, flags=4, font=OMITTED, script=latin, language=en-us, 'all the other wannabe äöü pa­'
+-i=6, index=96, no run, line end
+-i=7, index=96, chars=27, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'ra­graph tests in this ugh '
+-i=8, index=124, no run, line end
+-i=9, index=124, chars=27, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'test-case. Grow some lines!'
+-i=10, index=151, no run, line end
+-i=11, index=152, no run, line end
++i=1, index=0, chars=25, level=0, gravity=south, flags=4, font=OMITTED, script=latin, language=en-us, 'This paragraph should ac­'
++i=2, index=26, no run, line end
++i=3, index=26, chars=22, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'tual­ly have multiple '
++i=4, index=49, no run, line end
++i=5, index=49, chars=28, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'lines, unlike all the other '
++i=6, index=77, no run, line end
++i=7, index=77, chars=24, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'wannabe äöü pa­ra­graph '
++i=8, index=106, no run, line end
++i=9, index=106, chars=23, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'tests in this ugh test-'
++i=10, index=129, no run, line end
++i=11, index=129, chars=22, level=0, gravity=south, flags=0, font=OMITTED, script=latin, language=en-us, 'case. Grow some lines!'
++i=12, index=151, no run, line end
++i=13, index=152, no run, line end
+-------
+
+14/18 test-itemize            FAIL           0.14s (killed by signal 6 SIGABRT)
+
+--- command ---
+20:58:41 srcdir='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_SRCDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/tests' G_TEST_BUILDDIR='/usr/ports/opt/pango/work/src/pango-1.44.7/build/tests' /usr/ports/opt/pango/work/src/pango-1.44.7/build/tests/test-itemize
+--- stdout ---
+# random seed: R02S6a340f72e0e121c1a52d5cf918b433e6
+1..2
+# Start of itemize tests
+not ok 1 /itemize/one.items
+Bail out!
+--- stderr ---
+Contents don't match expected contents:
+--- /usr/ports/opt/pango/work/src/pango-1.44.7/tests/itemize/one.expected	2019-10-25 03:45:11.000000000 +0000
++++ /tmp/.YWGXT0	2020-11-13 20:58:41.183301586 +0000
+@@ -1,8 +1,8 @@
+ <span font="Cantarell 11" fallback="false">a b
+c</span>
+ 
+-Items:  a b            |[0x2028]       |c              
+-Font:   Cantarell 11   |Cantarell 11   |Cantarell 11   
+-Script: latin          |latin          |latin          
+-Lang:   en-us          |en-us          |en-us          
+-Bidi:   0              |0              |0              
+-Attrs:  [0,7]fallback=0|[0,7]fallback=0|[0,7]fallback=0
++Items:  a b                   |[0x2028]              |c                     
++Font:   Bitstream Vera Sans 11|Bitstream Vera Sans 11|Bitstream Vera Sans 11
++Script: latin                 |latin                 |latin                 
++Lang:   en-us                 |en-us                 |en-us                 
++Bidi:   0                     |0                     |0                     
++Attrs:  [0,7]fallback=0       |[0,7]fallback=0       |[0,7]fallback=0       
+-------
+
+
+Summary of Failures:
+
+ 8/18 test-break              FAIL           0.34s (killed by signal 6 SIGABRT)
+13/18 test-layout             FAIL           0.23s (killed by signal 6 SIGABRT)
+14/18 test-itemize            FAIL           0.14s (killed by signal 6 SIGABRT)
+
+Ok:                 15  
+Expected Fail:      0   
+Fail:               3   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            0   
+
+Full log written to /usr/ports/opt/pango/work/src/pango-1.44.7/build/meson-logs/testlog.txt
+FAILED: meson-test 
+/usr/bin/meson test --no-rebuild --print-errorlogs
+ninja: build stopped: subcommand failed.

@@ -1,0 +1,468 @@
+Making check in gl
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gl'
+Making check in lib/gl
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gl'
+Making check in lib
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib'
+Making check in po
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/po'
+Making check in src
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/src'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/src'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/src'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/src'
+Making check in doc
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+Making check in specifications
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/specifications'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/specifications'
+Making check in tld
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/tld'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/tld'
+Making check in java
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/java'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/java'
+Making check in cyclo
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/cyclo'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc/cyclo'
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/doc'
+Making check in gltests
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+Making check in .
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make  libtests.a test-accept test-alloca-opt test-arpa_inet test-binary-io test-bind test-c-ctype test-cloexec test-close test-connect test-ctype test-dup2 test-environ test-errno test-fcntl test-fdopen test-fgetc test-fputc test-fread test-fstat test-ftruncate test-fwrite test-getcwd-lgpl test-getdelim test-getdtablesize test-getline test-getopt-gnu test-getopt-posix test-getprogname test-gettimeofday test-ignore-value test-inet_pton test-intprops test-inttypes test-ioctl test-isblank test-limits-h test-listen test-rwlock1 test-lock test-lstat test-malloca test-nanosleep test-netinet_in test-open test-pathmax test-perror test-perror2 test-pipe test-pthread_sigmask1 test-pthread_sigmask2 test-raise test-select test-select-fd test-select-stdin test-setenv test-setsockopt test-sigaction test-signal-h test-sigprocmask test-sleep test-sockets test-stat test-stat-time test-stdalign test-stdbool test-stddef test-stdint test-stdio test-strerror test-strerror_r test-symlink test-sys_ioctl test-sys_select test-sys_socket test-sys_time test-sys_types test-sys_uio test-thread_self test-thread_create test-unsetenv test-usleep test-verify test-version-etc
+make[4]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[4]: 'libtests.a' is up to date.
+make[4]: 'test-accept' is up to date.
+make[4]: 'test-alloca-opt' is up to date.
+make[4]: 'test-arpa_inet' is up to date.
+make[4]: 'test-binary-io' is up to date.
+make[4]: 'test-bind' is up to date.
+make[4]: 'test-c-ctype' is up to date.
+make[4]: 'test-cloexec' is up to date.
+make[4]: 'test-close' is up to date.
+make[4]: 'test-connect' is up to date.
+make[4]: 'test-ctype' is up to date.
+make[4]: 'test-dup2' is up to date.
+make[4]: 'test-environ' is up to date.
+make[4]: 'test-errno' is up to date.
+make[4]: 'test-fcntl' is up to date.
+make[4]: 'test-fdopen' is up to date.
+make[4]: 'test-fgetc' is up to date.
+make[4]: 'test-fputc' is up to date.
+make[4]: 'test-fread' is up to date.
+make[4]: 'test-fstat' is up to date.
+make[4]: 'test-ftruncate' is up to date.
+make[4]: 'test-fwrite' is up to date.
+make[4]: 'test-getcwd-lgpl' is up to date.
+make[4]: 'test-getdelim' is up to date.
+make[4]: 'test-getdtablesize' is up to date.
+make[4]: 'test-getline' is up to date.
+make[4]: 'test-getopt-gnu' is up to date.
+make[4]: 'test-getopt-posix' is up to date.
+make[4]: 'test-getprogname' is up to date.
+make[4]: 'test-gettimeofday' is up to date.
+make[4]: 'test-ignore-value' is up to date.
+make[4]: 'test-inet_pton' is up to date.
+make[4]: 'test-intprops' is up to date.
+make[4]: 'test-inttypes' is up to date.
+make[4]: 'test-ioctl' is up to date.
+make[4]: 'test-isblank' is up to date.
+make[4]: 'test-limits-h' is up to date.
+make[4]: 'test-listen' is up to date.
+make[4]: 'test-rwlock1' is up to date.
+make[4]: 'test-lock' is up to date.
+make[4]: 'test-lstat' is up to date.
+make[4]: 'test-malloca' is up to date.
+make[4]: 'test-nanosleep' is up to date.
+make[4]: 'test-netinet_in' is up to date.
+make[4]: 'test-open' is up to date.
+make[4]: 'test-pathmax' is up to date.
+make[4]: 'test-perror' is up to date.
+make[4]: 'test-perror2' is up to date.
+make[4]: 'test-pipe' is up to date.
+make[4]: 'test-pthread_sigmask1' is up to date.
+make[4]: 'test-pthread_sigmask2' is up to date.
+make[4]: 'test-raise' is up to date.
+make[4]: 'test-select' is up to date.
+make[4]: 'test-select-fd' is up to date.
+make[4]: 'test-select-stdin' is up to date.
+make[4]: 'test-setenv' is up to date.
+make[4]: 'test-setsockopt' is up to date.
+make[4]: 'test-sigaction' is up to date.
+make[4]: 'test-signal-h' is up to date.
+make[4]: 'test-sigprocmask' is up to date.
+make[4]: 'test-sleep' is up to date.
+make[4]: 'test-sockets' is up to date.
+make[4]: 'test-stat' is up to date.
+make[4]: 'test-stat-time' is up to date.
+make[4]: 'test-stdalign' is up to date.
+make[4]: 'test-stdbool' is up to date.
+make[4]: 'test-stddef' is up to date.
+make[4]: 'test-stdint' is up to date.
+make[4]: 'test-stdio' is up to date.
+make[4]: 'test-strerror' is up to date.
+make[4]: 'test-strerror_r' is up to date.
+make[4]: 'test-symlink' is up to date.
+make[4]: 'test-sys_ioctl' is up to date.
+make[4]: 'test-sys_select' is up to date.
+make[4]: 'test-sys_socket' is up to date.
+make[4]: 'test-sys_time' is up to date.
+make[4]: 'test-sys_types' is up to date.
+make[4]: 'test-sys_uio' is up to date.
+make[4]: 'test-thread_self' is up to date.
+make[4]: 'test-thread_create' is up to date.
+make[4]: 'test-unsetenv' is up to date.
+make[4]: 'test-usleep' is up to date.
+make[4]: 'test-verify' is up to date.
+make[4]: 'test-version-etc' is up to date.
+make[4]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[5]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+PASS: test-accept
+PASS: test-alloca-opt
+PASS: test-arpa_inet
+PASS: test-binary-io.sh
+PASS: test-bind
+PASS: test-c-ctype
+PASS: test-cloexec
+PASS: test-close
+PASS: test-connect
+PASS: test-ctype
+PASS: test-dup2
+PASS: test-environ
+PASS: test-errno
+PASS: test-fcntl
+PASS: test-fdopen
+PASS: test-fgetc
+PASS: test-fputc
+PASS: test-fread
+PASS: test-fstat
+PASS: test-ftruncate.sh
+PASS: test-fwrite
+PASS: test-getcwd-lgpl
+PASS: test-getdelim
+PASS: test-getdtablesize
+PASS: test-getline
+PASS: test-getopt-gnu
+PASS: test-getopt-posix
+PASS: test-getprogname
+PASS: test-gettimeofday
+PASS: test-ignore-value
+PASS: test-inet_pton
+PASS: test-intprops
+PASS: test-inttypes
+PASS: test-ioctl
+PASS: test-isblank
+PASS: test-limits-h
+PASS: test-listen
+PASS: test-rwlock1
+PASS: test-lock
+PASS: test-lstat
+PASS: test-malloca
+PASS: test-nanosleep
+PASS: test-netinet_in
+PASS: test-open
+PASS: test-pathmax
+PASS: test-perror.sh
+PASS: test-perror2
+PASS: test-pipe
+PASS: test-pthread_sigmask1
+PASS: test-pthread_sigmask2
+PASS: test-raise
+PASS: test-select
+PASS: test-select-in.sh
+PASS: test-select-out.sh
+PASS: test-setenv
+PASS: test-setsockopt
+PASS: test-sigaction
+PASS: test-signal-h
+PASS: test-sigprocmask
+PASS: test-sleep
+PASS: test-sockets
+PASS: test-stat
+PASS: test-stat-time
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdio
+PASS: test-strerror
+PASS: test-strerror_r
+PASS: test-symlink
+PASS: test-sys_ioctl
+PASS: test-sys_select
+PASS: test-sys_socket
+PASS: test-sys_time
+PASS: test-sys_types
+PASS: test-sys_uio
+PASS: test-init.sh
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-unsetenv
+PASS: test-usleep
+PASS: test-vc-list-files-git.sh
+SKIP: test-vc-list-files-cvs.sh
+PASS: test-verify
+PASS: test-verify.sh
+PASS: test-version-etc.sh
+============================================================================
+Testsuite summary for GNU Libidn 1.35
+============================================================================
+# TOTAL: 87
+# PASS:  86
+# SKIP:  1
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[4]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/gltests'
+Making check in lib/gltests
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+Making check in .
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make  libtests.a test-alloca-opt test-c-ctype test-c-strcasecmp test-c-strncasecmp test-ctype test-environ test-iconv test-intprops test-inttypes test-isblank test-langinfo test-limits-h test-locale test-localename test-rwlock1 test-lock test-malloca test-pthread_sigmask1 test-pthread_sigmask2 test-raise test-setenv test-setlocale1 test-setlocale2 test-signal-h test-sigprocmask test-sleep test-stdalign test-stdbool test-stddef test-stdint test-stdlib test-striconv test-strverscmp test-sys_types test-thread_self test-thread_create test-time test-unistd test-u8-check test-u8-mbtoucr test-u8-uctomb test-unsetenv test-usleep test-verify
+make[4]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[4]: 'libtests.a' is up to date.
+make[4]: 'test-alloca-opt' is up to date.
+make[4]: 'test-c-ctype' is up to date.
+make[4]: 'test-c-strcasecmp' is up to date.
+make[4]: 'test-c-strncasecmp' is up to date.
+make[4]: 'test-ctype' is up to date.
+make[4]: 'test-environ' is up to date.
+make[4]: 'test-iconv' is up to date.
+make[4]: 'test-intprops' is up to date.
+make[4]: 'test-inttypes' is up to date.
+make[4]: 'test-isblank' is up to date.
+make[4]: 'test-langinfo' is up to date.
+make[4]: 'test-limits-h' is up to date.
+make[4]: 'test-locale' is up to date.
+make[4]: 'test-localename' is up to date.
+make[4]: 'test-rwlock1' is up to date.
+make[4]: 'test-lock' is up to date.
+make[4]: 'test-malloca' is up to date.
+make[4]: 'test-pthread_sigmask1' is up to date.
+make[4]: 'test-pthread_sigmask2' is up to date.
+make[4]: 'test-raise' is up to date.
+make[4]: 'test-setenv' is up to date.
+make[4]: 'test-setlocale1' is up to date.
+make[4]: 'test-setlocale2' is up to date.
+make[4]: 'test-signal-h' is up to date.
+make[4]: 'test-sigprocmask' is up to date.
+make[4]: 'test-sleep' is up to date.
+make[4]: 'test-stdalign' is up to date.
+make[4]: 'test-stdbool' is up to date.
+make[4]: 'test-stddef' is up to date.
+make[4]: 'test-stdint' is up to date.
+make[4]: 'test-stdlib' is up to date.
+make[4]: 'test-striconv' is up to date.
+make[4]: 'test-strverscmp' is up to date.
+make[4]: 'test-sys_types' is up to date.
+make[4]: 'test-thread_self' is up to date.
+make[4]: 'test-thread_create' is up to date.
+make[4]: 'test-time' is up to date.
+make[4]: 'test-unistd' is up to date.
+make[4]: 'test-u8-check' is up to date.
+make[4]: 'test-u8-mbtoucr' is up to date.
+make[4]: 'test-u8-uctomb' is up to date.
+make[4]: 'test-unsetenv' is up to date.
+make[4]: 'test-usleep' is up to date.
+make[4]: 'test-verify' is up to date.
+make[4]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[5]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+PASS: test-alloca-opt
+PASS: test-c-ctype
+PASS: test-c-strcase.sh
+PASS: test-ctype
+PASS: test-environ
+PASS: test-iconv
+PASS: test-intprops
+PASS: test-inttypes
+PASS: test-isblank
+PASS: test-langinfo
+PASS: test-limits-h
+PASS: test-locale
+PASS: test-localename
+PASS: test-rwlock1
+PASS: test-lock
+PASS: test-malloca
+PASS: test-pthread_sigmask1
+PASS: test-pthread_sigmask2
+PASS: test-raise
+PASS: test-setenv
+PASS: test-setlocale1.sh
+PASS: test-setlocale2.sh
+PASS: test-signal-h
+PASS: test-sigprocmask
+PASS: test-sleep
+PASS: test-stdalign
+PASS: test-stdbool
+PASS: test-stddef
+PASS: test-stdint
+PASS: test-stdlib
+PASS: test-striconv
+PASS: test-strverscmp
+PASS: test-sys_types
+PASS: test-init.sh
+PASS: test-thread_self
+PASS: test-thread_create
+PASS: test-time
+PASS: test-unistd
+PASS: test-u8-check
+PASS: test-u8-mbtoucr
+PASS: test-u8-uctomb
+PASS: test-unsetenv
+PASS: test-usleep
+PASS: test-verify
+PASS: test-verify.sh
+============================================================================
+Testsuite summary for GNU Libidn 1.35
+============================================================================
+# TOTAL: 45
+# PASS:  45
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[4]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/lib/gltests'
+Making check in fuzz
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make  libidn_toascii_fuzzer libidn_tounicode_fuzzer libidn_stringprep_fuzzer
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make[2]: 'libidn_toascii_fuzzer' is up to date.
+make[2]: 'libidn_tounicode_fuzzer' is up to date.
+make[2]: 'libidn_stringprep_fuzzer' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+SKIP: libidn_toascii_fuzzer
+PASS: libidn_tounicode_fuzzer
+SKIP: libidn_stringprep_fuzzer
+============================================================================
+Testsuite summary for GNU Libidn 1.35
+============================================================================
+# TOTAL: 3
+# PASS:  1
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/fuzz'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make  libutils.a tst_stringprep tst_punycode tst_idna tst_idna2 tst_idna3 tst_idna4 tst_nfkc tst_pr29 tst_strerror tst_toutf8 tst_symbols tst_badutf8 tst_utf8crash tst_toascii64oob tst_badutf8nfkc tst_tld
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make[2]: 'libutils.a' is up to date.
+make[2]: 'tst_stringprep' is up to date.
+make[2]: 'tst_punycode' is up to date.
+make[2]: 'tst_idna' is up to date.
+make[2]: 'tst_idna2' is up to date.
+make[2]: 'tst_idna3' is up to date.
+make[2]: 'tst_idna4' is up to date.
+make[2]: 'tst_nfkc' is up to date.
+make[2]: 'tst_pr29' is up to date.
+make[2]: 'tst_strerror' is up to date.
+make[2]: 'tst_toutf8' is up to date.
+make[2]: 'tst_symbols' is up to date.
+make[2]: 'tst_badutf8' is up to date.
+make[2]: 'tst_utf8crash' is up to date.
+make[2]: 'tst_toascii64oob' is up to date.
+make[2]: 'tst_badutf8nfkc' is up to date.
+make[2]: 'tst_tld' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make[3]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+PASS: tst_stringprep
+PASS: tst_punycode
+PASS: tst_idna
+PASS: tst_idna2
+PASS: tst_idna3
+PASS: tst_idna4
+PASS: tst_nfkc
+PASS: tst_pr29
+PASS: tst_strerror
+PASS: tst_toutf8
+PASS: tst_symbols
+PASS: tst_badutf8
+PASS: tst_utf8crash
+PASS: tst_toascii64oob
+PASS: tst_badutf8nfkc
+PASS: tst_tld
+============================================================================
+Testsuite summary for GNU Libidn 1.35
+============================================================================
+# TOTAL: 16
+# PASS:  16
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make[2]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/tests'
+Making check in examples
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35/examples'
+make[1]: Entering directory '/usr/ports/opt/libidn/work/src/libidn-1.35'
+make[1]: Leaving directory '/usr/ports/opt/libidn/work/src/libidn-1.35'
+  GEN      public-submodule-commit

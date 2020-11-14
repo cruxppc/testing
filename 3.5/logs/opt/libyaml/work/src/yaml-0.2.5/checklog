@@ -1,0 +1,43 @@
+Making check in include
+make[1]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/include'
+make[1]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/include'
+Making check in src
+make[1]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/src'
+Making check in .
+make[1]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+make  test-version test-reader
+make[2]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -Wall   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec -MT test-version.o -MD -MP -MF .deps/test-version.Tpo -c -o test-version.o test-version.c
+mv -f .deps/test-version.Tpo .deps/test-version.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec   -o test-version test-version.o ../src/libyaml.la 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec -o .libs/test-version test-version.o  ../src/.libs/libyaml.so
+gcc -DHAVE_CONFIG_H -I. -I../include  -I../include -Wall   -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec -MT test-reader.o -MD -MP -MF .deps/test-reader.Tpo -c -o test-reader.o test-reader.c
+mv -f .deps/test-reader.Tpo .deps/test-reader.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc  -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec   -o test-reader test-reader.o ../src/libyaml.la 
+libtool: link: gcc -O2 -pipe -mcpu=powerpc -mtune=750 -msecure-plt -mno-altivec -o .libs/test-reader test-reader.o  ../src/.libs/libyaml.so
+make[2]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+make[3]: Entering directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+PASS: test-version
+PASS: test-reader
+============================================================================
+Testsuite summary for yaml 0.2.5
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+make[2]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'
+make[1]: Leaving directory '/usr/ports/opt/libyaml/work/src/yaml-0.2.5/tests'

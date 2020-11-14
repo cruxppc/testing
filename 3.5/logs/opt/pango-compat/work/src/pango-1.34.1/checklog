@@ -1,0 +1,169 @@
+Making check in pango
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+Making check in mini-fribidi
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango/mini-fribidi'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango/mini-fribidi'
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[5]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+PASS: check.defs
+make[6]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make  all-recursive
+make[7]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+Making all in mini-fribidi
+make[8]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango/mini-fribidi'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango/mini-fribidi'
+make[8]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[7]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[6]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+============================================================================
+Testsuite summary for pango 1.34.1
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[4]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango'
+Making check in modules
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules'
+Making check in arabic
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/arabic'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/arabic'
+Making check in basic
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/basic'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/basic'
+Making check in indic
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/indic'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/indic'
+Making check in thai
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/thai'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules/thai'
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/modules'
+Making check in pango-view
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango-view'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango-view'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango-view'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/pango-view'
+Making check in examples
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/examples'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/examples'
+Making check in docs
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[4]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[5]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make  all-am
+make[6]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[6]: Nothing to be done for 'all-am'.
+make[6]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[5]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+============================================================================
+Testsuite summary for pango 1.34.1
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/docs'
+Making check in tools
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tools'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tools'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make  testboundaries testboundaries_ucd testcolor testscript testiter test-pangocairo-threads test-ot-tags cxx-test
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make[2]: 'testboundaries' is up to date.
+make[2]: 'testboundaries_ucd' is up to date.
+make[2]: 'testcolor' is up to date.
+make[2]: 'testscript' is up to date.
+make[2]: 'testiter' is up to date.
+make[2]: 'test-pangocairo-threads' is up to date.
+make[2]: 'test-ot-tags' is up to date.
+make[2]: 'cxx-test' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+PASS: testboundaries
+PASS: testboundaries_ucd
+PASS: testcolor
+PASS: testscript
+PASS: testiter
+PASS: test-pangocairo-threads
+PASS: test-ot-tags
+PASS: cxx-test
+make[4]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+============================================================================
+Testsuite summary for pango 1.34.1
+============================================================================
+# TOTAL: 8
+# PASS:  8
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/tests'
+Making check in build
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build'
+Making check in win32
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32'
+Making check in vs9
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32/vs9'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32/vs9'
+Making check in vs10
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32/vs10'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32/vs10'
+make[3]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32'
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build/win32'
+make[2]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1/build'
+make[1]: Entering directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1'
+make[1]: Leaving directory '/usr/ports/opt/pango-compat/work/src/pango-1.34.1'

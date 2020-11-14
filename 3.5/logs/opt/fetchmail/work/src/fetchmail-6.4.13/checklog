@@ -1,0 +1,41 @@
+make  check-recursive
+make[1]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+Making check in .
+make[2]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make   rfc822 unmime netrc rfc2047e mxget rfc822valid x509_name_match fm_realpath
+make[3]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make[3]: 'unmime' is up to date.
+make[3]: 'netrc' is up to date.
+make[3]: 'rfc2047e' is up to date.
+make[3]: 'mxget' is up to date.
+make[3]: 'rfc822valid' is up to date.
+make[3]: 'x509_name_match' is up to date.
+make[3]: 'fm_realpath' is up to date.
+make[3]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make[4]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+PASS: t.smoke
+SKIP: t.validate-xhtml10
+SKIP: t.validate-xhtml
+PASS: t.x509_name_match
+PASS: t.realpath
+============================================================================
+Testsuite summary for fetchmail 6.4.13
+============================================================================
+# TOTAL: 5
+# PASS:  3
+# SKIP:  2
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make[3]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+make[2]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'
+Making check in po
+make[2]: Entering directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13/po'
+make[1]: Leaving directory '/usr/ports/opt/fetchmail/work/src/fetchmail-6.4.13'

@@ -1,0 +1,121 @@
+Making check in po
+make[1]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/po'
+Making check in po-properties
+make[1]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/po-properties'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/po-properties'
+Making check in gdk
+make[1]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+Making check in x11
+make[3]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+make[5]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+PASS: checksettings
+============================================================================
+Testsuite summary for gtk+ 2.24.32
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+make[3]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/x11'
+Making check in .
+make[3]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make[5]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+PASS: abicheck.sh
+PASS: pltcheck.sh
+============================================================================
+Testsuite summary for gtk+ 2.24.32
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make[3]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+Making check in tests
+make[3]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make  
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make[5]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+============================================================================
+Testsuite summary for gtk+ 2.24.32
+============================================================================
+# TOTAL: 0
+# PASS:  0
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make[3]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk/tests'
+make[2]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+make[1]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gdk'
+Making check in gtk
+make[1]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make  check-recursive
+make[2]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+Making check in theme-bits
+make[3]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk/theme-bits'
+make  check-local
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk/theme-bits'
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk/theme-bits'
+make[3]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk/theme-bits'
+Making check in .
+make[3]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make  check-TESTS check-local
+make[4]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make[5]: Entering directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+PASS: aliasfilescheck.sh
+PASS: abicheck.sh
+FAIL: pltcheck.sh
+============================================================================
+Testsuite summary for gtk+ 2.24.32
+============================================================================
+# TOTAL: 3
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  1
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See gtk/test-suite.log
+Please report to http://bugzilla.gnome.org/enter_bug.cgi?product=gtk%2B
+============================================================================
+make[5]: *** [Makefile:5203: test-suite.log] Error 1
+make[5]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make[4]: *** [Makefile:5311: check-TESTS] Error 2
+make[4]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make[3]: *** [Makefile:5423: check-am] Error 2
+make[3]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make[2]: *** [Makefile:5095: check-recursive] Error 1
+make[2]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make[1]: *** [Makefile:5425: check] Error 2
+make[1]: Leaving directory '/usr/ports/opt/gtk/work/src/gtk+-2.24.32/gtk'
+make: *** [Makefile:733: check-recursive] Error 1

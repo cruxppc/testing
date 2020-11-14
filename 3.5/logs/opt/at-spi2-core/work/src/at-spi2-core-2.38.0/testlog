@@ -1,0 +1,14 @@
+ninja: Entering directory `build'
+[0/1] Running all tests.
+1/2 dbind-test OK             0.03s
+2/2 memory     OK             3.10s
+
+
+Ok:                 2   
+Expected Fail:      0   
+Fail:               0   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            0   
+
+Full log written to /usr/ports/opt/at-spi2-core/work/src/at-spi2-core-2.38.0/build/meson-logs/testlog.txt

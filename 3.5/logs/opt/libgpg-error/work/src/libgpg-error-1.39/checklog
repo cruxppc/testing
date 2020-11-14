@@ -1,0 +1,83 @@
+Making check in m4
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/m4'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/m4'
+Making check in src
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+make  check-TESTS
+make[3]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+PASS: gpg-error-config-test.sh
+=============
+1 test passed
+=============
+make[3]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+make[2]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/src'
+Making check in doc
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/doc'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/tests'
+PASS: t-version
+Unspecified source: Success
+gcrypt: Invalid length specifier in S-expression
+GnuPG: Unknown packet
+GpgSM: Certificate too young
+GPG Agent: Bad CA certificate
+Pinentry: Operation cancelled
+SCD: Card removed
+GPGME: Bad secret key
+Keybox: Too late to cancel LDAP
+PASS: t-strerror
+PASS: t-syserror
+PASS: t-lock
+PASS: t-printf
+PASS: t-poll
+PASS: t-b64
+Begin global config
+use ${user} to echo the current user (root)
+use ${file} to echo the current file (./etc/t-argparse.conf)
+use ${line} to echo the current line (14)
+use ${epoch} to echo a timestamp (1605295072)
+All the following options are applied only if the
+current user has no specific section above.
+End global config
+begin of user config (user=root)
+end of user config
+current conffile='./etc/t-argparse.conf'
+current conffile='./t-argparse.conf'
+current conffile='[cmdline]'
+Options:
+  verbose=1
+  a-long-one=1
+  echo=1
+PASS: t-argparse
+PASS: t-logging
+PASS: t-stringutils
+PASS: t-malloc
+===================
+All 11 tests passed
+===================
+make[2]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/tests'
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/tests'
+Making check in po
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/po'
+Making check in lang
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang'
+Making check in cl
+make[2]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang/cl'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang/cl'
+make[2]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang'
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39/lang'
+make[1]: Entering directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39'
+make[1]: Leaving directory '/usr/ports/opt/libgpg-error/work/src/libgpg-error-1.39'

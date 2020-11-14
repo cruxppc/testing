@@ -1,0 +1,712 @@
+Making check in compat
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/compat'
+Making check in mpi
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/mpi'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/mpi'
+Making check in cipher
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/cipher'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/cipher'
+Making check in random
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/random'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/random'
+Making check in src
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/src'
+Making check in doc
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/doc'
+make  check-am
+make[2]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/doc'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/doc'
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/doc'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/tests'
+version:1.8.7:10807:1.39:12700:
+cc:80400:gcc:8.4.0:
+ciphers:arcfour:blowfish:cast5:des:aes:twofish:serpent:rfc2268:seed:camellia:idea:salsa20:gost28147:chacha20:
+pubkeys:dsa:elgamal:rsa:ecc:
+digests:crc:gostr3411-94::md4:md5:rmd160:sha1:sha256:sha512:sha3:tiger:whirlpool:stribog:blake2:
+rnd-mod:linux:
+cpu-arch:ppc:
+mpi-asm:powerpc32/mpih-add1.S:powerpc32/mpih-sub1.S:powerpc32/mpih-mul1.S:powerpc32/mpih-mul2.S:powerpc32/mpih-mul3.S:powerpc32/mpih-lshift.S:powerpc32/mpih-rshift.S:
+hwflist:
+fips-mode:n:n:
+rng-type:standard:1:0:0:
+PASS: version
+PASS: t-secmem
+PASS: mpitests
+PASS: t-sexp
+PASS: t-convert
+PASS: t-mpi-bit
+PASS: t-mpi-point
+PASS: curves
+PASS: t-lock
+PASS: prime
+PASS: basic
+PASS: keygen
+PASS: pubkey
+PASS: hmac
+PASS: hashtest
+PASS: t-kdf
+PASS: keygrip
+PASS: fips186-dsa
+PASS: aeswrap
+PASS: pkcs1v2
+PASS: random
+PASS: dsa-rfc6979
+      256 of 1026 tests done
+      512 of 1026 tests done
+      768 of 1026 tests done
+      1024 of 1026 tests done
+      1026 tests done
+PASS: t-ed25519
+      18 tests done
+PASS: t-cv25519
+      now running 'basic' test with all hardware features disabled.
+PASS: basic-disable-all-hwf
+Note: benchmark running in quick regression test mode.
+MD5              0ms    10ms   160ms    20ms    10ms
+SHA1            10ms    10ms   170ms     0ms    10ms
+RIPEMD160       40ms    40ms   200ms    30ms    40ms
+TIGER192        30ms    20ms   200ms    30ms    30ms
+SHA256          10ms    20ms   180ms    30ms    10ms
+SHA384          40ms    40ms   210ms    40ms    40ms
+SHA512          50ms    50ms   190ms    50ms    40ms
+SHA224          10ms    30ms   180ms    20ms    20ms
+MD4              0ms    10ms   160ms    20ms     0ms
+CRC32            0ms    10ms   130ms    10ms     0ms
+CRC32RFC1510     0ms     0ms   140ms    10ms     0ms
+CRC24RFC2440     0ms     0ms   130ms    10ms     0ms
+WHIRLPOOL      100ms    90ms   270ms   100ms   100ms
+TIGER           20ms    40ms   190ms    30ms    30ms
+TIGER2          20ms    40ms   180ms    30ms    20ms
+GOSTR3411_94    80ms    80ms   240ms    80ms    70ms
+STRIBOG256      90ms   120ms   260ms   120ms   110ms
+STRIBOG512     100ms   110ms   270ms   110ms   110ms
+GOSTR3411_CP    80ms    70ms   240ms    90ms    70ms
+SHA3-224        60ms    60ms   260ms    60ms    60ms
+SHA3-256        60ms    60ms   270ms    70ms    60ms
+SHA3-384        80ms    80ms   290ms    80ms    80ms
+SHA3-512       110ms   110ms   320ms   120ms   100ms
+SHAKE128        40ms    50ms   260ms    60ms
+SHAKE256        60ms    60ms   280ms    60ms
+BLAKE2B_512     30ms    30ms   200ms    30ms    30ms
+BLAKE2B_384     30ms    20ms   200ms    40ms    20ms
+BLAKE2B_256     30ms    30ms   200ms    30ms    30ms
+BLAKE2B_160     30ms    30ms   200ms    40ms    20ms
+BLAKE2S_256      0ms    20ms   180ms    10ms    10ms
+BLAKE2S_224     10ms    10ms   180ms    20ms    10ms
+BLAKE2S_160      0ms    20ms   180ms    10ms    10ms
+BLAKE2S_128     10ms    10ms   180ms    20ms     0ms
+
+HMAC_SHA256             20ms    20ms    40ms
+HMAC_SHA224             10ms    30ms    40ms
+HMAC_SHA512             40ms    40ms    70ms
+HMAC_SHA384             40ms    50ms    70ms
+HMAC_SHA1                0ms    20ms    30ms
+HMAC_MD5                 0ms    20ms    30ms
+HMAC_MD4                 0ms    10ms    30ms
+HMAC_RIPEMD160          40ms    40ms    60ms
+HMAC_TIGER              20ms    20ms    60ms
+HMAC_WHIRLPOOL          90ms   100ms   120ms
+HMAC_GOSTR3411_94       70ms    80ms   110ms
+HMAC_STRIBOG256        100ms   110ms   130ms
+HMAC_STRIBOG512        110ms   110ms   140ms
+HMAC_SHA3_224           50ms    60ms    90ms
+HMAC_SHA3_256           60ms    70ms    90ms
+HMAC_SHA3_384           70ms    80ms   110ms
+HMAC_SHA3_512          110ms   110ms   140ms
+CMAC_AES                20ms    30ms    50ms
+CMAC_3DES               90ms   110ms   130ms
+CMAC_CAMELLIA           20ms    30ms    40ms
+CMAC_CAST5              30ms    20ms    60ms
+CMAC_BLOWFISH           20ms    20ms    50ms
+CMAC_TWOFISH            20ms    20ms    40ms
+CMAC_SERPENT            30ms    30ms    60ms
+CMAC_SEED               30ms    20ms    60ms
+CMAC_RFC2268            60ms    80ms    80ms
+CMAC_IDEA               40ms    40ms    70ms
+CMAC_GOST28147          50ms    40ms    80ms
+GMAC_AES                20ms    30ms    50ms
+GMAC_CAMELLIA           20ms    30ms    50ms
+GMAC_TWOFISH            20ms    20ms    60ms
+GMAC_SERPENT            20ms    30ms    40ms
+GMAC_SEED               30ms    20ms    60ms
+POLY1305                 0ms    20ms    30ms
+POLY1305_AES            10ms    10ms    30ms
+POLY1305_CAMELLIA       10ms    10ms    30ms
+POLY1305_TWOFISH        10ms    10ms    40ms
+POLY1305_SERPENT         0ms    20ms    30ms
+POLY1305_SEED           10ms    10ms    30ms
+
+                ECB/Stream         CBC             CFB             OFB             CTR             XTS             CCM             GCM             OCB      
+             --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- ---------------
+IDEA            40ms    40ms    40ms    50ms    40ms    40ms    50ms    40ms    40ms    50ms       -       -       -       -       -       -       -       -
+3DES           100ms    90ms   110ms   100ms   100ms    90ms   100ms   100ms   100ms   100ms       -       -       -       -       -       -       -       -
+CAST5           20ms    30ms    20ms    30ms    20ms    30ms    20ms    20ms    30ms    20ms       -       -       -       -       -       -       -       -
+BLOWFISH        20ms    20ms    30ms    10ms    20ms    20ms    20ms    30ms    20ms    30ms       -       -       -       -       -       -       -       -
+AES             20ms    30ms    20ms    30ms    20ms    20ms    20ms    30ms    10ms    30ms    30ms    20ms    40ms    40ms    50ms    50ms    20ms    30ms
+AES192          20ms    40ms    20ms    20ms    20ms    40ms    20ms    30ms    30ms    20ms    30ms    30ms    60ms    50ms    50ms    40ms    30ms    40ms
+AES256          30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    40ms    60ms    60ms    40ms    60ms    30ms    40ms
+TWOFISH         20ms    20ms    10ms    20ms    20ms    20ms    20ms    20ms    10ms    20ms    20ms    20ms    40ms    40ms    40ms    50ms    20ms    30ms
+ARCFOUR         10ms    10ms
+DES             40ms    40ms    40ms    40ms    40ms    50ms    40ms    40ms    50ms    30ms       -       -       -       -       -       -       -       -
+TWOFISH128      30ms    20ms    10ms    20ms    20ms    20ms    20ms    20ms    20ms    10ms    20ms    30ms    40ms    40ms    30ms    40ms    30ms    20ms
+SERPENT128      30ms    40ms    30ms    20ms    40ms    20ms    40ms    30ms    30ms    30ms    30ms    30ms    60ms    70ms    50ms    50ms    40ms    40ms
+SERPENT192      30ms    30ms    30ms    30ms    30ms    30ms    40ms    20ms    40ms    30ms    30ms    40ms    60ms    60ms    50ms    50ms    40ms    50ms
+SERPENT256      20ms    30ms    30ms    40ms    30ms    20ms    40ms    30ms    30ms    30ms    40ms    30ms    60ms    70ms    40ms    60ms    40ms    40ms
+RFC2268_40      60ms    50ms    70ms    40ms    70ms    60ms    70ms    60ms    70ms    70ms       -       -       -       -       -       -       -       -
+RFC2268_128     60ms    50ms    70ms    50ms    60ms    70ms    70ms    70ms    70ms    60ms       -       -       -       -       -       -       -       -
+SEED            30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    40ms    60ms    60ms    50ms    50ms    30ms    40ms
+CAMELLIA128     30ms    20ms    20ms    30ms    20ms    20ms    30ms    20ms    20ms    20ms    30ms    30ms    40ms    60ms    40ms    40ms    30ms    30ms
+CAMELLIA192     30ms    30ms    30ms    30ms    30ms    30ms    20ms    40ms    20ms    30ms    40ms    30ms    60ms    60ms    60ms    40ms    30ms    40ms
+CAMELLIA256     30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    30ms    60ms    70ms    40ms    50ms    40ms    30ms
+SALSA20         10ms    10ms
+SALSA20R12      10ms    10ms
+GOST28147       50ms    40ms    50ms    60ms    50ms    40ms    50ms    50ms    50ms    50ms       -       -       -       -       -       -       -       -
+CHACHA20        10ms     0ms
+
+Algorithm         generate   10*priv   10*public
+------------------------------------------------
+RSA 1024 bit         190ms     160ms         0ms
+RSA 2048 bit        6240ms     810ms        10ms
+RSA 3072 bit        7070ms    2200ms        20ms
+RSA 4096 bit       15100ms    4640ms        40ms
+ELG 1024 bit             -     170ms       100ms
+ELG 2048 bit             -     690ms       470ms
+ELG 3072 bit             -    1630ms      1160ms
+DSA 1024/160             -      40ms        50ms
+DSA 2048/224             -     180ms       220ms
+DSA 3072/256             -     420ms       560ms
+ECDSA 192 bit         50ms     130ms       150ms
+ECDSA 224 bit         50ms     170ms       200ms
+ECDSA 256 bit         60ms     220ms       240ms
+ECDSA 384 bit        150ms     470ms       530ms
+ECDSA 521 bit        370ms    1180ms      1360ms
+EdDSA Ed25519         20ms     400ms       420ms
+GOST  256 bit         60ms     210ms       250ms
+GOST  512 bit        350ms    1100ms      1320ms
+
+powm          40ms   130ms   420ms
+
+random         0ms    10ms
+PASS: benchmark
+Note: bench-slope running in quick regression test mode.
+Hash:
+                |  nanosecs/byte   mebibytes/sec   cycles/byte
+ MD5            |     12.27 ns/B     77.69 MiB/s         - c/B
+ SHA1           |      8.81 ns/B     108.3 MiB/s         - c/B
+ RIPEMD160      |     23.41 ns/B     40.74 MiB/s         - c/B
+ TIGER192       |     55.83 ns/B     17.08 MiB/s         - c/B
+ SHA256         |     28.21 ns/B     33.80 MiB/s         - c/B
+ SHA384         |     50.52 ns/B     18.88 MiB/s         - c/B
+ SHA512         |     100.1 ns/B      9.53 MiB/s         - c/B
+ SHA224         |     19.24 ns/B     49.57 MiB/s         - c/B
+ MD4            |      4.02 ns/B     237.3 MiB/s         - c/B
+ CRC32          |      2.11 ns/B     451.4 MiB/s         - c/B
+ CRC32RFC1510   |      1.53 ns/B     623.3 MiB/s         - c/B
+ CRC24RFC2440   |      3.68 ns/B     258.9 MiB/s         - c/B
+ WHIRLPOOL      |     180.1 ns/B      5.29 MiB/s         - c/B
+ TIGER          |     54.52 ns/B     17.49 MiB/s         - c/B
+ TIGER2         |     46.47 ns/B     20.52 MiB/s         - c/B
+ GOSTR3411_94   |     143.3 ns/B      6.66 MiB/s         - c/B
+ STRIBOG256     |     114.7 ns/B      8.31 MiB/s         - c/B
+ STRIBOG512     |     117.3 ns/B      8.13 MiB/s         - c/B
+ GOSTR3411_CP   |     73.12 ns/B     13.04 MiB/s         - c/B
+ SHA3-224       |     61.74 ns/B     15.45 MiB/s         - c/B
+ SHA3-256       |     64.42 ns/B     14.80 MiB/s         - c/B
+ SHA3-384       |     160.4 ns/B      5.95 MiB/s         - c/B
+ SHA3-512       |     174.3 ns/B      5.47 MiB/s         - c/B
+ SHAKE128       |     100.4 ns/B      9.50 MiB/s         - c/B
+ SHAKE256       |     84.91 ns/B     11.23 MiB/s         - c/B
+ BLAKE2B_512    |     41.69 ns/B     22.87 MiB/s         - c/B
+ BLAKE2B_384    |     42.98 ns/B     22.19 MiB/s         - c/B
+ BLAKE2B_256    |     41.36 ns/B     23.06 MiB/s         - c/B
+ BLAKE2B_160    |     45.80 ns/B     20.82 MiB/s         - c/B
+ BLAKE2S_256    |     12.35 ns/B     77.22 MiB/s         - c/B
+ BLAKE2S_224    |      4.86 ns/B     196.3 MiB/s         - c/B
+ BLAKE2S_160    |     15.25 ns/B     62.54 MiB/s         - c/B
+ BLAKE2S_128    |     11.89 ns/B     80.17 MiB/s         - c/B
+                =
+MAC:
+                    |  nanosecs/byte   mebibytes/sec   cycles/byte
+ HMAC_SHA256        |     46.20 ns/B     20.64 MiB/s         - c/B
+ HMAC_SHA224        |     24.59 ns/B     38.78 MiB/s         - c/B
+ HMAC_SHA512        |     42.66 ns/B     22.35 MiB/s         - c/B
+ HMAC_SHA384        |     60.14 ns/B     15.86 MiB/s         - c/B
+ HMAC_SHA1          |   -26.633 ns/B   -35.808 MiB/s         - c/B
+ HMAC_MD5           |      3.93 ns/B     242.5 MiB/s         - c/B
+ HMAC_MD4           |     22.79 ns/B     41.84 MiB/s         - c/B
+ HMAC_RIPEMD160     |     65.87 ns/B     14.48 MiB/s         - c/B
+ HMAC_TIGER         |     40.04 ns/B     23.82 MiB/s         - c/B
+ HMAC_WHIRLPOOL     |     174.5 ns/B      5.46 MiB/s         - c/B
+ HMAC_GOSTR3411_94  |     86.52 ns/B     11.02 MiB/s         - c/B
+ HMAC_STRIBOG256    |     149.8 ns/B      6.37 MiB/s         - c/B
+ HMAC_STRIBOG512    |     95.08 ns/B     10.03 MiB/s         - c/B
+ HMAC_SHA3_224      |     74.50 ns/B     12.80 MiB/s         - c/B
+ HMAC_SHA3_256      |     58.60 ns/B     16.28 MiB/s         - c/B
+ HMAC_SHA3_384      |     172.4 ns/B      5.53 MiB/s         - c/B
+ HMAC_SHA3_512      |     178.4 ns/B      5.35 MiB/s         - c/B
+ CMAC_AES           |     41.04 ns/B     23.23 MiB/s         - c/B
+ CMAC_3DES          |     115.6 ns/B      8.25 MiB/s         - c/B
+ CMAC_CAMELLIA      |     43.18 ns/B     22.09 MiB/s         - c/B
+ CMAC_CAST5         |     37.88 ns/B     25.18 MiB/s         - c/B
+ CMAC_BLOWFISH      |     40.78 ns/B     23.39 MiB/s         - c/B
+ CMAC_TWOFISH       |     23.00 ns/B     41.47 MiB/s         - c/B
+ CMAC_SERPENT       |     61.02 ns/B     15.63 MiB/s         - c/B
+ CMAC_SEED          |     57.73 ns/B     16.52 MiB/s         - c/B
+ CMAC_RFC2268       |     76.67 ns/B     12.44 MiB/s         - c/B
+ CMAC_IDEA          |     57.05 ns/B     16.72 MiB/s         - c/B
+ CMAC_GOST28147     |     68.15 ns/B     13.99 MiB/s         - c/B
+ GMAC_AES           |     24.13 ns/B     39.53 MiB/s         - c/B
+ GMAC_CAMELLIA      |     21.89 ns/B     43.58 MiB/s         - c/B
+ GMAC_TWOFISH       |     50.79 ns/B     18.78 MiB/s         - c/B
+ GMAC_SERPENT       |     60.47 ns/B     15.77 MiB/s         - c/B
+ GMAC_SEED          |     42.78 ns/B     22.29 MiB/s         - c/B
+ POLY1305           |     10.81 ns/B     88.19 MiB/s         - c/B
+ POLY1305_AES       |      7.48 ns/B     127.5 MiB/s         - c/B
+ POLY1305_CAMELLIA  |     12.61 ns/B     75.60 MiB/s         - c/B
+ POLY1305_TWOFISH   |      3.61 ns/B     264.3 MiB/s         - c/B
+ POLY1305_SERPENT   |      8.94 ns/B     106.7 MiB/s         - c/B
+ POLY1305_SEED      |      7.43 ns/B     128.4 MiB/s         - c/B
+                    =
+Cipher:
+ IDEA           |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     51.48 ns/B     18.52 MiB/s         - c/B
+        ECB dec |     72.67 ns/B     13.12 MiB/s         - c/B
+        CBC enc |     83.72 ns/B     11.39 MiB/s         - c/B
+        CBC dec |     60.49 ns/B     15.77 MiB/s         - c/B
+        CFB enc |     56.26 ns/B     16.95 MiB/s         - c/B
+        CFB dec |     73.84 ns/B     12.92 MiB/s         - c/B
+        OFB enc |     60.86 ns/B     15.67 MiB/s         - c/B
+        OFB dec |     15.66 ns/B     60.92 MiB/s         - c/B
+        CTR enc |     43.04 ns/B     22.16 MiB/s         - c/B
+        CTR dec |     43.17 ns/B     22.09 MiB/s         - c/B
+                =
+ 3DES           |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     173.9 ns/B      5.48 MiB/s         - c/B
+        ECB dec |     124.5 ns/B      7.66 MiB/s         - c/B
+        CBC enc |     230.9 ns/B      4.13 MiB/s         - c/B
+        CBC dec |     97.94 ns/B      9.74 MiB/s         - c/B
+        CFB enc |     124.2 ns/B      7.68 MiB/s         - c/B
+        CFB dec |     188.0 ns/B      5.07 MiB/s         - c/B
+        OFB enc |     153.3 ns/B      6.22 MiB/s         - c/B
+        OFB dec |     154.6 ns/B      6.17 MiB/s         - c/B
+        CTR enc |     204.6 ns/B      4.66 MiB/s         - c/B
+        CTR dec |     139.4 ns/B      6.84 MiB/s         - c/B
+                =
+ CAST5          |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     29.62 ns/B     32.20 MiB/s         - c/B
+        ECB dec |     30.95 ns/B     30.81 MiB/s         - c/B
+        CBC enc |     46.72 ns/B     20.41 MiB/s         - c/B
+        CBC dec |     53.52 ns/B     17.82 MiB/s         - c/B
+        CFB enc |     40.49 ns/B     23.55 MiB/s         - c/B
+        CFB dec |     27.19 ns/B     35.08 MiB/s         - c/B
+        OFB enc |     36.15 ns/B     26.38 MiB/s         - c/B
+        OFB dec |     34.15 ns/B     27.93 MiB/s         - c/B
+        CTR enc |     53.18 ns/B     17.93 MiB/s         - c/B
+        CTR dec |     76.37 ns/B     12.49 MiB/s         - c/B
+                =
+ BLOWFISH       |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     55.46 ns/B     17.20 MiB/s         - c/B
+        ECB dec |     48.13 ns/B     19.81 MiB/s         - c/B
+        CBC enc |     51.49 ns/B     18.52 MiB/s         - c/B
+        CBC dec |     48.90 ns/B     19.50 MiB/s         - c/B
+        CFB enc |     65.73 ns/B     14.51 MiB/s         - c/B
+        CFB dec |     59.36 ns/B     16.06 MiB/s         - c/B
+        OFB enc |     62.64 ns/B     15.22 MiB/s         - c/B
+        OFB dec |     79.80 ns/B     11.95 MiB/s         - c/B
+        CTR enc |     60.65 ns/B     15.72 MiB/s         - c/B
+        CTR dec |     38.28 ns/B     24.91 MiB/s         - c/B
+                =
+ AES            |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     78.11 ns/B     12.21 MiB/s         - c/B
+        ECB dec |     75.95 ns/B     12.56 MiB/s         - c/B
+        CBC enc |     49.14 ns/B     19.41 MiB/s         - c/B
+        CBC dec |     60.84 ns/B     15.67 MiB/s         - c/B
+        CFB enc |     50.29 ns/B     18.96 MiB/s         - c/B
+        CFB dec |     47.10 ns/B     20.25 MiB/s         - c/B
+        OFB enc |     63.85 ns/B     14.94 MiB/s         - c/B
+        OFB dec |     64.05 ns/B     14.89 MiB/s         - c/B
+        CTR enc |     56.33 ns/B     16.93 MiB/s         - c/B
+        CTR dec |     50.37 ns/B     18.93 MiB/s         - c/B
+        XTS enc |     115.7 ns/B      8.25 MiB/s         - c/B
+        XTS dec |     68.15 ns/B     13.99 MiB/s         - c/B
+        CCM enc |     122.5 ns/B      7.79 MiB/s         - c/B
+        CCM dec |     111.0 ns/B      8.59 MiB/s         - c/B
+       CCM auth |     74.72 ns/B     12.76 MiB/s         - c/B
+        GCM enc |     97.42 ns/B      9.79 MiB/s         - c/B
+        GCM dec |     138.3 ns/B      6.90 MiB/s         - c/B
+       GCM auth |     325.6 ns/B      2.93 MiB/s         - c/B
+        OCB enc |     355.9 ns/B      2.68 MiB/s         - c/B
+        OCB dec |     533.9 ns/B      1.79 MiB/s         - c/B
+       OCB auth |     485.1 ns/B      1.97 MiB/s         - c/B
+                =
+ AES192         |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     711.5 ns/B      1.34 MiB/s         - c/B
+        ECB dec |     294.1 ns/B      3.24 MiB/s         - c/B
+        CBC enc |     119.1 ns/B      8.00 MiB/s         - c/B
+        CBC dec |     140.0 ns/B      6.81 MiB/s         - c/B
+        CFB enc |     80.19 ns/B     11.89 MiB/s         - c/B
+        CFB dec |     45.01 ns/B     21.19 MiB/s         - c/B
+        OFB enc |     78.78 ns/B     12.11 MiB/s         - c/B
+        OFB dec |     124.9 ns/B      7.64 MiB/s         - c/B
+        CTR enc |     60.56 ns/B     15.75 MiB/s         - c/B
+        CTR dec |     90.75 ns/B     10.51 MiB/s         - c/B
+        XTS enc |     146.1 ns/B      6.53 MiB/s         - c/B
+        XTS dec |     159.3 ns/B      5.99 MiB/s         - c/B
+        CCM enc |     182.6 ns/B      5.22 MiB/s         - c/B
+        CCM dec |     145.5 ns/B      6.56 MiB/s         - c/B
+       CCM auth |     33.25 ns/B     28.68 MiB/s         - c/B
+        GCM enc |     107.1 ns/B      8.91 MiB/s         - c/B
+        GCM dec |     166.6 ns/B      5.73 MiB/s         - c/B
+       GCM auth |     115.3 ns/B      8.27 MiB/s         - c/B
+        OCB enc |     162.2 ns/B      5.88 MiB/s         - c/B
+        OCB dec |     176.3 ns/B      5.41 MiB/s         - c/B
+       OCB auth |     91.07 ns/B     10.47 MiB/s         - c/B
+                =
+ AES256         |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     91.58 ns/B     10.41 MiB/s         - c/B
+        ECB dec |     131.4 ns/B      7.26 MiB/s         - c/B
+        CBC enc |     32.23 ns/B     29.59 MiB/s         - c/B
+        CBC dec |     136.5 ns/B      6.99 MiB/s         - c/B
+        CFB enc |     45.49 ns/B     20.97 MiB/s         - c/B
+        CFB dec |     83.85 ns/B     11.37 MiB/s         - c/B
+        OFB enc |     55.09 ns/B     17.31 MiB/s         - c/B
+        OFB dec |     82.05 ns/B     11.62 MiB/s         - c/B
+        CTR enc |     57.93 ns/B     16.46 MiB/s         - c/B
+        CTR dec |     31.03 ns/B     30.74 MiB/s         - c/B
+        XTS enc |     34.57 ns/B     27.59 MiB/s         - c/B
+        XTS dec |     38.78 ns/B     24.59 MiB/s         - c/B
+        CCM enc |     132.1 ns/B      7.22 MiB/s         - c/B
+        CCM dec |     118.6 ns/B      8.04 MiB/s         - c/B
+       CCM auth |     66.49 ns/B     14.34 MiB/s         - c/B
+        GCM enc |     112.5 ns/B      8.48 MiB/s         - c/B
+        GCM dec |     108.5 ns/B      8.79 MiB/s         - c/B
+       GCM auth |     41.09 ns/B     23.21 MiB/s         - c/B
+        OCB enc |     61.33 ns/B     15.55 MiB/s         - c/B
+        OCB dec |     75.29 ns/B     12.67 MiB/s         - c/B
+       OCB auth |     69.53 ns/B     13.72 MiB/s         - c/B
+                =
+ TWOFISH        |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     37.16 ns/B     25.66 MiB/s         - c/B
+        ECB dec |     35.04 ns/B     27.21 MiB/s         - c/B
+        CBC enc |     39.39 ns/B     24.21 MiB/s         - c/B
+        CBC dec |     37.30 ns/B     25.57 MiB/s         - c/B
+        CFB enc |     38.66 ns/B     24.67 MiB/s         - c/B
+        CFB dec |     43.48 ns/B     21.93 MiB/s         - c/B
+        OFB enc |     33.11 ns/B     28.80 MiB/s         - c/B
+        OFB dec |     18.37 ns/B     51.91 MiB/s         - c/B
+        CTR enc |     36.78 ns/B     25.93 MiB/s         - c/B
+        CTR dec |     36.18 ns/B     26.36 MiB/s         - c/B
+        XTS enc |     29.61 ns/B     32.21 MiB/s         - c/B
+        XTS dec |     20.65 ns/B     46.19 MiB/s         - c/B
+        CCM enc |     62.75 ns/B     15.20 MiB/s         - c/B
+        CCM dec |     61.31 ns/B     15.56 MiB/s         - c/B
+       CCM auth |     21.22 ns/B     44.95 MiB/s         - c/B
+        GCM enc |     80.53 ns/B     11.84 MiB/s         - c/B
+        GCM dec |     69.26 ns/B     13.77 MiB/s         - c/B
+       GCM auth |     32.38 ns/B     29.45 MiB/s         - c/B
+        OCB enc |     28.80 ns/B     33.11 MiB/s         - c/B
+        OCB dec |     43.84 ns/B     21.76 MiB/s         - c/B
+       OCB auth |     48.90 ns/B     19.50 MiB/s         - c/B
+                =
+ ARCFOUR        |  nanosecs/byte   mebibytes/sec   cycles/byte
+     STREAM enc |     34.20 ns/B     27.89 MiB/s         - c/B
+     STREAM dec |     34.56 ns/B     27.59 MiB/s         - c/B
+                =
+ DES            |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     80.10 ns/B     11.91 MiB/s         - c/B
+        ECB dec |     86.93 ns/B     10.97 MiB/s         - c/B
+        CBC enc |     90.39 ns/B     10.55 MiB/s         - c/B
+        CBC dec |     111.9 ns/B      8.53 MiB/s         - c/B
+        CFB enc |     107.8 ns/B      8.85 MiB/s         - c/B
+        CFB dec |     87.82 ns/B     10.86 MiB/s         - c/B
+        OFB enc |     82.66 ns/B     11.54 MiB/s         - c/B
+        OFB dec |     107.3 ns/B      8.89 MiB/s         - c/B
+        CTR enc |     93.74 ns/B     10.17 MiB/s         - c/B
+        CTR dec |     39.85 ns/B     23.93 MiB/s         - c/B
+                =
+ TWOFISH128     |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     46.11 ns/B     20.68 MiB/s         - c/B
+        ECB dec |     12.05 ns/B     79.11 MiB/s         - c/B
+        CBC enc |     47.03 ns/B     20.28 MiB/s         - c/B
+        CBC dec |     42.13 ns/B     22.64 MiB/s         - c/B
+        CFB enc |     39.98 ns/B     23.85 MiB/s         - c/B
+        CFB dec |     27.97 ns/B     34.10 MiB/s         - c/B
+        OFB enc |     35.00 ns/B     27.25 MiB/s         - c/B
+        OFB dec |     32.01 ns/B     29.79 MiB/s         - c/B
+        CTR enc |     37.34 ns/B     25.54 MiB/s         - c/B
+        CTR dec |     34.81 ns/B     27.40 MiB/s         - c/B
+        XTS enc |     27.72 ns/B     34.41 MiB/s         - c/B
+        XTS dec |     103.5 ns/B      9.21 MiB/s         - c/B
+        CCM enc |     75.48 ns/B     12.63 MiB/s         - c/B
+        CCM dec |     65.39 ns/B     14.58 MiB/s         - c/B
+       CCM auth |     43.45 ns/B     21.95 MiB/s         - c/B
+        GCM enc |     101.6 ns/B      9.39 MiB/s         - c/B
+        GCM dec |     73.02 ns/B     13.06 MiB/s         - c/B
+       GCM auth |     46.07 ns/B     20.70 MiB/s         - c/B
+        OCB enc |     41.95 ns/B     22.74 MiB/s         - c/B
+        OCB dec |     37.21 ns/B     25.63 MiB/s         - c/B
+       OCB auth |     33.19 ns/B     28.74 MiB/s         - c/B
+                =
+ SERPENT128     |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     62.80 ns/B     15.18 MiB/s         - c/B
+        ECB dec |     47.27 ns/B     20.18 MiB/s         - c/B
+        CBC enc |     49.40 ns/B     19.30 MiB/s         - c/B
+        CBC dec |     64.49 ns/B     14.79 MiB/s         - c/B
+        CFB enc |     87.51 ns/B     10.90 MiB/s         - c/B
+        CFB dec |     74.39 ns/B     12.82 MiB/s         - c/B
+        OFB enc |     33.18 ns/B     28.74 MiB/s         - c/B
+        OFB dec |     64.81 ns/B     14.72 MiB/s         - c/B
+        CTR enc |     70.79 ns/B     13.47 MiB/s         - c/B
+        CTR dec |     56.34 ns/B     16.93 MiB/s         - c/B
+        XTS enc |     75.58 ns/B     12.62 MiB/s         - c/B
+        XTS dec |     58.47 ns/B     16.31 MiB/s         - c/B
+        CCM enc |     88.56 ns/B     10.77 MiB/s         - c/B
+        CCM dec |     46.49 ns/B     20.51 MiB/s         - c/B
+       CCM auth |     69.82 ns/B     13.66 MiB/s         - c/B
+        GCM enc |     129.2 ns/B      7.38 MiB/s         - c/B
+        GCM dec |     149.8 ns/B      6.36 MiB/s         - c/B
+       GCM auth |     71.69 ns/B     13.30 MiB/s         - c/B
+        OCB enc |     91.17 ns/B     10.46 MiB/s         - c/B
+        OCB dec |     63.82 ns/B     14.94 MiB/s         - c/B
+       OCB auth |     94.20 ns/B     10.12 MiB/s         - c/B
+                =
+ SERPENT192     |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     29.98 ns/B     31.81 MiB/s         - c/B
+        ECB dec |     73.35 ns/B     13.00 MiB/s         - c/B
+        CBC enc |     80.83 ns/B     11.80 MiB/s         - c/B
+        CBC dec |     78.94 ns/B     12.08 MiB/s         - c/B
+        CFB enc |     89.58 ns/B     10.65 MiB/s         - c/B
+        CFB dec |     70.57 ns/B     13.51 MiB/s         - c/B
+        OFB enc |     67.95 ns/B     14.03 MiB/s         - c/B
+        OFB dec |     73.70 ns/B     12.94 MiB/s         - c/B
+        CTR enc |     81.64 ns/B     11.68 MiB/s         - c/B
+        CTR dec |     78.77 ns/B     12.11 MiB/s         - c/B
+        XTS enc |     126.3 ns/B      7.55 MiB/s         - c/B
+        XTS dec |     98.82 ns/B      9.65 MiB/s         - c/B
+        CCM enc |     159.6 ns/B      5.98 MiB/s         - c/B
+        CCM dec |     168.7 ns/B      5.65 MiB/s         - c/B
+       CCM auth |     105.9 ns/B      9.00 MiB/s         - c/B
+        GCM enc |     113.2 ns/B      8.42 MiB/s         - c/B
+        GCM dec |     46.15 ns/B     20.66 MiB/s         - c/B
+       GCM auth |     23.03 ns/B     41.41 MiB/s         - c/B
+        OCB enc |     67.69 ns/B     14.09 MiB/s         - c/B
+        OCB dec |     57.26 ns/B     16.66 MiB/s         - c/B
+       OCB auth |     68.03 ns/B     14.02 MiB/s         - c/B
+                =
+ SERPENT256     |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     35.05 ns/B     27.21 MiB/s         - c/B
+        ECB dec |     78.31 ns/B     12.18 MiB/s         - c/B
+        CBC enc |     90.98 ns/B     10.48 MiB/s         - c/B
+        CBC dec |     104.8 ns/B      9.10 MiB/s         - c/B
+        CFB enc |     60.22 ns/B     15.84 MiB/s         - c/B
+        CFB dec |     55.20 ns/B     17.28 MiB/s         - c/B
+        OFB enc |     62.87 ns/B     15.17 MiB/s         - c/B
+        OFB dec |     42.93 ns/B     22.21 MiB/s         - c/B
+        CTR enc |     49.14 ns/B     19.41 MiB/s         - c/B
+        CTR dec |     31.45 ns/B     30.33 MiB/s         - c/B
+        XTS enc |     33.40 ns/B     28.55 MiB/s         - c/B
+        XTS dec |     32.87 ns/B     29.01 MiB/s         - c/B
+        CCM enc |     139.7 ns/B      6.82 MiB/s         - c/B
+        CCM dec |     201.8 ns/B      4.73 MiB/s         - c/B
+       CCM auth |     95.81 ns/B      9.95 MiB/s         - c/B
+        GCM enc |     141.2 ns/B      6.75 MiB/s         - c/B
+        GCM dec |     159.5 ns/B      5.98 MiB/s         - c/B
+       GCM auth |     62.17 ns/B     15.34 MiB/s         - c/B
+        OCB enc |     64.79 ns/B     14.72 MiB/s         - c/B
+        OCB dec |     86.85 ns/B     10.98 MiB/s         - c/B
+       OCB auth |     34.40 ns/B     27.72 MiB/s         - c/B
+                =
+ RFC2268_40     |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     83.00 ns/B     11.49 MiB/s         - c/B
+        ECB dec |     114.2 ns/B      8.35 MiB/s         - c/B
+        CBC enc |     141.7 ns/B      6.73 MiB/s         - c/B
+        CBC dec |     44.74 ns/B     21.32 MiB/s         - c/B
+        CFB enc |     135.0 ns/B      7.07 MiB/s         - c/B
+        CFB dec |     160.9 ns/B      5.93 MiB/s         - c/B
+        OFB enc |     177.4 ns/B      5.38 MiB/s         - c/B
+        OFB dec |     118.4 ns/B      8.05 MiB/s         - c/B
+        CTR enc |     134.5 ns/B      7.09 MiB/s         - c/B
+        CTR dec |     83.99 ns/B     11.35 MiB/s         - c/B
+                =
+ RFC2268_128    |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     123.0 ns/B      7.76 MiB/s         - c/B
+        ECB dec |     45.33 ns/B     21.04 MiB/s         - c/B
+        CBC enc |     161.3 ns/B      5.91 MiB/s         - c/B
+        CBC dec |     77.49 ns/B     12.31 MiB/s         - c/B
+        CFB enc |     85.92 ns/B     11.10 MiB/s         - c/B
+        CFB dec |     81.28 ns/B     11.73 MiB/s         - c/B
+        OFB enc |     63.00 ns/B     15.14 MiB/s         - c/B
+        OFB dec |     128.9 ns/B      7.40 MiB/s         - c/B
+        CTR enc |     120.2 ns/B      7.94 MiB/s         - c/B
+        CTR dec |     122.9 ns/B      7.76 MiB/s         - c/B
+                =
+ SEED           |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     39.95 ns/B     23.87 MiB/s         - c/B
+        ECB dec |     53.06 ns/B     17.97 MiB/s         - c/B
+        CBC enc |     41.75 ns/B     22.84 MiB/s         - c/B
+        CBC dec |     59.31 ns/B     16.08 MiB/s         - c/B
+        CFB enc |     64.35 ns/B     14.82 MiB/s         - c/B
+        CFB dec |     68.88 ns/B     13.84 MiB/s         - c/B
+        OFB enc |     67.89 ns/B     14.05 MiB/s         - c/B
+        OFB dec |     41.64 ns/B     22.90 MiB/s         - c/B
+        CTR enc |     44.52 ns/B     21.42 MiB/s         - c/B
+        CTR dec |     56.90 ns/B     16.76 MiB/s         - c/B
+        XTS enc |     53.69 ns/B     17.76 MiB/s         - c/B
+        XTS dec |     73.30 ns/B     13.01 MiB/s         - c/B
+        CCM enc |     77.78 ns/B     12.26 MiB/s         - c/B
+        CCM dec |     129.9 ns/B      7.34 MiB/s         - c/B
+       CCM auth |     83.81 ns/B     11.38 MiB/s         - c/B
+        GCM enc |     135.6 ns/B      7.03 MiB/s         - c/B
+        GCM dec |     97.71 ns/B      9.76 MiB/s         - c/B
+       GCM auth |     35.20 ns/B     27.09 MiB/s         - c/B
+        OCB enc |     43.83 ns/B     21.76 MiB/s         - c/B
+        OCB dec |     36.02 ns/B     26.48 MiB/s         - c/B
+       OCB auth |     32.85 ns/B     29.03 MiB/s         - c/B
+                =
+ CAMELLIA128    |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     14.37 ns/B     66.35 MiB/s         - c/B
+        ECB dec |     41.07 ns/B     23.22 MiB/s         - c/B
+        CBC enc |     35.38 ns/B     26.95 MiB/s         - c/B
+        CBC dec |     39.40 ns/B     24.21 MiB/s         - c/B
+        CFB enc |     30.29 ns/B     31.48 MiB/s         - c/B
+        CFB dec |     38.19 ns/B     24.98 MiB/s         - c/B
+        OFB enc |     50.38 ns/B     18.93 MiB/s         - c/B
+        OFB dec |     56.37 ns/B     16.92 MiB/s         - c/B
+        CTR enc |     31.89 ns/B     29.91 MiB/s         - c/B
+        CTR dec |     56.36 ns/B     16.92 MiB/s         - c/B
+        XTS enc |     49.97 ns/B     19.08 MiB/s         - c/B
+        XTS dec |     49.15 ns/B     19.41 MiB/s         - c/B
+        CCM enc |     90.67 ns/B     10.52 MiB/s         - c/B
+        CCM dec |     26.99 ns/B     35.33 MiB/s         - c/B
+       CCM auth |     28.18 ns/B     33.84 MiB/s         - c/B
+        GCM enc |     44.64 ns/B     21.36 MiB/s         - c/B
+        GCM dec |     44.11 ns/B     21.62 MiB/s         - c/B
+       GCM auth |     22.24 ns/B     42.88 MiB/s         - c/B
+        OCB enc |     94.43 ns/B     10.10 MiB/s         - c/B
+        OCB dec |     102.8 ns/B      9.28 MiB/s         - c/B
+       OCB auth |     79.46 ns/B     12.00 MiB/s         - c/B
+                =
+ CAMELLIA192    |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     67.88 ns/B     14.05 MiB/s         - c/B
+        ECB dec |     66.60 ns/B     14.32 MiB/s         - c/B
+        CBC enc |     49.34 ns/B     19.33 MiB/s         - c/B
+        CBC dec |     76.07 ns/B     12.54 MiB/s         - c/B
+        CFB enc |     75.19 ns/B     12.68 MiB/s         - c/B
+        CFB dec |     65.68 ns/B     14.52 MiB/s         - c/B
+        OFB enc |     96.73 ns/B      9.86 MiB/s         - c/B
+        OFB dec |     100.8 ns/B      9.46 MiB/s         - c/B
+        CTR enc |     67.52 ns/B     14.12 MiB/s         - c/B
+        CTR dec |     65.44 ns/B     14.57 MiB/s         - c/B
+        XTS enc |     38.48 ns/B     24.78 MiB/s         - c/B
+        XTS dec |     38.49 ns/B     24.78 MiB/s         - c/B
+        CCM enc |     169.4 ns/B      5.63 MiB/s         - c/B
+        CCM dec |     187.9 ns/B      5.08 MiB/s         - c/B
+       CCM auth |     77.93 ns/B     12.24 MiB/s         - c/B
+        GCM enc |     158.9 ns/B      6.00 MiB/s         - c/B
+        GCM dec |     121.2 ns/B      7.87 MiB/s         - c/B
+       GCM auth |     26.94 ns/B     35.40 MiB/s         - c/B
+        OCB enc |     46.21 ns/B     20.64 MiB/s         - c/B
+        OCB dec |     24.63 ns/B     38.72 MiB/s         - c/B
+       OCB auth |     67.64 ns/B     14.10 MiB/s         - c/B
+                =
+ CAMELLIA256    |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     65.40 ns/B     14.58 MiB/s         - c/B
+        ECB dec |     55.22 ns/B     17.27 MiB/s         - c/B
+        CBC enc |     55.80 ns/B     17.09 MiB/s         - c/B
+        CBC dec |     50.91 ns/B     18.73 MiB/s         - c/B
+        CFB enc |     46.79 ns/B     20.38 MiB/s         - c/B
+        CFB dec |     54.87 ns/B     17.38 MiB/s         - c/B
+        OFB enc |     63.93 ns/B     14.92 MiB/s         - c/B
+        OFB dec |     68.99 ns/B     13.82 MiB/s         - c/B
+        CTR enc |     63.79 ns/B     14.95 MiB/s         - c/B
+        CTR dec |     44.95 ns/B     21.22 MiB/s         - c/B
+        XTS enc |     68.71 ns/B     13.88 MiB/s         - c/B
+        XTS dec |     43.39 ns/B     21.98 MiB/s         - c/B
+        CCM enc |     109.5 ns/B      8.71 MiB/s         - c/B
+        CCM dec |     106.6 ns/B      8.95 MiB/s         - c/B
+       CCM auth |     123.8 ns/B      7.70 MiB/s         - c/B
+        GCM enc |     95.97 ns/B      9.94 MiB/s         - c/B
+        GCM dec |     93.46 ns/B     10.20 MiB/s         - c/B
+       GCM auth |     40.13 ns/B     23.76 MiB/s         - c/B
+        OCB enc |     63.34 ns/B     15.06 MiB/s         - c/B
+        OCB dec |     54.27 ns/B     17.57 MiB/s         - c/B
+       OCB auth |     92.93 ns/B     10.26 MiB/s         - c/B
+                =
+ SALSA20        |  nanosecs/byte   mebibytes/sec   cycles/byte
+     STREAM enc |     21.17 ns/B     45.05 MiB/s         - c/B
+     STREAM dec |     24.58 ns/B     38.80 MiB/s         - c/B
+                =
+ SALSA20R12     |  nanosecs/byte   mebibytes/sec   cycles/byte
+     STREAM enc |     18.25 ns/B     52.26 MiB/s         - c/B
+     STREAM dec |     20.40 ns/B     46.75 MiB/s         - c/B
+                =
+ GOST28147      |  nanosecs/byte   mebibytes/sec   cycles/byte
+        ECB enc |     121.1 ns/B      7.87 MiB/s         - c/B
+        ECB dec |     99.28 ns/B      9.61 MiB/s         - c/B
+        CBC enc |     149.5 ns/B      6.38 MiB/s         - c/B
+        CBC dec |     95.20 ns/B     10.02 MiB/s         - c/B
+        CFB enc |     65.01 ns/B     14.67 MiB/s         - c/B
+        CFB dec |     58.31 ns/B     16.36 MiB/s         - c/B
+        OFB enc |     56.76 ns/B     16.80 MiB/s         - c/B
+        OFB dec |     54.60 ns/B     17.47 MiB/s         - c/B
+        CTR enc |     53.73 ns/B     17.75 MiB/s         - c/B
+        CTR dec |     99.77 ns/B      9.56 MiB/s         - c/B
+                =
+ CHACHA20       |  nanosecs/byte   mebibytes/sec   cycles/byte
+     STREAM enc |      9.19 ns/B     103.8 MiB/s         - c/B
+     STREAM dec |      2.79 ns/B     341.8 MiB/s         - c/B
+   POLY1305 enc |     33.26 ns/B     28.67 MiB/s         - c/B
+   POLY1305 dec |     32.92 ns/B     28.97 MiB/s         - c/B
+  POLY1305 auth |     22.12 ns/B     43.12 MiB/s         - c/B
+                =
+KDF:
+                          |  nanosecs/iter   cycles/iter
+ PBKDF2-HMAC-MD5          |         5302.4             -
+ PBKDF2-HMAC-SHA1         |         5329.3             -
+ PBKDF2-HMAC-RIPEMD160    |        10573.9             -
+ PBKDF2-HMAC-TIGER192     |         9058.4             -
+ PBKDF2-HMAC-SHA256       |         8919.9             -
+ PBKDF2-HMAC-SHA384       |        25788.2             -
+ PBKDF2-HMAC-SHA512       |        14626.6             -
+ PBKDF2-HMAC-SHA224       |         5339.1             -
+ PBKDF2-HMAC-WHIRLPOOL    |        66772.0             -
+ PBKDF2-HMAC-TIGER        |        10504.8             -
+ PBKDF2-HMAC-TIGER2       |         8161.4             -
+ PBKDF2-HMAC-GOSTR3411_94 |        26067.7             -
+ PBKDF2-HMAC-STRIBOG256   |        50748.8             -
+ PBKDF2-HMAC-STRIBOG512   |       181772.4             -
+ PBKDF2-HMAC-GOSTR3411_CP |        39497.1             -
+ PBKDF2-HMAC-SHA3-224     |        43105.1             -
+ PBKDF2-HMAC-SHA3-256     |        40849.4             -
+ PBKDF2-HMAC-SHA3-384     |        33866.9             -
+ PBKDF2-HMAC-SHA3-512     |        68438.7             -
+ PBKDF2-HMAC-BLAKE2B_512  |        17224.1             -
+ PBKDF2-HMAC-BLAKE2B_384  |        32303.1             -
+ PBKDF2-HMAC-BLAKE2B_256  |        21372.6             -
+ PBKDF2-HMAC-BLAKE2B_160  |        35764.9             -
+ PBKDF2-HMAC-BLAKE2S_256  |         6089.5             -
+ PBKDF2-HMAC-BLAKE2S_224  |         9256.7             -
+ PBKDF2-HMAC-BLAKE2S_160  |         8291.4             -
+ PBKDF2-HMAC-BLAKE2S_128  |         8082.0             -
+                          =
+PASS: bench-slope
+SKIP: hashtest-256g
+====================
+All 27 tests passed
+(1 test was not run)
+====================
+make[2]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/tests'
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7/tests'
+make[1]: Entering directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7'
+make[1]: Leaving directory '/usr/ports/opt/libgcrypt/work/src/libgcrypt-1.8.7'

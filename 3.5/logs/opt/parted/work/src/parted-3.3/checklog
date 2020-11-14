@@ -1,0 +1,3761 @@
+make ss-1024
+make[1]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3'
+PARTED_SECTOR_SIZE=1024 make check-recursive
+make[2]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3'
+Making check in po
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/po'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/po'
+Making check in lib
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/lib'
+make  check-am
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/lib'
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/lib'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/lib'
+Making check in include
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/include'
+Making check in parted
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/include/parted'
+make  check-am
+make[5]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/include/parted'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/include/parted'
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/include/parted'
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/include'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/include'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/include'
+Making check in libparted
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted'
+Makefile:1652: target 'arch/.deps/linux.Plo' given more than once in the same rule
+Making check in labels
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/labels'
+make  check-am
+make[5]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/labels'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/labels'
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/labels'
+Making check in fs
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/fs'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted/fs'
+Making check in .
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted'
+Makefile:1652: target 'arch/.deps/linux.Plo' given more than once in the same rule
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/libparted'
+Making check in parted
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/parted'
+make  check-am
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/parted'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/parted'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/parted'
+Making check in partprobe
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/partprobe'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/partprobe'
+Making check in doc
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/doc'
+Making check in C
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/doc/C'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/doc/C'
+Making check in pt_BR
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/doc/pt_BR'
+  GEN      all-local
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/doc/pt_BR'
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/doc'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/doc'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/doc'
+Making check in debug
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/debug'
+Making check in test
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/debug/test'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/debug/test'
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/debug'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/debug'
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/debug'
+Making check in tests
+make[3]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make  print-align print-flags print-max dup-clobber duplicate fs-resize
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+  CC       print-align.o
+  CCLD     print-align
+  CC       print-flags.o
+  CCLD     print-flags
+  CC       print-max.o
+  CCLD     print-max
+  CC       dup-clobber.o
+  CCLD     dup-clobber
+  CC       duplicate.o
+  CCLD     duplicate
+  CC       fs-resize.o
+  CCLD     fs-resize
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make[5]: Entering directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+PASS: help-version.sh
+PASS: t0000-basic.sh
+PASS: t0001-tiny.sh
+PASS: t0010-script-no-ctrl-chars.sh
+PASS: t0100-print.sh
+PASS: t0101-print-empty.sh
+PASS: t0200-gpt.sh
+PASS: t0201-gpt.sh
+PASS: t0202-gpt-pmbr.sh
+PASS: t0203-gpt-tiny-device-abort.sh
+PASS: t0203-gpt-shortened-device-primary-valid.sh
+t0203-gpt-create-on-min-sized-device.sh: skipped test: FS test with sector size != 512
+SKIP: t0203-gpt-create-on-min-sized-device.sh
+FAIL: t0205-gpt-list-clobbers-pmbr.sh
+FAIL: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh
+PASS: t0207-IEC-binary-notation.sh
+t0208-mkpart-end-in-IEC.sh: skipped test: FS test with sector size != 512
+SKIP: t0208-mkpart-end-in-IEC.sh
+PASS: t0209-gpt-pmbr_boot.sh
+t0210-gpt-resized-partition-entry-array.sh: skipped test: this test requires Perl's Digest::CRC module
+SKIP: t0210-gpt-resized-partition-entry-array.sh
+t0211-gpt-rewrite-header.sh: skipped test: this test requires Perl's Digest::CRC module
+SKIP: t0211-gpt-rewrite-header.sh
+PASS: t0212-gpt-many-partitions.sh
+t0213-mkpart-start-negative.sh: skipped test: FS test with sector size != 512
+SKIP: t0213-mkpart-start-negative.sh
+PASS: t0220-gpt-msftres.sh
+PASS: t0250-gpt.sh
+FAIL: t0251-gpt-unicode.sh
+FAIL: t0280-gpt-corrupt.sh
+t0281-gpt-grow.sh: skipped test: FS test with sector size != 512
+SKIP: t0281-gpt-grow.sh
+t0282-gpt-move-backup.sh: skipped test: FS test with sector size != 512
+SKIP: t0282-gpt-move-backup.sh
+t0283-overlap-partitions.sh: skipped test: FS test with sector size != 512
+SKIP: t0283-overlap-partitions.sh
+PASS: t0300-dos-on-gpt.sh
+PASS: t0301-overwrite-gpt-pmbr.sh
+t0350-mac-PT-increases-sector-size.sh: skipped test: FS test with sector size != 512
+SKIP: t0350-mac-PT-increases-sector-size.sh
+PASS: t0400-loop-clobber-infloop.sh
+PASS: t0500-dup-clobber.sh
+PASS: t0501-duplicate.sh
+t1100-busy-label.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t1100-busy-label.sh
+t1101-busy-partition.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t1101-busy-partition.sh
+t1102-loop-label.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t1102-loop-label.sh
+PASS: t1104-remove-and-add-partition.sh
+t1700-probe-fs.sh: skipped test: FS test with sector size != 512
+SKIP: t1700-probe-fs.sh
+t1701-rescue-fs.sh: skipped test: FS test with sector size != 512
+SKIP: t1701-rescue-fs.sh
+PASS: t2200-dos-label-recog.sh
+t2201-pc98-label-recog.sh: skipped test: FS test with sector size != 512
+SKIP: t2201-pc98-label-recog.sh
+t2300-dos-label-extended-bootcode.sh: skipped test: FS test with sector size != 512
+SKIP: t2300-dos-label-extended-bootcode.sh
+t2310-dos-extended-2-sector-min-offset.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t2310-dos-extended-2-sector-min-offset.sh
+t2320-dos-extended-noclobber.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t2320-dos-extended-noclobber.sh
+PASS: t2400-dos-hfs-partition-type.sh
+PASS: t2410-dos-udf-partition-type.sh
+PASS: t2500-probe-corrupt-hfs.sh
+t3000-resize-fs.sh: skipped test: mkfs.hfs: command not found
+SKIP: t3000-resize-fs.sh
+t3200-resize-partition.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t3200-resize-partition.sh
+t3200-type-change.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t3200-type-change.sh
+PASS: t3300-palo-prep.sh
+PASS: t3310-flags.sh
+t3400-whole-disk-FAT-partition.sh: skipped test: FS test with sector size != 512
+SKIP: t3400-whole-disk-FAT-partition.sh
+PASS: t4000-sun-raid-type.sh
+PASS: t4001-sun-vtoc.sh
+PASS: t4100-msdos-partition-limits.sh
+PASS: t4100-dvh-partition-limits.sh
+PASS: t4100-msdos-starting-sector.sh
+t4200-partprobe.sh: skipped test: This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
+SKIP: t4200-partprobe.sh
+PASS: t4300-nilfs2-tiny.sh
+PASS: t4301-nilfs2-badsb2.sh
+PASS: t4302-nilfs2-lessbadsb2.sh
+PASS: t5000-tags.sh
+PASS: t6000-dm.sh
+PASS: t6001-psep.sh
+t6002-dm-busy.sh: skipped test: FS test with sector size != 512
+SKIP: t6002-dm-busy.sh
+PASS: t6003-dm-hide.sh
+FAIL: t6004-dm-many-partitions.sh
+FAIL: t6005-dm-uuid.sh
+t6006-dm-512b-sectors.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t6006-dm-512b-sectors.sh
+t6100-mdraid-partitions.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t6100-mdraid-partitions.sh
+PASS: t7000-scripting.sh
+PASS: t8000-loop.sh
+PASS: t8001-loop-blkpg.sh
+t9010-big-sector.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9010-big-sector.sh
+t9020-alignment.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9020-alignment.sh
+PASS: t9021-maxima.sh
+PASS: t9022-one-unit-snap.sh
+PASS: t9023-value-lt-one.sh
+t9030-align-check.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9030-align-check.sh
+t9040-many-partitions.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9040-many-partitions.sh
+t9041-undetected-in-use-16th-partition.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9041-undetected-in-use-16th-partition.sh
+t9042-dos-partition-limit.sh: skipped test: you lack the scsi_debug kernel module
+SKIP: t9042-dos-partition-limit.sh
+PASS: t9050-partition-table-types.sh
+==========================================
+   GNU parted 3.3: tests/test-suite.log
+==========================================
+
+# TOTAL: 85
+# PASS:  47
+# SKIP:  32
+# XFAIL: 0
+# FAIL:  6
+# XPASS: 0
+# ERROR: 0
+
+.. contents:: :depth: 2
+
+SKIP: t0203-gpt-create-on-min-sized-device
+==========================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0203-gpt-create-on-min-sized-device.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0203-gpt-create-on-min-sized-device.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0203-gpt-create-on-min-sized-device.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0203-gpt-create-on-min-sized-device.sh: skipped test: FS test with sector size != 512
+t0203-gpt-create-on-min-sized-device.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t0203-gpt-create-on-min-sized-device.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0203-gpt-create-on-min-sized-device.sh.JZGV
++ exit 77
+SKIP t0203-gpt-create-on-min-sized-device.sh (exit status: 77)
+
+FAIL: t0205-gpt-list-clobbers-pmbr
+==================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0205-gpt-list-clobbers-pmbr.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0205-gpt-list-clobbers-pmbr.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ ss=1024
++ n_sectors=400
++ dev=dev-file
++ dd if=/dev/null of=dev-file bs=1024 seek=400
+0+0 records in
+0+0 records out
+0 bytes copied, 0.000400988 s, 0.0 kB/s
++ parted -s dev-file mklabel gpt
++ parted -s dev-file mkpart p1 101s 150s
+Warning: The resulting partition is not properly aligned for best performance: 101s % 1024s != 0s
++ parted -s dev-file mkpart p2 151s 200s
+Warning: The resulting partition is not properly aligned for best performance: 151s % 1024s != 0s
++ parted -s dev-file mkpart p3 201s 250s
+Warning: The resulting partition is not properly aligned for best performance: 201s % 1024s != 0s
++ parted -m -s dev-file u s p
+BYT;
+/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx/dev-file:400s:file:1024:1024:gpt::;
+1:101s:150s:50s::p1:;
+2:151s:200s:50s::p2:;
+3:201s:250s:50s::p3:;
++ printf %0450d\xee%059d\x55\xaa 0 0
++ dd of=dev-file count=1 conv=notrunc
+1+0 records in
+1+0 records out
+512 bytes copied, 0.000439754 s, 1.2 MB/s
++ dd if=dev-file of=before count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0.000478808 s, 1.1 MB/s
++ chmod a-w dev-file
++ parted -m -s dev-file u s p
+Error: /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx/dev-file: unrecognised disk label
+BYT;
+/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx/dev-file:400s:file:1024:1024:unknown::;
++ fail=1
++ dd if=dev-file of=after count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0.000524944 s, 975 kB/s
++ cmp before after
++ Exit 1
++ set +e
++ exit 1
++ exit 1
++ remove_tmp_
++ __st=1
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0205-gpt-list-clobbers-pmbr.sh.apKx
++ exit 1
+FAIL t0205-gpt-list-clobbers-pmbr.sh (exit status: 1)
+
+FAIL: t0206-gpt-print-with-corrupt-primary-clobbers-pmbr
+========================================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ ss=1024
++ n_sectors=400
++ dev=dev-file
++ dd if=/dev/null of=dev-file bs=1024 seek=400
+0+0 records in
+0+0 records out
+0 bytes copied, 0.000390401 s, 0.0 kB/s
++ parted -s dev-file mklabel gpt
++ parted -s dev-file mkpart p1 128s 255s
+Warning: The resulting partition is not properly aligned for best performance: 128s % 1024s != 0s
++ parted -m -s dev-file u s p
+BYT;
+/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv/dev-file:400s:file:1024:1024:gpt::;
+1:128s:255s:128s::p1:;
++ dd of=dev-file count=1 conv=notrunc
++ printf %0450d\xee%059d\x55\xaa 0 0
+1+0 records in
+1+0 records out
+512 bytes copied, 0.0029505 s, 174 kB/s
++ dd if=dev-file of=before count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0.000353771 s, 1.4 MB/s
++ gpt_corrupt_primary_table_ dev-file 1024
++ local dev=dev-file
++ local ss=1024
++ echo ./t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh: invalid sector size: 1024
+./t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh: invalid sector size: 1024
++ return 1
++ orig_byte=
++ fail=1
++ parted -m -s dev-file u s p
+Error: /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv/dev-file: unrecognised disk label
+BYT;
+/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv/dev-file:400s:file:1024:1024:unknown::;
++ fail=1
++ dd if=dev-file of=after count=1
+1+0 records in
+1+0 records out
+512 bytes copied, 0.000555045 s, 922 kB/s
++ cmp before after
++ Exit 1
++ set +e
++ exit 1
++ exit 1
++ remove_tmp_
++ __st=1
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh.NEkv
++ exit 1
+FAIL t0206-gpt-print-with-corrupt-primary-clobbers-pmbr.sh (exit status: 1)
+
+SKIP: t0208-mkpart-end-in-IEC
+=============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0208-mkpart-end-in-IEC.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0208-mkpart-end-in-IEC.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0208-mkpart-end-in-IEC.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0208-mkpart-end-in-IEC.sh: skipped test: FS test with sector size != 512
+t0208-mkpart-end-in-IEC.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t0208-mkpart-end-in-IEC.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0208-mkpart-end-in-IEC.sh.7CVl
++ exit 77
+SKIP t0208-mkpart-end-in-IEC.sh (exit status: 77)
+
+SKIP: t0210-gpt-resized-partition-entry-array
+=============================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0210-gpt-resized-partition-entry-array.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0210-gpt-resized-partition-entry-array.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted .
++ test 2 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 1 != 0
++ path_dir_=.
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/.:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_perl_digest_crc_
++ local ok=0
++ local t
++ perl -le use Digest::CRC qw(crc32); print crc32("123")
+Can't locate Digest/CRC.pm in @INC (you may need to install the Digest::CRC module) (@INC contains: /usr/lib/perl5/site_perl/5.28/linux-thread-multi /usr/lib/perl5/site_perl/5.28 /usr/lib/perl5/site_perl/5.28/linux-thread-multi /usr/lib/perl5/site_perl/5.28 /usr/lib/perl5/5.28/linux-thread-multi /usr/lib/perl5/5.28) at -e line 1.
+BEGIN failed--compilation aborted at -e line 1.
++ t=
++ test 0 = 1
++ skip_ this test requires Perl's Digest::CRC module
++ warn_ t0210-gpt-resized-partition-entry-array.sh: skipped test: this test requires Perl's Digest::CRC module
++ printf %s\n t0210-gpt-resized-partition-entry-array.sh: skipped test: this test requires Perl's Digest::CRC module
+t0210-gpt-resized-partition-entry-array.sh: skipped test: this test requires Perl's Digest::CRC module
++ test 9 = 2
++ printf %s\n t0210-gpt-resized-partition-entry-array.sh: skipped test: this test requires Perl's Digest::CRC module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0210-gpt-resized-partition-entry-array.sh.EhKi
++ exit 77
+SKIP t0210-gpt-resized-partition-entry-array.sh (exit status: 77)
+
+SKIP: t0211-gpt-rewrite-header
+==============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0211-gpt-rewrite-header.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0211-gpt-rewrite-header.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted .
++ test 2 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 1 != 0
++ path_dir_=.
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/.:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_perl_digest_crc_
++ local ok=0
++ local t
++ perl -le use Digest::CRC qw(crc32); print crc32("123")
+Can't locate Digest/CRC.pm in @INC (you may need to install the Digest::CRC module) (@INC contains: /usr/lib/perl5/site_perl/5.28/linux-thread-multi /usr/lib/perl5/site_perl/5.28 /usr/lib/perl5/site_perl/5.28/linux-thread-multi /usr/lib/perl5/site_perl/5.28 /usr/lib/perl5/5.28/linux-thread-multi /usr/lib/perl5/5.28) at -e line 1.
+BEGIN failed--compilation aborted at -e line 1.
++ t=
++ test 0 = 1
++ skip_ this test requires Perl's Digest::CRC module
++ warn_ t0211-gpt-rewrite-header.sh: skipped test: this test requires Perl's Digest::CRC module
++ printf %s\n t0211-gpt-rewrite-header.sh: skipped test: this test requires Perl's Digest::CRC module
+t0211-gpt-rewrite-header.sh: skipped test: this test requires Perl's Digest::CRC module
++ test 9 = 2
++ sed 1q
++ printf %s\n t0211-gpt-rewrite-header.sh: skipped test: this test requires Perl's Digest::CRC module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0211-gpt-rewrite-header.sh.MxBb
++ exit 77
+SKIP t0211-gpt-rewrite-header.sh (exit status: 77)
+
+SKIP: t0213-mkpart-start-negative
+=================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0213-mkpart-start-negative.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0213-mkpart-start-negative.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0213-mkpart-start-negative.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0213-mkpart-start-negative.sh: skipped test: FS test with sector size != 512
+t0213-mkpart-start-negative.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t0213-mkpart-start-negative.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0213-mkpart-start-negative.sh.8kuf
++ exit 77
+SKIP t0213-mkpart-start-negative.sh (exit status: 77)
+
+FAIL: t0251-gpt-unicode
+=======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0251-gpt-unicode.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0251-gpt-unicode.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ dev=loop-file
++ truncate -s 10m loop-file
++ locale -a
++ grep en_US.utf8
++ LC_ALL=en_US.utf8
++ [ -z en_US.utf8 ]
++ export LC_ALL=en_US.utf8
++ printf foo\341\264\244
++ part_name=fooᴤ
++ parted -s loop-file mklabel gpt mkpart primary ext2 1MiB 2MiB name 1 fooᴤ
++ compare /dev/null empty
++ compare_dev_null_ /dev/null empty
++ test 2 = 2
++ test x/dev/null = x/dev/null
++ test -s empty
++ emit_diff_u_header_ /dev/null empty
++ printf %s\n diff -u /dev/null empty --- /dev/null	1970-01-01 +++ empty	1970-01-01
+diff -u /dev/null empty
+--- /dev/null	1970-01-01
++++ empty	1970-01-01
++ sed s/^/+/ empty
++Warning: failed to translate partition name
++ return 1
++ return 1
++ fail=1
++ dd if=loop-file bs=1 skip=2104 count=10
++ od -An -tx1
++ echo  66 00 6f 00 6f 00 24 1d 00 00
++ compare exp out
++ compare_dev_null_ exp out
++ test 2 = 2
++ test xexp = x/dev/null
++ test xout = x/dev/null
++ return 2
++ compare_ exp out
++ diff -u exp out
+--- exp	2020-11-13 21:01:59.253477725 +0000
++++ out	2020-11-13 21:01:59.223477698 +0000
+@@ -1 +1 @@
+- 66 00 6f 00 6f 00 24 1d 00 00
++ 66 00 6f 00 6f 00 6d 00 61 00
++ fail=1
++ Exit 1
++ set +e
++ exit 1
++ exit 1
++ remove_tmp_
++ __st=1
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0251-gpt-unicode.sh.Mcto
++ exit 1
+FAIL t0251-gpt-unicode.sh (exit status: 1)
+
+FAIL: t0280-gpt-corrupt
+=======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0280-gpt-corrupt.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0280-gpt-corrupt.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:01 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ dev=loop-file
++ ss=1024
++ n_sectors=5000
++ dd if=/dev/null of=loop-file bs=1024 seek=5000
+0+0 records in
+0+0 records out
+0 bytes copied, 0.000434209 s, 0.0 kB/s
++ parted -s loop-file mklabel gpt
++ compare /dev/null empty
++ compare_dev_null_ /dev/null empty
++ test 2 = 2
++ test x/dev/null = x/dev/null
++ test -s empty
++ return 0
++ return 0
++ parted -m -s loop-file unit s print
++ sed s,.*/loop-file:,loop-file:, t
++ printf BYT;\nloop-file:5000s:file:1024:1024:gpt::;\n
++ compare exp out
++ compare_dev_null_ exp out
++ test 2 = 2
++ test xexp = x/dev/null
++ test xout = x/dev/null
++ return 2
++ compare_ exp out
++ diff -u exp out
++ parted -s loop-file mkpart sw linux-swap 2048s 4095s
++ compare /dev/null empty
++ compare_dev_null_ /dev/null empty
++ test 2 = 2
++ test x/dev/null = x/dev/null
++ test -s empty
++ return 0
++ return 0
++ gpt_corrupt_primary_table_ loop-file 1024
++ local dev=loop-file
++ local ss=1024
++ echo ./t0280-gpt-corrupt.sh: invalid sector size: 1024
+./t0280-gpt-corrupt.sh: invalid sector size: 1024
++ return 1
++ orig_byte=
++ fail=1
++ parted -s loop-file print
++ grep Error: err
++ fail=1
++ echo Error: The primary GPT table is corrupt, but the backup appears OK, so that will be used.
++ compare exp err
++ compare_dev_null_ exp err
++ test 2 = 2
++ test xexp = x/dev/null
++ test xerr = x/dev/null
++ return 2
++ compare_ exp err
++ diff -u exp err
+--- exp	2020-11-13 21:02:01.103479370 +0000
++++ err	2020-11-13 21:02:01.093479361 +0000
+@@ -1 +1,9 @@
+-Error: The primary GPT table is corrupt, but the backup appears OK, so that will be used.
++Model:  (file)
++Disk /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP/loop-file: 5120kB
++Sector size (logical/physical): 1024B/1024B
++Partition Table: gpt
++Disk Flags: 
++
++Number  Start   End     Size    File system  Name  Flags
++ 1      2097kB  4194kB  2097kB               sw    swap
++
++ fail=1
++ gpt_restore_primary_table_ loop-file 1024 
++ local dev=loop-file
++ local ss=1024
++ echo ./t0280-gpt-corrupt.sh: invalid sector size: 1024
+./t0280-gpt-corrupt.sh: invalid sector size: 1024
++ return 1
++ fail=1
++ parted -s loop-file print
++ compare /dev/null err
++ compare_dev_null_ /dev/null err
++ test 2 = 2
++ test x/dev/null = x/dev/null
++ test -s err
++ return 0
++ return 0
++ expr 5000 * 1024 - 1024 + 24
++ alt_my_lba_offset=5119000
++ peek_ loop-file 5119000
++ echo peek_: invalid offset: 5119000
+peek_: invalid offset: 5119000
++ exit 1
++ byte=
++ fail=1
++ test x = xA
++ new_byte=A
++ poke_ loop-file 5119000 A
++ echo poke_: invalid offset: 5119000
+poke_: invalid offset: 5119000
++ exit 1
++ remove_tmp_
++ __st=1
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0280-gpt-corrupt.sh.WYuP
++ exit 1
+FAIL t0280-gpt-corrupt.sh (exit status: 1)
+
+SKIP: t0281-gpt-grow
+====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0281-gpt-grow.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0281-gpt-grow.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0281-gpt-grow.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0281-gpt-grow.sh: skipped test: FS test with sector size != 512
+t0281-gpt-grow.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ sed 1q
++ printf %s\n t0281-gpt-grow.sh: skipped test: FS test with sector size != 512
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0281-gpt-grow.sh.t4gM
++ exit 77
+SKIP t0281-gpt-grow.sh (exit status: 77)
+
+SKIP: t0282-gpt-move-backup
+===========================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0282-gpt-move-backup.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0282-gpt-move-backup.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.-teJ
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted .
++ test 2 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 1 != 0
++ path_dir_=.
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/.:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0282-gpt-move-backup.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0282-gpt-move-backup.sh: skipped test: FS test with sector size != 512
+t0282-gpt-move-backup.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t0282-gpt-move-backup.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0282-gpt-move-backup.sh.SteJ
++ exit 77
+SKIP t0282-gpt-move-backup.sh (exit status: 77)
+
+SKIP: t0283-overlap-partitions
+==============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0283-overlap-partitions.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0283-overlap-partitions.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted .
++ test 2 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 1 != 0
++ path_dir_=.
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/.:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0283-overlap-partitions.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0283-overlap-partitions.sh: skipped test: FS test with sector size != 512
+t0283-overlap-partitions.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ sed 1q
++ printf %s\n t0283-overlap-partitions.sh: skipped test: FS test with sector size != 512
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0283-overlap-partitions.sh.GLPU
++ exit 77
+SKIP t0283-overlap-partitions.sh (exit status: 77)
+
+SKIP: t0350-mac-PT-increases-sector-size
+========================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t0350-mac-PT-increases-sector-size.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t0350-mac-PT-increases-sector-size.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.-gXV
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t0350-mac-PT-increases-sector-size.sh: skipped test: FS test with sector size != 512
++ printf %s\n t0350-mac-PT-increases-sector-size.sh: skipped test: FS test with sector size != 512
+t0350-mac-PT-increases-sector-size.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t0350-mac-PT-increases-sector-size.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t0350-mac-PT-increases-sector-size.sh.SgXV
++ exit 77
+SKIP t0350-mac-PT-increases-sector-size.sh (exit status: 77)
+
+SKIP: t1100-busy-label
+======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t1100-busy-label.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t1100-busy-label.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t1100-busy-label.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t1100-busy-label.sh: skipped test: you lack the scsi_debug kernel module
+t1100-busy-label.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t1100-busy-label.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1100-busy-label.sh.9jxn
++ exit 77
+SKIP t1100-busy-label.sh (exit status: 77)
+
+SKIP: t1101-busy-partition
+==========================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t1101-busy-partition.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t1101-busy-partition.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ test yes = yes
++ parted --version
+parted (GNU parted) 3.3
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by <http://git.debian.org/?p=parted/parted.git;a=blob_plain;f=AUTHORS>.
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t1101-busy-partition.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t1101-busy-partition.sh: skipped test: you lack the scsi_debug kernel module
+t1101-busy-partition.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ sed 1q
++ printf %s\n t1101-busy-partition.sh: skipped test: you lack the scsi_debug kernel module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1101-busy-partition.sh.BkQY
++ exit 77
+SKIP t1101-busy-partition.sh (exit status: 77)
+
+SKIP: t1102-loop-label
+======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t1102-loop-label.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t1102-loop-label.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ path_prepend_ ../partprobe
++ test 1 != 0
++ path_dir_=../partprobe
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../partprobe
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../partprobe:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../partprobe
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t1102-loop-label.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t1102-loop-label.sh: skipped test: you lack the scsi_debug kernel module
+t1102-loop-label.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t1102-loop-label.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1102-loop-label.sh.QFCV
++ exit 77
+SKIP t1102-loop-label.sh (exit status: 77)
+
+SKIP: t1700-probe-fs
+====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t1700-probe-fs.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t1700-probe-fs.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t1700-probe-fs.sh: skipped test: FS test with sector size != 512
++ printf %s\n t1700-probe-fs.sh: skipped test: FS test with sector size != 512
+t1700-probe-fs.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ sed 1q
++ printf %s\n t1700-probe-fs.sh: skipped test: FS test with sector size != 512
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1700-probe-fs.sh.cyF9
++ exit 77
+SKIP t1700-probe-fs.sh (exit status: 77)
+
+SKIP: t1701-rescue-fs
+=====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t1701-rescue-fs.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t1701-rescue-fs.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t1701-rescue-fs.sh: skipped test: FS test with sector size != 512
++ printf %s\n t1701-rescue-fs.sh: skipped test: FS test with sector size != 512
+t1701-rescue-fs.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t1701-rescue-fs.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t1701-rescue-fs.sh.TMDP
++ exit 77
+SKIP t1701-rescue-fs.sh (exit status: 77)
+
+SKIP: t2201-pc98-label-recog
+============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t2201-pc98-label-recog.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t2201-pc98-label-recog.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t2201-pc98-label-recog.sh: skipped test: FS test with sector size != 512
++ printf %s\n t2201-pc98-label-recog.sh: skipped test: FS test with sector size != 512
+t2201-pc98-label-recog.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ sed 1q
++ printf %s\n t2201-pc98-label-recog.sh: skipped test: FS test with sector size != 512
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2201-pc98-label-recog.sh.wxRe
++ exit 77
+SKIP t2201-pc98-label-recog.sh (exit status: 77)
+
+SKIP: t2300-dos-label-extended-bootcode
+=======================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t2300-dos-label-extended-bootcode.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t2300-dos-label-extended-bootcode.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t2300-dos-label-extended-bootcode.sh: skipped test: FS test with sector size != 512
++ printf %s\n t2300-dos-label-extended-bootcode.sh: skipped test: FS test with sector size != 512
+t2300-dos-label-extended-bootcode.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t2300-dos-label-extended-bootcode.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2300-dos-label-extended-bootcode.sh.1vnk
++ exit 77
+SKIP t2300-dos-label-extended-bootcode.sh (exit status: 77)
+
+SKIP: t2310-dos-extended-2-sector-min-offset
+============================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t2310-dos-extended-2-sector-min-offset.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t2310-dos-extended-2-sector-min-offset.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t2310-dos-extended-2-sector-min-offset.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t2310-dos-extended-2-sector-min-offset.sh: skipped test: you lack the scsi_debug kernel module
+t2310-dos-extended-2-sector-min-offset.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t2310-dos-extended-2-sector-min-offset.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2310-dos-extended-2-sector-min-offset.sh.6qiH
++ exit 77
+SKIP t2310-dos-extended-2-sector-min-offset.sh (exit status: 77)
+
+SKIP: t2320-dos-extended-noclobber
+==================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t2320-dos-extended-noclobber.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t2320-dos-extended-noclobber.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t2320-dos-extended-noclobber.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t2320-dos-extended-noclobber.sh: skipped test: you lack the scsi_debug kernel module
+t2320-dos-extended-noclobber.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t2320-dos-extended-noclobber.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t2320-dos-extended-noclobber.sh.EO8u
++ exit 77
+SKIP t2320-dos-extended-noclobber.sh (exit status: 77)
+
+SKIP: t3000-resize-fs
+=====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t3000-resize-fs.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t3000-resize-fs.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79-z
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted .
++ test 2 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 1 != 0
++ path_dir_=.
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/.:/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/.
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_hfs_
++ mkfs.hfs
++ grep ^usage:
++ skip_ mkfs.hfs: command not found
++ warn_ t3000-resize-fs.sh: skipped test: mkfs.hfs: command not found
++ printf %s\n t3000-resize-fs.sh: skipped test: mkfs.hfs: command not found
+t3000-resize-fs.sh: skipped test: mkfs.hfs: command not found
++ test 9 = 2
++ sed 1q
++ printf %s\n t3000-resize-fs.sh: skipped test: mkfs.hfs: command not found
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3000-resize-fs.sh.79Sz
++ exit 77
+SKIP t3000-resize-fs.sh (exit status: 77)
+
+SKIP: t3200-resize-partition
+============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t3200-resize-partition.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t3200-resize-partition.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.-uMB
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t3200-resize-partition.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t3200-resize-partition.sh: skipped test: you lack the scsi_debug kernel module
+t3200-resize-partition.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ sed 1q
++ printf %s\n t3200-resize-partition.sh: skipped test: you lack the scsi_debug kernel module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-resize-partition.sh.SuMB
++ exit 77
+SKIP t3200-resize-partition.sh (exit status: 77)
+
+SKIP: t3200-type-change
+=======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t3200-type-change.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t3200-type-change.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:02 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t3200-type-change.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t3200-type-change.sh: skipped test: you lack the scsi_debug kernel module
+t3200-type-change.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t3200-type-change.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3200-type-change.sh.cpAW
++ exit 77
+SKIP t3200-type-change.sh (exit status: 77)
+
+SKIP: t3400-whole-disk-FAT-partition
+====================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t3400-whole-disk-FAT-partition.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t3400-whole-disk-FAT-partition.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t3400-whole-disk-FAT-partition.sh: skipped test: FS test with sector size != 512
++ printf %s\n t3400-whole-disk-FAT-partition.sh: skipped test: FS test with sector size != 512
+t3400-whole-disk-FAT-partition.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t3400-whole-disk-FAT-partition.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t3400-whole-disk-FAT-partition.sh.p1ss
++ exit 77
+SKIP t3400-whole-disk-FAT-partition.sh (exit status: 77)
+
+SKIP: t4200-partprobe
+=====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t4200-partprobe.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t4200-partprobe.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_erasable_
++ test -n 
++ skip_ This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
++ warn_ t4200-partprobe.sh: skipped test: This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
++ printf %s\n t4200-partprobe.sh: skipped test: This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
+t4200-partprobe.sh: skipped test: This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
++ test 9 = 2
++ printf %s\n t4200-partprobe.sh: skipped test: This test requires an erasable device and you have not properly set the $DEVICE_TO_ERASE and $DEVICE_TO_ERASE_SIZE envvars.
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t4200-partprobe.sh.TxJu
++ exit 77
+SKIP t4200-partprobe.sh (exit status: 77)
+
+SKIP: t6002-dm-busy
+===================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t6002-dm-busy.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t6002-dm-busy.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_512_byte_sector_size_
++ test 1024 = 512
++ skip_ FS test with sector size != 512
++ warn_ t6002-dm-busy.sh: skipped test: FS test with sector size != 512
++ printf %s\n t6002-dm-busy.sh: skipped test: FS test with sector size != 512
+t6002-dm-busy.sh: skipped test: FS test with sector size != 512
++ test 9 = 2
++ printf %s\n t6002-dm-busy.sh: skipped test: FS test with sector size != 512
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6002-dm-busy.sh.JpiA
++ exit 77
+SKIP t6002-dm-busy.sh (exit status: 77)
+
+FAIL: t6004-dm-many-partitions
+==============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t6004-dm-many-partitions.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t6004-dm-many-partitions.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_udevadm_settle_
++ udevadm --help
++ ss=1024
++ ns=300
++ n_partitions=20
++ start_sector=34
++ loop_file=loop-file-10467
++ dm_name=dm-test-10467
++ dd if=/dev/null of=loop-file-10467 bs=1024 seek=300
+0+0 records in
+0+0 records out
+0 bytes copied, 0.000355787 s, 0.0 kB/s
++ losetup --show -f loop-file-10467
++ dev=/dev/loop9
++ dmsetup create dm-test-10467 --table 0 300 linear /dev/loop9 0
++ cmd=
+./t6004-dm-many-partitions.sh: 45: Syntax error: Bad for loop variable
++ remove_tmp_
++ __st=2
++ cleanup_
++ dmsetup remove dm-test-10467
++ test -n /dev/loop9
++ losetup -d /dev/loop9
++ rm -f loop-file-10467
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6004-dm-many-partitions.sh.UkQn
++ exit 2
+FAIL t6004-dm-many-partitions.sh (exit status: 2)
+
+FAIL: t6005-dm-uuid
+===================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t6005-dm-uuid.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t6005-dm-uuid.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ + tr S -
+ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_udevadm_settle_
++ udevadm --help
++ ss=1024
++ ns=300
++ n_partitions=3
++ start_sector=34
++ loop_file=loop-file-10530
++ dm_name=dm-test-10530
++ loop_setup_ loop-file-10530
++ file=loop-file-10530
++ dd if=/dev/null of=loop-file-10530 bs=1M count=1 seek=1000
++ losetup --show -f loop-file-10530
++ dev=/dev/loop9
++ echo /dev/loop9
++ return 0
++ dev=/dev/loop9
++ dmsetup create dm-test-10530 --table 0 300 linear /dev/loop9 0
++ dmsetup rename dm-test-10530 --setuuid f139317b-f98a-45d7-ab3b-9b4e0a336872
++ cmd=
+./t6005-dm-uuid.sh: 45: Syntax error: Bad for loop variable
++ remove_tmp_
++ __st=2
++ cleanup_
++ dmsetup remove dm-test-10530
++ test -n /dev/loop9
++ losetup -d /dev/loop9
++ rm -f loop-file-10530
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6005-dm-uuid.sh.3dNo
++ exit 2
+FAIL t6005-dm-uuid.sh (exit status: 2)
+
+SKIP: t6006-dm-512b-sectors
+===========================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t6006-dm-512b-sectors.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t6006-dm-512b-sectors.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ perms=drwx------ 2 4096 Nov 13 21:03 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t6006-dm-512b-sectors.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t6006-dm-512b-sectors.sh: skipped test: you lack the scsi_debug kernel module
+t6006-dm-512b-sectors.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t6006-dm-512b-sectors.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6006-dm-512b-sectors.sh.3TTb
++ exit 77
+SKIP t6006-dm-512b-sectors.sh (exit status: 77)
+
+SKIP: t6100-mdraid-partitions
+=============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t6100-mdraid-partitions.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t6100-mdraid-partitions.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t6100-mdraid-partitions.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t6100-mdraid-partitions.sh: skipped test: you lack the scsi_debug kernel module
+t6100-mdraid-partitions.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ sed 1q
++ printf %s\n t6100-mdraid-partitions.sh: skipped test: you lack the scsi_debug kernel module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t6100-mdraid-partitions.sh.mvsH
++ exit 77
+SKIP t6100-mdraid-partitions.sh (exit status: 77)
+
+SKIP: t9010-big-sector
+======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9010-big-sector.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9010-big-sector.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9010-big-sector.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9010-big-sector.sh: skipped test: you lack the scsi_debug kernel module
+t9010-big-sector.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t9010-big-sector.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9010-big-sector.sh.7a7d
++ exit 77
+SKIP t9010-big-sector.sh (exit status: 77)
+
+SKIP: t9020-alignment
+=====================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9020-alignment.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9020-alignment.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9020-alignment.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9020-alignment.sh: skipped test: you lack the scsi_debug kernel module
+t9020-alignment.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t9020-alignment.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9020-alignment.sh.XLlq
++ exit 77
+SKIP t9020-alignment.sh (exit status: 77)
+
+SKIP: t9030-align-check
+=======================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9030-align-check.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9030-align-check.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ ss=1024
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9030-align-check.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9030-align-check.sh: skipped test: you lack the scsi_debug kernel module
+t9030-align-check.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ printf %s\n t9030-align-check.sh: skipped test: you lack the scsi_debug kernel module
++ sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9030-align-check.sh.2CCT
++ exit 77
+SKIP t9030-align-check.sh (exit status: 77)
+
+SKIP: t9040-many-partitions
+===========================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9040-many-partitions.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9040-many-partitions.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9040-many-partitions.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9040-many-partitions.sh: skipped test: you lack the scsi_debug kernel module
+t9040-many-partitions.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ + printf %s\n t9040-many-partitions.sh: skipped test: you lack the scsi_debug kernel module
+sed 1q
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9040-many-partitions.sh.xLEC
++ exit 77
+SKIP t9040-many-partitions.sh (exit status: 77)
+
+SKIP: t9041-undetected-in-use-16th-partition
+============================================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9041-undetected-in-use-16th-partition.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9041-undetected-in-use-16th-partition.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ tr S -
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9041-undetected-in-use-16th-partition.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9041-undetected-in-use-16th-partition.sh: skipped test: you lack the scsi_debug kernel module
+t9041-undetected-in-use-16th-partition.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ sed 1q
++ printf %s\n t9041-undetected-in-use-16th-partition.sh: skipped test: you lack the scsi_debug kernel module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9041-undetected-in-use-16th-partition.sh.FdzE
++ exit 77
+SKIP t9041-undetected-in-use-16th-partition.sh (exit status: 77)
+
+SKIP: t9042-dos-partition-limit
+===============================
+
++ initial_cwd_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ fail=0
++ testdir_prefix_
++ printf gt
++ pfx_=gt
++ mktempd_ /usr/ports/opt/parted/work/src/parted-3.3/tests gt-t9042-dos-partition-limit.sh.XXXX
++ destdir_=/usr/ports/opt/parted/work/src/parted-3.3/tests
++ template_=gt-t9042-dos-partition-limit.sh.XXXX
++ MAX_TRIES_=4
++ unset TMPDIR
++ d=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ test -d /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ tr S -
++ ls -dgo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ perms=drwx------ 2 4096 Nov 13 21:04 /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ test 0 = 0
++ echo /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ return
++ test_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ gl_init_sh_nl_=
+
++ IFS= 	
+
++ expr 1 + 128
++ eval trap 'Exit 129' 1
++ trap Exit 129 1
++ expr 2 + 128
++ eval trap 'Exit 130' 2
++ trap Exit 130 2
++ expr 3 + 128
++ eval trap 'Exit 131' 3
++ trap Exit 131 3
++ expr 13 + 128
++ eval trap 'Exit 141' 13
++ trap Exit 141 13
++ expr 15 + 128
++ eval trap 'Exit 143' 15
++ trap Exit 143 15
++ trap remove_tmp_ 0
++ path_prepend_ ../parted
++ test 1 != 0
++ path_dir_=../parted
++ abs_path_dir_=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ PATH=/usr/ports/opt/parted/work/src/parted-3.3/tests/../parted:/usr/ports/opt/parted/work/src/parted-3.3/parted:/sbin:/usr/sbin:/opt/sbin:/bin:/usr/bin:/opt/bin
++ create_exe_shims_ /usr/ports/opt/parted/work/src/parted-3.3/tests/../parted
++ return 0
++ shift
++ test 0 != 0
++ export PATH
++ require_root_
++ uid_is_privileged_
++ id -u
++ my_uid=0
++ NON_ROOT_USERNAME=nobody
++ id -g nobody
++ NON_ROOT_GROUP=99
++ require_scsi_debug_module_
++ require_udevadm_settle_
++ udevadm --help
++ modprobe -n scsi_debug
+modprobe: FATAL: Module scsi_debug not found in directory /lib/modules/4.19.145-cruxppc-beta
++ skip_ you lack the scsi_debug kernel module
++ warn_ t9042-dos-partition-limit.sh: skipped test: you lack the scsi_debug kernel module
++ printf %s\n t9042-dos-partition-limit.sh: skipped test: you lack the scsi_debug kernel module
+t9042-dos-partition-limit.sh: skipped test: you lack the scsi_debug kernel module
++ test 9 = 2
++ sed 1q
++ printf %s\n t9042-dos-partition-limit.sh: skipped test: you lack the scsi_debug kernel module
++ Exit 77
++ set +e
++ exit 77
++ exit 77
++ remove_tmp_
++ __st=77
++ cleanup_
++ cleanup_fn_
++ :
++ cleanup_final_
++ scsi_debug_cleanup_
++ test -n 
++ rm -fr /usr/ports/opt/parted/work/src/parted-3.3/tests/scsi_debug.lock
++ cd /usr/ports/opt/parted/work/src/parted-3.3/tests
++ chmod -R u+rwx /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ rm -rf /usr/ports/opt/parted/work/src/parted-3.3/tests/gt-t9042-dos-partition-limit.sh.07wb
++ exit 77
+SKIP t9042-dos-partition-limit.sh (exit status: 77)
+
+============================================================================
+Testsuite summary for GNU parted 3.3
+============================================================================
+# TOTAL: 85
+# PASS:  47
+# SKIP:  32
+# XFAIL: 0
+# FAIL:  6
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to bug-parted@gnu.org
+============================================================================
+make[5]: *** [Makefile:1941: test-suite.log] Error 1
+make[5]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make[4]: *** [Makefile:2049: check-TESTS] Error 2
+make[4]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make[3]: *** [Makefile:2116: check-am] Error 2
+make[3]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3/tests'
+make[2]: *** [Makefile:1568: check-recursive] Error 1
+make[2]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3'
+make[1]: *** [Makefile:2046: ss-1024] Error 2
+make[1]: Leaving directory '/usr/ports/opt/parted/work/src/parted-3.3'
+make: *** [Makefile:2052: check-other-sector_sizes] Error 2

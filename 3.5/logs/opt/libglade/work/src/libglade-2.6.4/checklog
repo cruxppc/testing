@@ -1,0 +1,33 @@
+Making check in glade
+make[1]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/glade'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/glade'
+Making check in doc
+make[1]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/doc'
+Making check in tests
+make[1]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+make  test-libglade-gtk test-value-parse
+make[2]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+make[2]: 'test-libglade-gtk' is up to date.
+make[2]: 'test-value-parse' is up to date.
+make[2]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+Testing conversion... 
+widget convertwidget9 of class GtkList is broken.
+widget packer1 of class GtkPacker is removed.
+** Message: 19:14:33.256: Could not init gtk.  returning
+failed to load file with libglade
+SKIP: test-convert
+** Message: 19:14:33.475: Could not init gtk.  Skipping test
+SKIP: test-value-parse
+======================
+All 0 tests passed
+(2 tests were not run)
+======================
+make[2]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+make[1]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4/tests'
+make[1]: Entering directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4'
+make[1]: Leaving directory '/usr/ports/opt/libglade/work/src/libglade-2.6.4'

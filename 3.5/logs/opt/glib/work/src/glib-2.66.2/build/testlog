@@ -1,0 +1,512 @@
+[0/1] Running all tests.
+  1/271 glib:glib / array-test                          OK             0.69s
+  2/271 glib:glib / asyncqueue                          OK             0.55s
+  3/271 glib:glib / atomic                              OK             0.71s
+  4/271 glib:glib / base64                              OK             0.10s
+  5/271 glib:glib / bitlock                             OK             0.04s
+  6/271 glib:glib / bookmarkfile                        OK             0.32s
+  7/271 glib:glib / bytes                               OK             0.04s
+  8/271 glib:glib / cache                               OK             0.04s
+  9/271 glib:glib / charset                             OK             0.05s
+ 10/271 glib:glib / checksum                            OK             2.99s
+ 11/271 glib:glib / collate                             OK             0.06s
+ 12/271 glib:glib / cond                                OK             2.31s
+ 13/271 glib:glib / convert                             OK             0.27s
+ 14/271 glib:glib / dataset                             OK             0.09s
+ 15/271 glib:glib / date                                OK             2.76s
+ 16/271 glib:glib / dir                                 OK             0.08s
+ 17/271 glib:glib / environment                         OK             0.06s
+ 18/271 glib:glib / error                               OK             0.07s
+ 20/271 glib:glib+slow / gdatetime                      OK             22.10s
+ 21/271 glib:glib / guuid                               OK             0.05s
+ 22/271 glib:glib+slow / gvariant                       OK             64.68s
+ 23/271 glib:glib / gwakeup                             OK             20.16s
+ 24/271 glib:glib / hash                                OK             0.16s
+ 25/271 glib:glib / hmac                                OK             0.08s
+ 26/271 glib:glib / hook                                OK             0.08s
+ 27/271 glib:glib / hostutils                           OK             0.06s
+ 28/271 glib:glib / io-channel                          OK             0.09s
+ 29/271 glib:glib / keyfile                             OK             0.07s
+ 30/271 glib:glib / list                                OK             0.12s
+ 31/271 glib:glib / logging                             OK             0.42s
+ 32/271 glib:glib / macros                              OK             0.04s
+ 33/271 glib:glib / mainloop                            OK             11.90s
+ 34/271 glib:glib / mappedfile                          OK             0.17s
+ 35/271 glib:glib / markup                              OK             0.06s
+ 36/271 glib:glib / markup-parse                        OK             0.25s
+ 37/271 glib:glib / markup-collect                      OK             0.11s
+ 38/271 glib:glib / markup-escape                       OK             0.11s
+ 39/271 glib:glib / markup-subparser                    OK             0.07s
+ 40/271 glib:glib / mem-overflow                        OK             0.65s
+ 41/271 glib:glib / mutex                               OK             35.41s
+ 42/271 glib:glib / node                                OK             0.05s
+ 43/271 glib:glib / once                                OK             0.19s
+ 44/271 glib:glib / option-context                      OK             0.51s
+ 45/271 glib:glib / option-argv0                        OK             0.09s
+ 46/271 glib:glib / overflow                            OK             0.07s
+ 47/271 glib:glib / overflow-fallback                   OK             0.06s
+ 48/271 glib:glib / pattern                             OK             0.12s
+ 49/271 glib:glib / private                             OK             2.37s
+ 50/271 glib:glib / protocol                            OK             0.18s
+ 51/271 glib:glib / queue                               OK             13.92s
+ 52/271 glib:glib / rand                                OK             0.45s
+ 53/271 glib:glib / rcbox                               OK             0.07s
+ 54/271 glib:glib / rec-mutex                           OK             48.22s
+ 55/271 glib:glib / refcount                            OK             0.17s
+ 56/271 glib:glib / refcount-macro                      OK             0.14s
+ 57/271 glib:glib / refstring                           OK             0.09s
+ 58/271 glib:glib / regex                               OK             0.22s
+ 59/271 glib:glib / rwlock                              OK             39.78s
+ 60/271 glib:glib / scannerapi                          OK             0.07s
+ 61/271 glib:glib / search-utils                        OK             0.16s
+ 62/271 glib:glib+slow / sequence                       OK             70.91s
+ 63/271 glib:glib / shell                               OK             0.07s
+ 64/271 glib:glib / slice                               OK             4.49s
+ 65/271 glib:glib / slist                               OK             0.11s
+ 66/271 glib:glib / sort                                OK             0.14s
+ 67/271 glib:glib / spawn-multithreaded                 OK             0.35s
+ 68/271 glib:glib / spawn-singlethread                  OK             0.33s
+ 69/271 glib:glib / strfuncs                            OK             0.12s
+ 70/271 glib:glib / string                              OK             0.18s
+ 71/271 glib:glib / testing                             OK             1.13s
+ 72/271 glib:glib / test-printf                         OK             0.16s
+ 73/271 glib:glib / thread                              OK             0.09s
+ 74/271 glib:glib / thread-pool                         OK             0.14s
+ 75/271 glib:glib / timeout                             OK             14.99s
+ 76/271 glib:glib / timer                               OK             0.06s
+ 77/271 glib:glib / tree                                OK             0.09s
+ 78/271 glib:glib / utf8-performance                    OK             0.05s
+ 79/271 glib:glib / utf8-pointer                        OK             3.92s
+ 80/271 glib:glib / utf8-validate                       OK             0.13s
+ 81/271 glib:glib / utf8-misc                           OK             0.09s
+ 82/271 glib:glib / utils                               OK             0.17s
+ 83/271 glib:glib / unicode                             OK             0.47s
+ 84/271 glib:glib / uri                                 OK             0.12s
+ 86/271 glib:glib+slow / 1bit-emufutex                  OK             94.19s
+ 87/271 glib:glib+slow / 642026                         OK             46.62s
+ 88/271 glib:glib+slow / 642026-ec                      OK             53.04s
+ 89/271 glib:glib / autoptr                             OK             0.12s
+ 90/271 glib:glib / gwakeup-fallback                    OK             27.54s
+ 91/271 glib:glib / include                             OK             0.07s
+ 92/271 glib:glib / unix                                OK             3.61s
+ 93/271 glib:glib / gutils-user-database                OK             0.06s
+ 94/271 glib:glib / gtester-xmllint-check               OK             0.05s
+ 95/271 glib:gobject / qdata                            OK             1.23s
+ 96/271 glib:gobject / boxed                            OK             0.07s
+ 97/271 glib:gobject / enums                            OK             0.06s
+ 98/271 glib:gobject / param                            OK             2.43s
+ 99/271 glib:gobject / threadtests                      OK             5.66s
+100/271 glib:gobject / dynamictests                     OK             1.07s
+101/271 glib:gobject / binding                          OK             0.09s
+102/271 glib:gobject / properties                       OK             0.16s
+103/271 glib:gobject / reference                        OK             0.08s
+104/271 glib:gobject / flags                            OK             0.11s
+105/271 glib:gobject / value                            OK             0.07s
+106/271 glib:gobject / type                             OK             0.09s
+107/271 glib:gobject / gobject-private                  OK             0.06s
+108/271 glib:gobject / closure                          OK             0.16s
+109/271 glib:gobject+slow / closure-refcount            OK             49.58s
+110/271 glib:gobject / object                           OK             0.18s
+111/271 glib:gobject / signal-handler                   OK             0.05s
+112/271 glib:gobject / ifaceproperties                  OK             0.10s
+113/271 glib:gobject / signals                          OK             0.34s
+114/271 glib:gobject / testing                          OK             0.11s
+115/271 glib:gobject / autoptr                          OK             0.05s
+116/271 glib:gobject+no-valgrind / genmarshal.py        OK             8.37s
+117/271 glib:gobject+no-valgrind / mkenums.py           OK             19.24s
+118/271 glib:gio / appmonitor                           OK             0.14s
+119/271 glib:gio / async-close-output-stream            OK             0.11s
+120/271 glib:gio / async-splice-output-stream           OK             0.17s
+121/271 glib:gio / buffered-input-stream                OK             0.06s
+122/271 glib:gio / buffered-output-stream               OK             0.06s
+123/271 glib:gio / cancellable                          OK             8.50s
+124/271 glib:gio / contexts                             OK             2.10s
+125/271 glib:gio / contenttype                          OK             0.26s
+126/271 glib:gio / converter-stream                     OK             11.85s
+127/271 glib:gio / credentials                          OK             0.10s
+128/271 glib:gio / data-input-stream                    OK             4.00s
+129/271 glib:gio / data-output-stream                   OK             0.95s
+130/271 glib:gio / defaultvalue                         OK             0.15s
+131/271 glib:gio / fileattributematcher                 OK             0.10s
+132/271 glib:gio / filter-streams                       OK             0.10s
+133/271 glib:gio / giomodule                            OK             0.14s
+134/271 glib:gio / gsubprocess                          OK             11.83s
+135/271 glib:gio / g-file                               OK             0.09s
+136/271 glib:gio / g-file-info                          OK             0.09s
+137/271 glib:gio / g-icon                               OK             0.11s
+138/271 glib:gio / gdbus-addresses                      OK             0.07s
+139/271 glib:gio / gdbus-message                        OK             0.07s
+140/271 glib:gio / inet-address                         OK             0.06s
+141/271 glib:gio / io-stream                            OK             0.10s
+142/271 glib:gio / memory-input-stream                  OK             0.10s
+143/271 glib:gio / memory-monitor                       OK             0.09s
+144/271 glib:gio / memory-output-stream                 OK             0.20s
+145/271 glib:gio / mount-operation                      OK             0.06s
+146/271 glib:gio / network-address                      OK             1.93s
+147/271 glib:gio / network-monitor                      OK             0.29s
+148/271 glib:gio / network-monitor-race                 OK             3.07s
+149/271 glib:gio / permission                           OK             0.07s
+150/271 glib:gio / pollable                             OK             0.09s
+151/271 glib:gio / proxy-test                           OK             0.55s
+152/271 glib:gio / readwrite                            OK             0.14s
+153/271 glib:gio / simple-async-result                  OK             0.05s
+154/271 glib:gio / simple-proxy                         OK             0.07s
+155/271 glib:gio / sleepy-stream                        OK             0.10s
+156/271 glib:gio / socket                               OK             5.43s
+157/271 glib:gio / socket-listener                      OK             0.09s
+158/271 glib:gio / socket-service                       OK             0.10s
+159/271 glib:gio / srvtarget                            OK             4.76s
+160/271 glib:gio / task                                 OK             1.50s
+161/271 glib:gio / vfs                                  OK             0.10s
+162/271 glib:gio / volumemonitor                        OK             0.13s
+163/271 glib:gio / glistmodel                           OK             0.31s
+164/271 glib:gio+slow+flaky / testfilemonitor           OK             38.65s
+165/271 glib:gio / thumbnail-verification               OK             0.05s
+166/271 glib:gio / tls-certificate                      OK             0.07s
+167/271 glib:gio / tls-interaction                      OK             0.17s
+168/271 glib:gio / tls-database                         OK             0.07s
+169/271 glib:gio / tls-bindings                         OK             0.17s
+170/271 glib:gio / gdbus-address-get-session            OK             0.18s
+171/271 glib:gio / win32-appinfo                        OK             0.14s
+172/271 glib:gio / gdbus-serialization                  OK             0.08s
+173/271 glib:gio / gdbus-server-auth                    OK             4.27s
+174/271 glib:gio / file                                 OK             0.71s
+175/271 glib:gio / gdbus-peer                           OK             2.12s
+176/271 glib:gio / gdbus-peer-object-manager            OK             0.14s
+177/271 glib:gio / live-g-file                          OK             1.45s
+178/271 glib:gio / socket-address                       OK             0.09s
+179/271 glib:gio / stream-rw_all                        OK             0.07s
+180/271 glib:gio / unix-fd                              OK             0.06s
+181/271 glib:gio / unix-mounts                          OK             0.05s
+182/271 glib:gio / unix-streams                         OK             1.13s
+183/271 glib:gio / g-file-info-filesystem-readonly      OK             0.05s
+184/271 glib:gio / gschema-compile                      OK             2.59s
+185/271 glib:gio / trash                                OK             0.08s
+186/271 glib:gio / gsocketclient-slow                   OK             1.28s
+187/271 glib:gio / appinfo                              OK             0.49s
+188/271 glib:gio / desktop-app-info                     OK             7.18s
+189/271 glib:gio / mimeapps                             OK             0.96s
+190/271 glib:gio+slow / actions                         OK             16.63s
+191/271 glib:gio / gdbus-auth                           OK             0.25s
+192/271 glib:gio / gdbus-bz627724                       OK             0.14s
+193/271 glib:gio / gdbus-close-pending                  OK             2.24s
+194/271 glib:gio / gdbus-connection                     OK             0.73s
+195/271 glib:gio / gdbus-connection-loss                OK             0.37s
+196/271 glib:gio / gdbus-connection-slow                OK             12.45s
+197/271 glib:gio / gdbus-error                          OK             0.05s
+198/271 glib:gio / gdbus-exit-on-close                  OK             0.73s
+199/271 glib:gio+slow / gdbus-export                    OK             0.83s
+200/271 glib:gio / gdbus-introspection                  OK             0.35s
+201/271 glib:gio / gdbus-names                          OK             0.30s
+202/271 glib:gio / gdbus-proxy                          OK             4.13s
+203/271 glib:gio / gdbus-proxy-threads                  OK             24.07s
+204/271 glib:gio / gdbus-proxy-unique-name              OK             0.36s
+205/271 glib:gio / gdbus-proxy-well-known-name          OK             0.44s
+206/271 glib:gio / gdbus-test-codegen                   OK             0.69s
+208/271 glib:gio+slow / gmenumodel                      OK             43.84s
+209/271 glib:gio / gnotification                        OK             0.16s
+210/271 glib:gio / gdbus-test-codegen-old               OK             0.64s
+211/271 glib:gio / gdbus-test-codegen-min-required-2-64 OK             0.59s
+212/271 glib:gio / gapplication                         OK             0.91s
+213/271 glib:gio / dbus-appinfo                         OK             0.30s
+214/271 glib:gio / gdbus-connection-flush               OK             0.19s
+215/271 glib:gio / gdbus-non-socket                     OK             0.10s
+216/271 glib:gio / gsettings                            OK             1.61s
+217/271 glib:gio / autoptr-gio                          OK             0.07s
+218/271 glib:gio / resources                            OK             0.15s
+219/271 glib:gio+no-valgrind / codegen.py               OK             9.79s
+220/271 glib:gobject / gvalue-test                      OK             0.04s
+221/271 glib:gobject / paramspec-test                   OK             0.05s
+222/271 glib:gobject / deftype                          OK             0.02s
+223/271 glib:gobject / defaultiface                     OK             0.03s
+224/271 glib:gobject / dynamictype                      OK             0.04s
+225/271 glib:gobject / override                         OK             0.03s
+226/271 glib:gobject / signals                          OK             0.03s
+227/271 glib:gobject / singleton                        OK             0.03s
+228/271 glib:gobject / references                       OK             0.03s
+229/271 glib:gobject / testgobject                      OK             0.06s
+230/271 glib:gobject / accumulator                      OK             0.02s
+231/271 glib:gobject / timeloop-closure                 OK             1.33s
+232/271 glib:refcount / objects                         OK             5.07s
+233/271 glib:refcount+slow / objects2                   OK             62.40s
+234/271 glib:refcount / properties                      OK             3.09s
+235/271 glib:refcount+slow / properties2                OK             18.61s
+236/271 glib:refcount+slow / properties3                OK             30.14s
+237/271 glib:refcount / properties4                     OK             0.11s
+238/271 glib:refcount / signal1                         OK             5.10s
+239/271 glib:refcount / signal2                         OK             5.11s
+240/271 glib:refcount / signal3                         OK             5.06s
+241/271 glib:refcount / signal4                         OK             5.10s
+242/271 glib:glib / testglib                            OK             0.33s
+243/271 glib:glib / testgdate                           OK             8.29s
+244/271 glib:glib / datetime                            OK             0.07s
+245/271 glib:glib / bit-test                            OK             0.06s
+246/271 glib:glib / child-test                          OK             20.08s
+247/271 glib:glib / completion-test                     OK             0.04s
+248/271 glib:glib / dirname-test                        OK             0.03s
+249/271 glib:glib / file-test                           OK             0.02s
+250/271 glib:glib / env-test                            OK             0.02s
+251/271 glib:glib / gio-test                            OK             0.49s
+252/271 glib:glib / mainloop-test                       OK             5.44s
+253/271 glib:glib / mapping-test                        OK             0.20s
+254/271 glib:glib / onceinit                            OK             0.15s
+255/271 glib:glib / asyncqueue-test                     OK             22.10s
+256/271 glib:glib / qsort-test                          OK             0.18s
+257/271 glib:glib / relation-test                       OK             0.15s
+258/271 glib:glib / slice-concurrent                    OK             7.60s
+259/271 glib:glib / slice-threadinit                    OK             0.05s
+260/271 glib:glib / sources                             OK             6.61s
+261/271 glib:glib / spawn-test                          OK             0.11s
+262/271 glib:glib / thread-test                         OK             19.95s
+263/271 glib:glib+slow / threadpool-test                OK             36.15s
+264/271 glib:glib / type-test                           OK             0.03s
+265/271 glib:glib / unicode-caseconv                    OK             0.15s
+266/271 glib:glib / unicode-encoding                    OK             0.05s
+267/271 glib:glib / module-test-library                 OK             0.05s
+268/271 glib:glib / module-test-plugin                  OK             0.05s
+269/271 glib:glib / cxx-test                            OK             0.03s
+270/271 glib:glib / timeloop                            OK             1.03s
+271/271 glib:glib / iochannel-test                      OK             0.09s
+
+The output from the failed tests:
+
+ 19/271 glib:glib / fileutils                           FAIL           2.55s (killed by signal 6 SIGABRT)
+
+--- command ---
+15:02:13 MALLOC_CHECK_='2' G_DEBUG='gc-friendly' MALLOC_PERTURB_='122' G_TEST_SRCDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/glib/tests' G_TEST_BUILDDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/build/glib/tests' /usr/ports/opt/glib/work/src/glib-2.66.2/build/glib/tests/fileutils
+--- Listing only the last 100 lines from a long log. ---
+# Flags 0 and test 0
+# Flags 0 and test 1
+# Flags 0 and test 2
+# Flags 0 and test 3
+# Flags 0 and test 4
+# Flags 0 and test 5
+# Flags 1 and test 0
+# Flags 1 and test 1
+# Flags 1 and test 2
+# Flags 1 and test 3
+# Flags 1 and test 4
+# Flags 1 and test 5
+# Flags 2 and test 0
+# Flags 2 and test 1
+# Flags 2 and test 2
+# Flags 2 and test 3
+# Flags 2 and test 4
+# Flags 2 and test 5
+# Flags 3 and test 0
+# Flags 3 and test 1
+# Flags 3 and test 2
+# Flags 3 and test 3
+# Flags 3 and test 4
+# Flags 3 and test 5
+# Flags 4 and test 0
+# Flags 4 and test 1
+# Flags 4 and test 2
+# Flags 4 and test 3
+# Flags 4 and test 4
+# Flags 4 and test 5
+# Flags 5 and test 0
+# Flags 5 and test 1
+# Flags 5 and test 2
+# Flags 5 and test 3
+# Flags 5 and test 4
+# Flags 5 and test 5
+# Flags 6 and test 0
+# Flags 6 and test 1
+# Flags 6 and test 2
+# Flags 6 and test 3
+# Flags 6 and test 4
+# Flags 6 and test 5
+ok 15 /fileutils/set-contents-full
+# GLib-DEBUG: g_set_user_dirs: Setting HOME to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/home
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CACHE_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/cache
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/system-config1:/tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/system-config2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/config
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/system-data1:/tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/system-data2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/data
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_RUNTIME_DIR to /tmp/test_fileutils_ZVJVT0/fileutils/read-link/.dirs/runtime
+ok 16 /fileutils/read-link
+# GLib-DEBUG: g_set_user_dirs: Setting HOME to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/home
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CACHE_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/cache
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/system-config1:/tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/system-config2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/config
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/system-data1:/tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/system-data2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/data
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_RUNTIME_DIR to /tmp/test_fileutils_ZVJVT0/fileutils/stdio-wrappers/.dirs/runtime
+# Looks like we have CAP_DAC_OVERRIDE or equivalent
+# Cannot test g_chdir() failing with EACCES: we probably have CAP_DAC_OVERRIDE or equivalent
+ok 17 /fileutils/stdio-wrappers
+# GLib-DEBUG: g_set_user_dirs: Setting HOME to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/home
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CACHE_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/cache
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/system-config1:/tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/system-config2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/config
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/system-data1:/tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/system-data2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/data
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_RUNTIME_DIR to /tmp/test_fileutils_ZVJVT0/fileutils/fopen-modes/.dirs/runtime
+# Bug Reference: https://gitlab.gnome.org/GNOME/glib/merge_requests/119
+# Testing fopen() mode 'w'
+# Testing fopen() mode 'r'
+# Testing fopen() mode 'a'
+# Testing fopen() mode 'w+'
+# Testing fopen() mode 'r+'
+# Testing fopen() mode 'a+'
+# Testing fopen() mode 'wb'
+# Testing fopen() mode 'rb'
+# Testing fopen() mode 'ab'
+# Testing fopen() mode 'w+b'
+# Testing fopen() mode 'r+b'
+# Testing fopen() mode 'a+b'
+# Testing fopen() mode 'wb+'
+# Testing fopen() mode 'rb+'
+# Testing fopen() mode 'ab+'
+ok 18 /fileutils/fopen-modes
+# Start of set-contents-full tests
+# GLib-DEBUG: g_set_user_dirs: Setting HOME to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/home
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CACHE_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/cache
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/system-config1:/tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/system-config2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_CONFIG_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/config
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_DIRS to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/system-data1:/tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/system-data2
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_DATA_HOME to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/data
+# GLib-DEBUG: g_set_user_dirs: Setting XDG_RUNTIME_DIR to /tmp/test_fileutils_ZVJVT0/fileutils/set-contents-full/read-only-file/.dirs/runtime
+# /fileutils/set-contents-full/read-only-file summary: Test g_file_set_contents_full() on a read-only file
+Bail out! GLib:ERROR:../glib/tests/fileutils.c:1150:test_set_contents_full_read_only_file: assertion failed (error == (g-file-error-quark, 2)): error is NULL
+--- stderr ---
+**
+GLib:ERROR:../glib/tests/fileutils.c:1150:test_set_contents_full_read_only_file: assertion failed (error == (g-file-error-quark, 2)): error is NULL
+-------
+
+ 85/271 glib:glib / 1bit-mutex                          TIMEOUT        60.04s
+
+--- command ---
+15:04:55 MALLOC_CHECK_='2' G_DEBUG='gc-friendly' MALLOC_PERTURB_='122' G_TEST_SRCDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/glib/tests' G_TEST_BUILDDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/build/glib/tests' /usr/ports/opt/glib/work/src/glib-2.66.2/build/glib/tests/1bit-mutex
+--- stdout ---
+# random seed: R02Sd6b03953a8d83d07a8724231cbb35694
+1..2
+# Start of glib tests
+# Start of 1bit-mutex tests
+ok 1 /glib/1bit-mutex/int
+-------
+
+207/271 glib:gio+slow / gdbus-threading                 TIMEOUT        180.04s
+
+--- command ---
+15:09:49 G_TEST_BUILDDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/build/gio/tests' GIO_MODULE_DIR='' G_TEST_SRCDIR='/usr/ports/opt/glib/work/src/glib-2.66.2/gio/tests' /usr/ports/opt/glib/work/src/glib-2.66.2/build/gio/tests/gdbus-threading
+--- Listing only the last 100 lines from a long log. ---
+# GLib-GIO-DEBUG: refcount of 0xb5b0f670 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f670 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84820 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84820 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11048 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11048 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11158 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11158 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84b50 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84b50 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84c60 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84c60 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d628 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d628 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f6f8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f6f8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f2b8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f2b8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11730 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11730 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84ac8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84ac8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84930 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11870 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11870 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84f08 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84f08 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f1a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f1a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d270 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d270 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d738 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d738 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84ce8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84ce8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11400 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11400 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d1e8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d1e8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d738 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d738 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11488 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11488 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd848a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd848a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd848a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd848a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11400 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11400 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11598 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f1a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f1a8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f450 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f450 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f5e8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f5e8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d628 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d628 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d408 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d408 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b111e0 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b111e0 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d270 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d270 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d0d8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0d0d8 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84a40 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b11268 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b110d0 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b110d0 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f230 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f230 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84e80 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xd84e80 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f560 is not right, sleeping
+# GLib-GIO-DEBUG: refcount of 0xb5b0f560 is not right, sleeping
+-------
+
+
+Summary of Failures:
+
+ 19/271 glib:glib / fileutils                           FAIL           2.55s (killed by signal 6 SIGABRT)
+ 85/271 glib:glib / 1bit-mutex                          TIMEOUT        60.04s
+207/271 glib:gio+slow / gdbus-threading                 TIMEOUT        180.04s
+
+Ok:                 268 
+Expected Fail:      0   
+Fail:               1   
+Unexpected Pass:    0   
+Skipped:            0   
+Timeout:            2   
+
+Full log written to /usr/ports/opt/glib/work/src/glib-2.66.2/build/meson-logs/testlog.txt
+FAILED: meson-test 
+/usr/bin/meson test --no-rebuild --print-errorlogs
+ninja: build stopped: subcommand failed.
