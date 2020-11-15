@@ -1,0 +1,50 @@
+Running tests...
+Test project /usr/ports/opt/poppler/poppler-20.11.0
+      Start  1: poppler-check-text
+ 1/22 Test  #1: poppler-check-text .......................................   Passed    0.06 sec
+      Start  2: poppler-check-bb-shapes+attachments.pdf
+ 2/22 Test  #2: poppler-check-bb-shapes+attachments.pdf ..................   Passed    0.06 sec
+      Start  3: poppler-check-bb-orientation.pdf
+ 3/22 Test  #3: poppler-check-bb-orientation.pdf .........................   Passed    0.18 sec
+      Start  4: poppler-check-bb-xr01.pdf
+ 4/22 Test  #4: poppler-check-bb-xr01.pdf ................................   Passed    0.06 sec
+      Start  5: poppler-check-bb-xr02.pdf
+ 5/22 Test  #5: poppler-check-bb-xr02.pdf ................................   Passed    0.07 sec
+      Start  6: poppler-check-bb-russian.pdf
+ 6/22 Test  #6: poppler-check-bb-russian.pdf .............................   Passed    0.06 sec
+      Start  7: poppler-check-bb-vis_policy_test.pdf
+ 7/22 Test  #7: poppler-check-bb-vis_policy_test.pdf .....................   Passed    0.17 sec
+      Start  8: poppler-check-bb-searchAcrossLines.pdf
+ 8/22 Test  #8: poppler-check-bb-searchAcrossLines.pdf ...................   Passed    0.08 sec
+      Start  9: poppler-check-bb-deseret.pdf
+ 9/22 Test  #9: poppler-check-bb-deseret.pdf .............................   Passed    0.06 sec
+      Start 10: poppler-check-bb-fieldWithUtf16Names.pdf
+10/22 Test #10: poppler-check-bb-fieldWithUtf16Names.pdf .................   Passed    0.06 sec
+      Start 11: poppler-check-bb-bug7063.pdf
+11/22 Test #11: poppler-check-bb-bug7063.pdf .............................   Passed    0.06 sec
+      Start 12: poppler-check-bb-WithActualText.pdf
+12/22 Test #12: poppler-check-bb-WithActualText.pdf ......................   Passed    0.06 sec
+      Start 13: poppler-check-bb-Issue637.pdf
+13/22 Test #13: poppler-check-bb-Issue637.pdf ............................   Passed    0.06 sec
+      Start 14: poppler-check-bb-truetype.pdf
+14/22 Test #14: poppler-check-bb-truetype.pdf ............................   Passed    0.09 sec
+      Start 15: poppler-check-bb-form_set_icon.pdf
+15/22 Test #15: poppler-check-bb-form_set_icon.pdf .......................   Passed    0.07 sec
+      Start 16: poppler-check-bb-imageretrieve+attachment.pdf
+16/22 Test #16: poppler-check-bb-imageretrieve+attachment.pdf ............   Passed    0.07 sec
+      Start 17: poppler-check-bb-checkbox_issue_159.pdf
+17/22 Test #17: poppler-check-bb-checkbox_issue_159.pdf ..................   Passed    0.09 sec
+      Start 18: poppler-check-bb-NestedLayers.pdf
+18/22 Test #18: poppler-check-bb-NestedLayers.pdf ........................   Passed    0.09 sec
+      Start 19: poppler-check-bb-A6EmbeddedFiles.pdf
+19/22 Test #19: poppler-check-bb-A6EmbeddedFiles.pdf .....................   Passed    0.10 sec
+      Start 20: poppler-check-bb-latex-hyperref-checkbox-issue-655.pdf
+20/22 Test #20: poppler-check-bb-latex-hyperref-checkbox-issue-655.pdf ...   Passed    0.07 sec
+      Start 21: poppler-check-bb-utf16le-annot.pdf
+21/22 Test #21: poppler-check-bb-utf16le-annot.pdf .......................   Passed    0.06 sec
+      Start 22: poppler-check-bb-type3.pdf
+22/22 Test #22: poppler-check-bb-type3.pdf ...............................   Passed    0.10 sec
+
+100% tests passed, 0 tests failed out of 22
+
+Total Test time (real) =   1.83 sec
