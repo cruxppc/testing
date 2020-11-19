@@ -1,0 +1,86 @@
+ninja: Entering directory `build'
+[1/2] Preparing lit tests
+[1/2] Running all regression tests
+llvm-lit: /usr/ports/opt-ppc/llvm/work/src/build/utils/lit/tests/lit.cfg:80: warning: Setting a timeout per test not supported. Requires the Python psutil module but it could not be found. Try installing it via pip or via your operating system's package manager. Some tests will be skipped and the --timeout command line argument will not work.
+-- Testing: 35300 tests, 1 workers --
+Testing:  0.. 10.. 20.. 30.. 40.. 50..
+FAIL: LLVM :: DebugInfo/X86/debug_addr.ll (21092 of 35300)
+******************** TEST 'LLVM :: DebugInfo/X86/debug_addr.ll' FAILED ********************
+Script:
+--
+: 'RUN: at line 1';   /usr/ports/opt-ppc/llvm/work/src/build/bin/llc -split-dwarf-file=test.dwo -dwarf-version=4 /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/DebugInfo/X86/debug_addr.ll -mtriple=i386-unknown-linux-gnu -filetype=obj -o - |  /usr/ports/opt-ppc/llvm/work/src/build/bin/llvm-dwarfdump -v - | /usr/ports/opt-ppc/llvm/work/src/build/bin/FileCheck /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/DebugInfo/X86/debug_addr.ll -check-prefix=DWARF4
+: 'RUN: at line 4';   /usr/ports/opt-ppc/llvm/work/src/build/bin/llc -split-dwarf-file=test.dwo -dwarf-version=5 /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/DebugInfo/X86/debug_addr.ll -mtriple=i386-unknown-linux-gnu -filetype=obj -o - |  /usr/ports/opt-ppc/llvm/work/src/build/bin/llvm-dwarfdump -v - | /usr/ports/opt-ppc/llvm/work/src/build/bin/FileCheck /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/DebugInfo/X86/debug_addr.ll -check-prefix=DWARF5
+--
+Exit Code: 1
+
+Command Output (stderr):
+--
+/usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/DebugInfo/X86/debug_addr.ll:22:16: error: DWARF4-NEXT: expected string not found in input
+; DWARF4-NEXT: 0x00000000: Addr Section: length = 0x00000000, version = 0x0004, addr_size = 0x04, seg_size = 0x00
+               ^
+<stdin>:161:1: note: scanning from here
+0x0000000f: Addr Section: length = 0x00000000, version = 0x0004, addr_size = 0x04, seg_size = 0x00
+^
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 
+FAIL: LLVM :: ExecutionEngine/frem.ll (21650 of 35300)
+******************** TEST 'LLVM :: ExecutionEngine/frem.ll' FAILED ********************
+Script:
+--
+: 'RUN: at line 5';   /usr/ports/opt-ppc/llvm/work/src/build/bin/lli /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/ExecutionEngine/frem.ll | /usr/ports/opt-ppc/llvm/work/src/build/bin/FileCheck /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/ExecutionEngine/frem.ll
+--
+Exit Code: 2
+
+Command Output (stderr):
+--
+Stack dump:
+0.	Program arguments: /usr/ports/opt-ppc/llvm/work/src/build/bin/lli /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/ExecutionEngine/frem.ll 
+ #0 0xffffffffb449c64c llvm::sys::PrintStackTrace(llvm::raw_ostream&) (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x7a964c)
+ #1 0xffffffffb449c7c4 PrintStackTraceSignalHandler(void*) (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x7a97c4)
+ #2 0xffffffffb4499620 llvm::sys::RunSignalHandlers() (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x7a6620)
+ #3 0xffffffffb44997d0 SignalHandler(int) (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x7a67d0)
+ #4 0x001003c4 (linux-vdso32.so.1+0x3c4)
+ #5 0xffffffffb7b9002c 
+ #6 0xffffffffb5f36a38 llvm::MCJIT::runFunction(llvm::Function*, llvm::ArrayRef<llvm::GenericValue>) (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x2243a38)
+ #7 0xffffffffb5ed88f8 llvm::ExecutionEngine::runFunctionAsMain(llvm::Function*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&, char const* const*) (/usr/ports/opt-ppc/llvm/work/src/build/bin/../lib/libLLVM-10.so+0x21e58f8)
+ #8 0x0063c5ec main (/usr/ports/opt-ppc/llvm/work/src/build/bin/lli+0x1b5ec)
+ #9 0xffffffffb3b4146c (/lib/libc.so.6+0x2246c)
+#10 0xffffffffb3b41634 __libc_start_main (/lib/libc.so.6+0x22634)
+FileCheck error: '-' is empty.
+FileCheck command line:  /usr/ports/opt-ppc/llvm/work/src/build/bin/FileCheck /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/ExecutionEngine/frem.ll
+
+--
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 
+FAIL: LLVM :: ExecutionEngine/mov64zext32.ll (21651 of 35300)
+******************** TEST 'LLVM :: ExecutionEngine/mov64zext32.ll' FAILED ********************
+Script:
+--
+: 'RUN: at line 1';   /usr/ports/opt-ppc/llvm/work/src/build/bin/lli /usr/ports/opt-ppc/llvm/work/src/llvm-10.0.1.src/test/ExecutionEngine/mov64zext32.ll > /dev/null
+--
+Exit Code: 1
+
+
+********************
+Testing:  0.. 10.. 20.. 30.. 40.. 50.. 60.. 70.. 80.. 90.. 
+
+1 warning(s) in tests
+
+Testing Time: 7811.22s
+********************
+Failing Tests (3):
+    LLVM :: DebugInfo/X86/debug_addr.ll
+    LLVM :: ExecutionEngine/frem.ll
+    LLVM :: ExecutionEngine/mov64zext32.ll
+
+  Expected Passes    : 23481
+  Expected Failures  : 69
+  Unsupported Tests  : 11747
+  Unexpected Failures: 3
+FAILED: CMakeFiles/check-all 
+cd /usr/ports/opt-ppc/llvm/work/src/build && /usr/bin/python /usr/ports/opt-ppc/llvm/work/src/build/./bin/llvm-lit -sv /usr/ports/opt-ppc/llvm/work/src/build/utils/lit /usr/ports/opt-ppc/llvm/work/src/build/test
+ninja: build stopped: subcommand failed.
