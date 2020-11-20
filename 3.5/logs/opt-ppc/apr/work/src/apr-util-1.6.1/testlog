@@ -1,0 +1,60 @@
+cd test && make all check
+make[1]: Entering directory '/usr/ports/opt-ppc/apr/work/src/apr-util-1.6.1/test'
+make[2]: Entering directory '/usr/ports/opt-ppc/apr/work/src/apr-util-1.6.1/test'
+make[2]: Nothing to be done for 'local-all'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/apr/work/src/apr-util-1.6.1/test'
+teststatus=0; \
+progfailed=""; \
+for prog in  dbd testall; do \
+        if test "$prog" = 'dbd'; then \
+		for driver in none ; do \
+			if test "$driver" != 'none'; then \
+				LD_LIBRARY_PATH="`echo "../crypto/.libs:../dbm/.libs:../dbd/.libs:../ldap/.libs:$LD_LIBRARY_PATH" | sed -e 's/::*$//'`" \
+				./$prog $driver; \
+				status=$?; \
+				if test $status != 0; then \
+					teststatus=$status; \
+					progfailed="$progfailed '$prog $driver'"; \
+				fi; \
+			fi; \
+		done; \
+        else \
+		LD_LIBRARY_PATH="`echo "../crypto/.libs:../dbm/.libs:../dbd/.libs:../ldap/.libs:$LD_LIBRARY_PATH" | sed -e 's/::*$//'`" \
+		./$prog; \
+		status=$?; \
+		if test $status != 0; then \
+			teststatus=$status; \
+			progfailed="$progfailed $prog"; \
+		fi; \
+	fi; \
+done; \
+if test $teststatus != 0; then \
+	echo "Programs failed:$progfailed"; \
+fi; \
+exit $teststatus
+teststrmatch        :  SUCCESS
+testuri             :  SUCCESS
+testuuid            :  SUCCESS
+testbuckets         :  SUCCESS
+testpass            :  SUCCESS
+testmd4             :  SUCCESS
+testmd5             :  SUCCESS
+testcrypto          :  SUCCESS
+testdbd             :  SUCCESS
+testdate            :  SUCCESS
+testmemcache        :  SUCCESS
+testredis           :  SUCCESS
+testxml             :  SUCCESS
+testxlate           :  SUCCESS
+testrmm             :  SUCCESS
+testdbm             :  FAILED 1 of 3
+testqueue           :  SUCCESS
+testreslist         :  SUCCESS
+testsiphash         :  SUCCESS
+Failed Tests   		Total	Fail	Failed %
+===================================================
+testdbm        		    3	   1	 33.33%
+Programs failed: testall
+make[1]: *** [Makefile:60: check] Error 1
+make[1]: Leaving directory '/usr/ports/opt-ppc/apr/work/src/apr-util-1.6.1/test'
+make: *** [Makefile:121: check] Error 2
