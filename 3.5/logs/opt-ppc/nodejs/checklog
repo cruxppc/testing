@@ -1,0 +1,230 @@
+#
+#  Only a partial run here.  I think additional dependencies need to be added to run the entire test suite...
+#
+make -C out BUILDTYPE=Release V=1
+  touch b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated; "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/torque" ../src/builtins/base.tq ../src/builtins/array.tq ../src/builtins/typed-array.tq -o "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated"
+  touch 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector/protocol /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/include/inspector; python ../third_party/inspector_protocol/CodeGenerator.py --jinja_dir ../third_party --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector" --config ../src/inspector/inspector_protocol_config.json
+  touch d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/node/inspector/protocol; python tools/inspector_protocol/code_generator.py --jinja_dir tools/inspector_protocol/.. --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/" --config "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/node_protocol_config.json"
+rm d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+if [ ! -r node -o ! -L node ]; then ln -fs out/Release/node node; fi
+[==========] Running 80 tests from 10 test cases.
+[----------] Global test environment set-up.
+[----------] 14 tests from AliasBufferTest
+[ RUN      ] AliasBufferTest.Uint8Array
+[       OK ] AliasBufferTest.Uint8Array (24 ms)
+[ RUN      ] AliasBufferTest.Int8Array
+[       OK ] AliasBufferTest.Int8Array (21 ms)
+[ RUN      ] AliasBufferTest.Uint16Array
+[       OK ] AliasBufferTest.Uint16Array (20 ms)
+[ RUN      ] AliasBufferTest.Int16Array
+[       OK ] AliasBufferTest.Int16Array (20 ms)
+[ RUN      ] AliasBufferTest.Uint32Array
+[       OK ] AliasBufferTest.Uint32Array (21 ms)
+[ RUN      ] AliasBufferTest.Int32Array
+[       OK ] AliasBufferTest.Int32Array (21 ms)
+[ RUN      ] AliasBufferTest.Float32Array
+[       OK ] AliasBufferTest.Float32Array (20 ms)
+[ RUN      ] AliasBufferTest.Float64Array
+[       OK ] AliasBufferTest.Float64Array (21 ms)
+[ RUN      ] AliasBufferTest.SharedArrayBuffer1
+[       OK ] AliasBufferTest.SharedArrayBuffer1 (21 ms)
+[ RUN      ] AliasBufferTest.SharedArrayBuffer2
+[       OK ] AliasBufferTest.SharedArrayBuffer2 (21 ms)
+[ RUN      ] AliasBufferTest.SharedArrayBuffer3
+[       OK ] AliasBufferTest.SharedArrayBuffer3 (20 ms)
+[ RUN      ] AliasBufferTest.SharedArrayBuffer4
+[       OK ] AliasBufferTest.SharedArrayBuffer4 (21 ms)
+[ RUN      ] AliasBufferTest.OperatorOverloads
+[       OK ] AliasBufferTest.OperatorOverloads (20 ms)
+[ RUN      ] AliasBufferTest.OperatorOverloadsRefs
+[       OK ] AliasBufferTest.OperatorOverloadsRefs (21 ms)
+[----------] 14 tests from AliasBufferTest (293 ms total)
+
+[----------] 2 tests from Base64Test
+[ RUN      ] Base64Test.Encode
+[       OK ] Base64Test.Encode (0 ms)
+[ RUN      ] Base64Test.Decode
+[       OK ] Base64Test.Decode (0 ms)
+[----------] 2 tests from Base64Test (0 ms total)
+
+[----------] 7 tests from DebugSymbolsTest
+[ RUN      ] DebugSymbolsTest.ContextEmbedderEnvironmentIndex
+[       OK ] DebugSymbolsTest.ContextEmbedderEnvironmentIndex (17 ms)
+[ RUN      ] DebugSymbolsTest.ExternalStringDataOffset
+[       OK ] DebugSymbolsTest.ExternalStringDataOffset (17 ms)
+[ RUN      ] DebugSymbolsTest.BaseObjectPersistentHandle
+[       OK ] DebugSymbolsTest.BaseObjectPersistentHandle (27 ms)
+[ RUN      ] DebugSymbolsTest.EnvironmentHandleWrapQueue
+[       OK ] DebugSymbolsTest.EnvironmentHandleWrapQueue (26 ms)
+[ RUN      ] DebugSymbolsTest.EnvironmentReqWrapQueue
+[       OK ] DebugSymbolsTest.EnvironmentReqWrapQueue (26 ms)
+[ RUN      ] DebugSymbolsTest.HandleWrapList
+[       OK ] DebugSymbolsTest.HandleWrapList (25 ms)
+[ RUN      ] DebugSymbolsTest.ReqWrapList
+[       OK ] DebugSymbolsTest.ReqWrapList (26 ms)
+[----------] 7 tests from DebugSymbolsTest (164 ms total)
+
+[----------] 5 tests from EnvironmentTest
+[ RUN      ] EnvironmentTest.AtExitWithEnvironment
+[       OK ] EnvironmentTest.AtExitWithEnvironment (25 ms)
+[ RUN      ] EnvironmentTest.AtExitWithoutEnvironment
+[       OK ] EnvironmentTest.AtExitWithoutEnvironment (26 ms)
+[ RUN      ] EnvironmentTest.AtExitWithArgument
+[       OK ] EnvironmentTest.AtExitWithArgument (25 ms)
+[ RUN      ] EnvironmentTest.MultipleEnvironmentsPerIsolate
+[       OK ] EnvironmentTest.MultipleEnvironmentsPerIsolate (31 ms)
+[ RUN      ] EnvironmentTest.NonNodeJSContext
+[       OK ] EnvironmentTest.NonNodeJSContext (28 ms)
+[----------] 5 tests from EnvironmentTest (136 ms total)
+
+[----------] 1 test from PlatformTest
+[ RUN      ] PlatformTest.SkipNewTasksInFlushForegroundTasks
+[       OK ] PlatformTest.SkipNewTasksInFlushForegroundTasks (25 ms)
+[----------] 1 test from PlatformTest (25 ms total)
+
+[----------] 4 tests from TracedValue
+[ RUN      ] TracedValue.Object
+[       OK ] TracedValue.Object (0 ms)
+[ RUN      ] TracedValue.Array
+[       OK ] TracedValue.Array (0 ms)
+[ RUN      ] TracedValue.EscapingObject
+[       OK ] TracedValue.EscapingObject (0 ms)
+[ RUN      ] TracedValue.EscapingArray
+[       OK ] TracedValue.EscapingArray (0 ms)
+[----------] 4 tests from TracedValue (0 ms total)
+
+[----------] 9 tests from UtilTest
+[ RUN      ] UtilTest.ListHead
+[       OK ] UtilTest.ListHead (0 ms)
+[ RUN      ] UtilTest.StringEqualNoCase
+[       OK ] UtilTest.StringEqualNoCase (0 ms)
+[ RUN      ] UtilTest.StringEqualNoCaseN
+[       OK ] UtilTest.StringEqualNoCaseN (0 ms)
+[ RUN      ] UtilTest.ToLower
+[       OK ] UtilTest.ToLower (0 ms)
+[ RUN      ] UtilTest.Malloc
+[       OK ] UtilTest.Malloc (0 ms)
+[ RUN      ] UtilTest.Calloc
+[       OK ] UtilTest.Calloc (0 ms)
+[ RUN      ] UtilTest.UncheckedMalloc
+[       OK ] UtilTest.UncheckedMalloc (0 ms)
+[ RUN      ] UtilTest.UncheckedCalloc
+[       OK ] UtilTest.UncheckedCalloc (0 ms)
+[ RUN      ] UtilTest.MaybeStackBuffer
+[       OK ] UtilTest.MaybeStackBuffer (1 ms)
+[----------] 9 tests from UtilTest (2 ms total)
+
+[----------] 8 tests from URLTest
+[ RUN      ] URLTest.Simple
+[       OK ] URLTest.Simple (1 ms)
+[ RUN      ] URLTest.Simple2
+[       OK ] URLTest.Simple2 (0 ms)
+[ RUN      ] URLTest.NoBase1
+[       OK ] URLTest.NoBase1 (0 ms)
+[ RUN      ] URLTest.Base1
+[       OK ] URLTest.Base1 (0 ms)
+[ RUN      ] URLTest.Base2
+[       OK ] URLTest.Base2 (0 ms)
+[ RUN      ] URLTest.Base3
+[       OK ] URLTest.Base3 (0 ms)
+[ RUN      ] URLTest.ToFilePath
+[       OK ] URLTest.ToFilePath (0 ms)
+[ RUN      ] URLTest.FromFilePath
+[       OK ] URLTest.FromFilePath (0 ms)
+[----------] 8 tests from URLTest (1 ms total)
+
+[----------] 20 tests from InspectorSocketTest
+[ RUN      ] InspectorSocketTest.ReadsAndWritesInspectorMessage
+[       OK ] InspectorSocketTest.ReadsAndWritesInspectorMessage (2 ms)
+[ RUN      ] InspectorSocketTest.BufferEdgeCases
+[       OK ] InspectorSocketTest.BufferEdgeCases (0 ms)
+[ RUN      ] InspectorSocketTest.AcceptsRequestInSeveralWrites
+[       OK ] InspectorSocketTest.AcceptsRequestInSeveralWrites (0 ms)
+[ RUN      ] InspectorSocketTest.ExtraTextBeforeRequest
+[       OK ] InspectorSocketTest.ExtraTextBeforeRequest (1 ms)
+[ RUN      ] InspectorSocketTest.RequestWithoutKey
+[       OK ] InspectorSocketTest.RequestWithoutKey (0 ms)
+[ RUN      ] InspectorSocketTest.KillsConnectionOnProtocolViolation
+[       OK ] InspectorSocketTest.KillsConnectionOnProtocolViolation (1 ms)
+[ RUN      ] InspectorSocketTest.CanStopReadingFromInspector
+[       OK ] InspectorSocketTest.CanStopReadingFromInspector (1 ms)
+[ RUN      ] InspectorSocketTest.CloseDoesNotNotifyReadCallback
+[       OK ] InspectorSocketTest.CloseDoesNotNotifyReadCallback (0 ms)
+[ RUN      ] InspectorSocketTest.CloseWorksWithoutReadEnabled
+[       OK ] InspectorSocketTest.CloseWorksWithoutReadEnabled (1 ms)
+[ RUN      ] InspectorSocketTest.ReportsHttpGet
+[       OK ] InspectorSocketTest.ReportsHttpGet (13 ms)
+[ RUN      ] InspectorSocketTest.HandshakeCanBeCanceled
+[       OK ] InspectorSocketTest.HandshakeCanBeCanceled (1 ms)
+[ RUN      ] InspectorSocketTest.GetThenHandshake
+[       OK ] InspectorSocketTest.GetThenHandshake (1 ms)
+[ RUN      ] InspectorSocketTest.WriteBeforeHandshake
+[       OK ] InspectorSocketTest.WriteBeforeHandshake (0 ms)
+[ RUN      ] InspectorSocketTest.CleanupSocketAfterEOF
+[       OK ] InspectorSocketTest.CleanupSocketAfterEOF (11 ms)
+[ RUN      ] InspectorSocketTest.EOFBeforeHandshake
+[       OK ] InspectorSocketTest.EOFBeforeHandshake (1 ms)
+[ RUN      ] InspectorSocketTest.Send1Mb
+[       OK ] InspectorSocketTest.Send1Mb (140 ms)
+[ RUN      ] InspectorSocketTest.ErrorCleansUpTheSocket
+[       OK ] InspectorSocketTest.ErrorCleansUpTheSocket (1 ms)
+[ RUN      ] InspectorSocketTest.NoCloseResponseFromClient
+[       OK ] InspectorSocketTest.NoCloseResponseFromClient (1 ms)
+[ RUN      ] InspectorSocketTest.HostCheckedForGET
+[       OK ] InspectorSocketTest.HostCheckedForGET (1 ms)
+[ RUN      ] InspectorSocketTest.HostCheckedForUPGRADE
+[       OK ] InspectorSocketTest.HostCheckedForUPGRADE (1 ms)
+[----------] 20 tests from InspectorSocketTest (178 ms total)
+
+[----------] 10 tests from InspectorSocketServerTest
+[ RUN      ] InspectorSocketServerTest.InspectorSessions
+[       OK ] InspectorSocketServerTest.InspectorSessions (2 ms)
+[ RUN      ] InspectorSocketServerTest.ServerDoesNothing
+[       OK ] InspectorSocketServerTest.ServerDoesNothing (1 ms)
+[ RUN      ] InspectorSocketServerTest.ServerWithoutTargets
+[       OK ] InspectorSocketServerTest.ServerWithoutTargets (1 ms)
+[ RUN      ] InspectorSocketServerTest.ServerCannotStart
+[       OK ] InspectorSocketServerTest.ServerCannotStart (0 ms)
+[ RUN      ] InspectorSocketServerTest.StoppingServerDoesNotKillConnections
+[       OK ] InspectorSocketServerTest.StoppingServerDoesNotKillConnections (45 ms)
+[ RUN      ] InspectorSocketServerTest.ClosingConnectionReportsDone
+[       OK ] InspectorSocketServerTest.ClosingConnectionReportsDone (50 ms)
+[ RUN      ] InspectorSocketServerTest.ClosingSocketReportsDone
+[       OK ] InspectorSocketServerTest.ClosingSocketReportsDone (1 ms)
+[ RUN      ] InspectorSocketServerTest.TerminatingSessionReportsDone
+[       OK ] InspectorSocketServerTest.TerminatingSessionReportsDone (0 ms)
+[ RUN      ] InspectorSocketServerTest.FailsToBindToNodejsHost
+[       OK ] InspectorSocketServerTest.FailsToBindToNodejsHost (7 ms)
+[ RUN      ] InspectorSocketServerTest.BindsToIpV6
+[       OK ] InspectorSocketServerTest.BindsToIpV6 (1 ms)
+[----------] 10 tests from InspectorSocketServerTest (109 ms total)
+
+[----------] Global test environment tear-down
+[==========] 80 tests from 10 test cases ran. (953 ms total)
+[  PASSED  ] 80 tests.
+make -C out BUILDTYPE=Release V=1
+  touch b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated; "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/torque" ../src/builtins/base.tq ../src/builtins/array.tq ../src/builtins/typed-array.tq -o "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated"
+  touch 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector/protocol /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/include/inspector; python ../third_party/inspector_protocol/CodeGenerator.py --jinja_dir ../third_party --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector" --config ../src/inspector/inspector_protocol_config.json
+  touch d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/node/inspector/protocol; python tools/inspector_protocol/code_generator.py --jinja_dir tools/inspector_protocol/.. --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/" --config "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/node_protocol_config.json"
+rm d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+if [ ! -r node -o ! -L node ]; then ln -fs out/Release/node node; fi
+make build-addons
+make -C out BUILDTYPE=Release V=1
+  touch b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated; "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/torque" ../src/builtins/base.tq ../src/builtins/array.tq ../src/builtins/typed-array.tq -o "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/torque-generated"
+  touch 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/gypfiles; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector/protocol /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/include/inspector; python ../third_party/inspector_protocol/CodeGenerator.py --jinja_dir ../third_party --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/inspector" --config ../src/inspector/inspector_protocol_config.json
+  touch d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate
+  LD_LIBRARY_PATH=/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.host:/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../.; mkdir -p /usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/node/inspector/protocol; python tools/inspector_protocol/code_generator.py --jinja_dir tools/inspector_protocol/.. --output_base "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/src/" --config "/usr/ports/opt-ppc/nodejs/work/src/node-v10.23.0/out/Release/obj/gen/node_protocol_config.json"
+rm d99d6b6f6d9e36a4e7edbf5d1a166c164f86cbc9.intermediate b0f074bcfcf806a93c2cfac428bcc3af51847076.intermediate 400b9c7158235f69608377a9a8ff373e6c129ec8.intermediate
+if [ ! -r node -o ! -L node ]; then ln -fs out/Release/node node; fi
+Skipping tools/doc/node_modules (no crypto)
+Skipping .docbuildstamp (no crypto)
+make[1]: *** [Makefile:373: test/addons/.buildstamp] Illegal instruction
+make: *** [Makefile:290: test-only] Error 2
