@@ -1,0 +1,41 @@
+Making check in libmpeg2
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2'
+Making check in convert
+make[2]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2/convert'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2/convert'
+make[2]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2'
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libmpeg2'
+Making check in include
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/include'
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/include'
+Making check in libvo
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libvo'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/libvo'
+Making check in src
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/src'
+Making check in test
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/test'
+make  check-TESTS
+make[2]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/test'
+SKIP: regression
+SKIP: compile
+PASS: globals
+======================
+All 1 tests passed
+(2 tests were not run)
+======================
+make[2]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/test'
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/test'
+Making check in vc++
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/vc++'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1/vc++'
+make[1]: Entering directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/usr/ports/opt-ppc/libmpeg2/work/src/libmpeg2-0.5.1'
