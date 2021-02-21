@@ -1,0 +1,1302 @@
+make  check-recursive
+make[1]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
+Making check in .
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
+make  check-local
+make[3]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
+cd . &&					\
+CARGO_TARGET_DIR=/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/target		\
+LIBRSVG_BUILD_DIR=/usr/ports/opt/librsvg/work/src/librsvg-2.50.3		\
+OUT_DIR=/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests/output	\
+cargo --locked test   --release
+    Finished release [optimized + debuginfo] target(s) in 7.84s
+     Running target/release/deps/librsvg-cd239248bd328411
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/api-1fe9b0bb745f3be6
+
+running 4 tests
+test has_element_with_id_works ... ok
+test render_layer ... ok
+test set_stylesheet ... ok
+test untransformed_element ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/bugs-8662a68b8b72b08e
+
+running 4 tests
+test href_attribute_overrides_xlink_href ... ok
+test inf_width ... ok
+test nonexistent_filter_leaves_object_unfiltered ... ok
+test nonexistent_image_shouldnt_cancel_rendering ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/intrinsic_dimensions-6957fcc72b906b2d
+
+running 17 tests
+test clip_on_transformed_viewport ... ok
+test has_intrinsic_dimensions ... ok
+test layer_geometry_for_invalid_id ... ok
+test layer_geometry_for_nonexistent_element ... ok
+test layer_geometry_viewport_viewbox ... ok
+test layer_geometry_with_no_intrinsic_dimensions ... ok
+test layer_geometry_with_no_width_height ... ok
+test layer_geometry_with_offset_viewport ... ok
+test layer_geometry_with_percent_viewport ... ok
+test layer_geometry_with_percentage_viewport ... ok
+test layer_geometry_with_viewbox_and_offset_viewport ... ok
+test mask_on_transformed_viewport ... ok
+test no_intrinsic_dimensions ... ok
+test render_to_offsetted_viewport ... ok
+test render_to_viewport_with_different_size ... ok
+test render_to_viewport_with_transform ... ok
+test root_geometry_with_percent_viewport ... ok
+
+test result: ok. 17 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/primitives-0195ab76b52d3994
+
+running 7 tests
+test compound_opacity ... ok
+test markers_with_scale ... ok
+test nested_masks ... ok
+test opacity_inside_transformed_group ... ok
+test simple_opacity_with_offset_viewport ... ok
+test simple_opacity_with_scale ... ok
+test simple_opacity_with_transform ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/librsvg_tests-a81c020daf32edd5
+
+running 61 tests
+test cmdline::rsvg_convert::argument_is_input_filename ... ok
+test cmdline::rsvg_convert::background_color_option_invalid_color_yields_error ... ok
+test cmdline::rsvg_convert::background_color_option_none ... ok
+test cmdline::rsvg_convert::background_color_option_with_valid_color ... ok
+test cmdline::rsvg_convert::background_color_short_option ... ok
+test cmdline::rsvg_convert::converts_svg_from_stdin_to_png ... ok
+test cmdline::rsvg_convert::default_resolution_is_90dpi ... ok
+test cmdline::rsvg_convert::defaults_are_used_for_negative_resolutions ... ok
+test cmdline::rsvg_convert::defaults_are_used_for_zero_resolutions ... ok
+test cmdline::rsvg_convert::empty_input_yields_error ... ok
+test cmdline::rsvg_convert::empty_svg_yields_error ... ok
+test cmdline::rsvg_convert::env_source_data_epoch_controls_pdf_creation_date ... ok
+test cmdline::rsvg_convert::env_source_data_epoch_empty ... ok
+test cmdline::rsvg_convert::env_source_data_epoch_no_digits ... ok
+test cmdline::rsvg_convert::env_source_data_epoch_trailing_garbage ... ok
+test cmdline::rsvg_convert::export_id_option ... ok
+test cmdline::rsvg_convert::export_id_option_error ... ok
+test cmdline::rsvg_convert::export_id_short_option ... ok
+test cmdline::rsvg_convert::height_option ... ok
+test cmdline::rsvg_convert::help_option ... ok
+test cmdline::rsvg_convert::help_short_option ... ok
+test cmdline::rsvg_convert::huge_zoom_factor_yields_error ... ok
+test cmdline::rsvg_convert::keep_aspect_ratio_option ... ok
+test cmdline::rsvg_convert::keep_aspect_ratio_short_option ... ok
+test cmdline::rsvg_convert::keep_image_data_option ... ok
+test cmdline::rsvg_convert::multiple_input_files_accepted_for_eps_output ... ok
+test cmdline::rsvg_convert::multiple_input_files_accepted_for_ps_output ... ok
+test cmdline::rsvg_convert::multiple_input_files_create_multi_page_pdf_output ... ok
+test cmdline::rsvg_convert::multiple_input_files_not_allowed_for_png_output ... ok
+test cmdline::rsvg_convert::no_keep_image_data_option ... ok
+test cmdline::rsvg_convert::output_file_option ... ok
+test cmdline::rsvg_convert::output_file_short_option ... ok
+test cmdline::rsvg_convert::output_format_eps ... ok
+test cmdline::rsvg_convert::output_format_pdf ... ok
+test cmdline::rsvg_convert::output_format_png ... ok
+test cmdline::rsvg_convert::output_format_ps ... ok
+test cmdline::rsvg_convert::output_format_svg_short_option ... ok
+test cmdline::rsvg_convert::overflowing_size_is_detected ... ok
+test cmdline::rsvg_convert::pdf_page_size ... ok
+test cmdline::rsvg_convert::stylesheet_option ... ok
+test cmdline::rsvg_convert::stylesheet_option_error ... ok
+test cmdline::rsvg_convert::stylesheet_short_option ... ok
+test cmdline::rsvg_convert::unlimited_option ... ok
+test cmdline::rsvg_convert::unlimited_short_option ... ok
+test cmdline::rsvg_convert::version_option ... ok
+test cmdline::rsvg_convert::version_short_option ... ok
+test cmdline::rsvg_convert::width_and_height_options ... ok
+test cmdline::rsvg_convert::width_option ... ok
+test cmdline::rsvg_convert::x_and_y_resolution ... ok
+test cmdline::rsvg_convert::x_resolution ... ok
+test cmdline::rsvg_convert::x_resolution_short_option ... ok
+test cmdline::rsvg_convert::x_short_option ... ok
+test cmdline::rsvg_convert::x_zoom_option ... ok
+test cmdline::rsvg_convert::y_resolution ... ok
+test cmdline::rsvg_convert::y_resolution_short_option ... ok
+test cmdline::rsvg_convert::y_short_option ... ok
+test cmdline::rsvg_convert::y_zoom_option ... ok
+test cmdline::rsvg_convert::zoom_factor ... ok
+test cmdline::rsvg_convert::zoom_factor_and_larger_size ... ok
+test cmdline::rsvg_convert::zoom_factor_and_smaller_size ... ok
+test cmdline::rsvg_convert::zoom_factor_and_width_conflicts ... ok
+
+test result: ok. 61 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/rsvg_c_api-10922ba53d2ba30f
+
+running 11 tests
+test c_api::tests::base_url_works ... ok
+test c_api::tests::path_or_url_unix ... ok
+test c_api::tests::path_or_url_unix_url ... ok
+test c_api::tests::path_or_url_windows ... ok
+test c_api::tests::path_or_url_windows_url ... ok
+test color_utils::tests::current_color_is_error ... ok
+test color_utils::tests::invalid_colors_yield_error ... ok
+test color_utils::tests::invalid_hash_hex_colors_yield_error ... ok
+test color_utils::tests::parses_color_functions ... ok
+test color_utils::tests::parses_color_keywords ... ok
+test color_utils::tests::parses_hash_hex_colors ... ok
+
+test result: ok. 11 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/release/deps/rsvg_internals-a55b46b046a33339
+
+running 192 tests
+test allowed_url::tests::allows_child_of_sibling ... ok
+test allowed_url::tests::allows_data_url_with_no_base_file ... ok
+test allowed_url::tests::allows_relative ... ok
+test allowed_url::tests::allows_sibling ... ok
+test allowed_url::tests::disallows_base_is_root ... ok
+test allowed_url::tests::disallows_different_schemes ... ok
+test allowed_url::tests::disallows_non_file_scheme ... ok
+test allowed_url::tests::disallows_non_sibling ... ok
+test allowed_url::tests::disallows_relative_file_with_no_base_file ... ok
+test allowed_url::tests::parses_fragment ... ok
+test allowed_url::tests::parses_href ... ok
+test angle::tests::bisection_angle_is_correct_for_more_than_quarter_turn_angle ... ok
+test angle::tests::bisection_angle_is_correct_from_incoming_clockwise_to_outgoing ... ok
+test angle::tests::bisection_angle_is_correct_from_incoming_counterclockwise_to_outgoing ... ok
+test angle::tests::parses_angle ... ok
+test aspect_ratio::tests::aligns ... ok
+test aspect_ratio::tests::empty_viewbox ... ok
+test aspect_ratio::tests::empty_viewport ... ok
+test aspect_ratio::tests::invalid_viewbox ... ok
+test aspect_ratio::tests::parses_valid_strings ... ok
+test aspect_ratio::tests::parsing_invalid_strings_yields_error ... ok
+test aspect_ratio::tests::valid_viewport_and_viewbox ... ok
+test attributes::tests::attributes_with_namespaces ... ok
+test attributes::tests::empty_attributes ... ok
+test bbox::tests::combine ... ok
+test cond::tests::required_extensions ... ok
+test cond::tests::required_features ... ok
+test cond::tests::system_language ... ok
+test coord_units::tests::converts_to_coord_units ... ok
+test coord_units::tests::has_correct_default ... ok
+test coord_units::tests::parses_paint_server_units ... ok
+test coord_units::tests::parsing_invalid_strings_yields_error ... ok
+test css::tests::impl_element ... ok
+test dasharray::tests::parses_dash_array ... ok
+test filter::tests::detects_invalid_filter_value_list ... ok
+test filter::tests::parses_filter_value_list ... ok
+test filters::turbulence::tests::turbulence_rng ... ok
+test float_eq_cairo::tests::assert_approx_eq_cairo_should_not_panic ... ok
+test float_eq_cairo::tests::assert_approx_eq_cairo_should_panic ... ok
+test float_eq_cairo::tests::numbers_approx_equal ... ok
+test float_eq_cairo::tests::numbers_equal_in_cairo_fixed_point ... ok
+test font_props::tests::computes_letter_spacing ... ok
+test font_props::tests::computes_line_height ... ok
+test font_props::tests::computes_parent_relative_font_size ... ok
+test font_props::tests::detects_invalid_font_family ... ok
+test font_props::tests::detects_invalid_font_weight ... ok
+test font_props::tests::detects_invalid_invalid_font_size ... ok
+test font_props::tests::detects_invalid_invalid_letter_spacing ... ok
+test font_props::tests::detects_invalid_line_height ... ok
+test font_props::tests::parses_font_family ... ok
+test font_props::tests::parses_font_shorthand ... ok
+test font_props::tests::parses_font_weight ... ok
+test font_props::tests::parses_letter_spacing ... ok
+test font_props::tests::parses_line_height ... ok
+test font_props::tests::parses_multiple_font_family ... ok
+test gradient::tests::gradient_resolved_from_defaults_is_really_resolved ... ok
+test gradient::tests::parses_spread_method ... ok
+test iri::tests::parses_none ... ok
+test iri::tests::parses_url ... ok
+test length::tests::check_nonnegative_works ... ok
+test length::tests::empty_length_yields_error ... ok
+test length::tests::invalid_unit_yields_error ... ok
+test length::tests::normalize_absolute_units_works ... ok
+test length::tests::normalize_default_works ... ok
+test length::tests::normalize_font_em_ex_works ... ok
+test length::tests::normalize_percent_works ... ok
+test length::tests::parses_default ... ok
+test length::tests::parses_font_em ... ok
+test length::tests::parses_font_ex ... ok
+test length::tests::parses_percent ... ok
+test length::tests::parses_physical_units ... ok
+test marker::directionality_tests::curve_has_directionality ... ok
+test marker::directionality_tests::curve_with_123_coincident_has_directionality ... ok
+test marker::directionality_tests::curve_with_12_34_coincident_has_directionality ... ok
+test marker::directionality_tests::curve_with_234_coincident_has_directionality ... ok
+test marker::directionality_tests::curve_with_coincident_control_points_has_no_directionality ... ok
+test marker::directionality_tests::curves_with_loops_and_coincident_ends_have_directionality ... ok
+test marker::directionality_tests::degenerate_segment_has_no_directionality ... ok
+test marker::directionality_tests::line_segment_has_directionality ... ok
+test marker::directionality_tests::line_segment_with_coincident_ends_has_no_directionality ... ok
+test marker::directionality_tests::path_to_segments_handles_closed_subpath ... ok
+test marker::directionality_tests::path_to_segments_handles_multiple_closed_subpaths ... ok
+test marker::directionality_tests::path_to_segments_handles_multiple_open_subpaths ... ok
+test marker::directionality_tests::path_to_segments_handles_no_moveto_after_closepath ... ok
+test marker::directionality_tests::path_to_segments_handles_open_path ... ok
+test marker::marker_tests::emits_for_closed_subpath ... ok
+test marker::marker_tests::emits_for_open_subpath ... ok
+test marker::parser_tests::parses_marker_orient ... ok
+test marker::parser_tests::parses_marker_units ... ok
+test marker::parser_tests::parsing_invalid_marker_orient_yields_error ... ok
+test marker::parser_tests::parsing_invalid_marker_units_yields_error ... ok
+test number_list::tests::errors_on_invalid_number_list ... ok
+test number_list::tests::parses_number_list ... ok
+test paint_server::tests::catches_invalid_syntax ... ok
+test paint_server::tests::parses_iri ... ok
+test paint_server::tests::parses_none ... ok
+test paint_server::tests::parses_solid_color ... ok
+test parsers::tests::invalid_custom_ident_yields_error ... ok
+test parsers::tests::invalid_integer ... ok
+test parsers::tests::invalid_integer_optional_integer ... ok
+test parsers::tests::invalid_number_optional_number ... ok
+test parsers::tests::parses_custom_ident ... ok
+test parsers::tests::parses_integer ... ok
+test parsers::tests::parses_integer_optional_integer ... ok
+test parsers::tests::parses_number_optional_number ... ok
+test path_builder::tests::all_commands ... ok
+test path_builder::tests::empty_builder ... ok
+test path_builder::tests::subpath_iter ... ok
+test path_parser::tests::bugs ... ok
+test path_parser::tests::closepath_no_args ... ok
+test path_parser::tests::curveto_args ... ok
+test path_parser::tests::detects_bogus_numbers ... ok
+test path_parser::tests::elliptical_arc_args ... ok
+test path_parser::tests::first_command_must_be_moveto ... ok
+test path_parser::tests::handles_absolute_moveto_lineto ... ok
+test path_parser::tests::handles_absolute_moveto_moveto ... ok
+test path_parser::tests::handles_absolute_moveto_with_implicit_lineto ... ok
+test path_parser::tests::handles_absolute_moveto_with_implicit_linetos ... ok
+test path_parser::tests::handles_close_path ... ok
+test path_parser::tests::handles_curveto ... ok
+test path_parser::tests::handles_elliptical_arc ... ok
+test path_parser::tests::handles_empty_data ... ok
+test path_parser::tests::handles_horizontal_lineto ... ok
+test path_parser::tests::handles_numbers ... ok
+test path_parser::tests::handles_numbers_with_comma ... ok
+test path_parser::tests::handles_quadratic_curveto ... ok
+test path_parser::tests::handles_relative_moveto ... ok
+test path_parser::tests::handles_relative_moveto_lineto ... ok
+test path_parser::tests::handles_relative_moveto_lineto_lineto_abs_lineto ... ok
+test path_parser::tests::handles_relative_moveto_lineto_moveto ... ok
+test path_parser::tests::handles_relative_moveto_moveto ... ok
+test path_parser::tests::handles_relative_moveto_with_implicit_lineto ... ok
+test path_parser::tests::handles_relative_moveto_with_implicit_linetos ... ok
+test path_parser::tests::handles_relative_moveto_with_relative_lineto_sequence ... ok
+test path_parser::tests::handles_single_moveto ... ok
+test path_parser::tests::handles_smooth_curveto ... ok
+test path_parser::tests::handles_smooth_quadratic_curveto ... ok
+test path_parser::tests::handles_vertical_lineto ... ok
+test path_parser::tests::horizontal_lineto_args ... ok
+test path_parser::tests::lineto_args ... ok
+test path_parser::tests::moveto_args ... ok
+test path_parser::tests::moveto_implicit_lineto_args ... ok
+test path_parser::tests::quadratic_bezier_curveto_args ... ok
+test path_parser::tests::smooth_curveto_args ... ok
+test path_parser::tests::smooth_quadratic_bezier_curveto_args ... ok
+test path_parser::tests::vertical_lineto_args ... ok
+test pattern::tests::pattern_resolved_from_defaults_is_really_resolved ... ok
+test properties::tests::computes_property_that_does_not_inherit_automatically ... ok
+test properties::tests::empty_values_computes_to_defaults ... ok
+test properties::tests::expands_marker_shorthand ... ok
+test properties::tests::replace_existing_property ... ok
+test properties::tests::replaces_marker_shorthand ... ok
+test properties::tests::set_one_property ... ok
+test property_defs::parses_paint_order ... ok
+test property_defs::parses_text_decoration ... ok
+test property_defs::parses_xml_lang ... ok
+test property_macros::tests::check_identifiers_property ... ok
+test shapes::tests::errors_on_invalid_points ... ok
+test shapes::tests::parses_points ... ok
+test space::tests::xml_space_default ... ok
+test space::tests::xml_space_default_with_elements ... ok
+test space::tests::xml_space_preserve ... ok
+test style::tests::invalid_style_type_yields_error ... ok
+test style::tests::parses_style_type ... ok
+test surface_utils::iterators::tests::pixel_rectangle ... ok
+test surface_utils::iterators::tests::pixels_count ... ok
+test surface_utils::shared_surface::tests::test_extract_alpha ... ok
+test text::tests::chars_default ... ok
+test text::tests::chars_new ... ok
+test transform::tests::invalid_transform_yields_value_error ... ok
+test transform::tests::parses_empty ... ok
+test transform::tests::parses_matrix ... ok
+test transform::tests::parses_rotate ... ok
+test transform::tests::parses_scale ... ok
+test transform::tests::parses_skew_x ... ok
+test transform::tests::parses_skew_y ... ok
+test transform::tests::parses_transform_list ... ok
+test transform::tests::parses_translate ... ok
+test transform::tests::parses_valid_transform ... ok
+test transform::tests::syntax_error_yields_parse_error ... ok
+test transform::tests::test_invert ... ok
+test transform::tests::test_multiply ... ok
+test transform::tests::test_transform_distance ... ok
+test transform::tests::test_transform_point ... ok
+test unit_interval::tests::clamps ... ok
+test unit_interval::tests::convert ... ok
+test unit_interval::tests::errors_on_invalid_input ... ok
+test unit_interval::tests::parses_number ... ok
+test unit_interval::tests::parses_out_of_range_number ... ok
+test viewbox::tests::parses_valid_viewboxes ... ok
+test viewbox::tests::parsing_invalid_viewboxes_yields_error ... ok
+test xml::tests::parses_processing_instruction_data ... ok
+
+test result: ok. 192 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+   Doc-tests rsvg_c_api
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+   Doc-tests librsvg
+
+running 7 tests
+test src/lib.rs - (line 31) ... ok
+test src/lib.rs - Loader::keep_image_data (line 244) ... ignored
+test src/lib.rs - Loader::new (line 196) ... ok
+test src/lib.rs - Loader::read_file (line 286) ... ok
+test src/lib.rs - Loader::read_path (line 271) ... ok
+test src/lib.rs - Loader::read_stream (line 315) ... ok
+test src/lib.rs - Loader::with_unlimited_size (line 217) ... ok
+
+test result: ok. 6 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out
+
+   Doc-tests rsvg_internals
+
+running 11 tests
+test src/aspect_ratio.rs - aspect_ratio (line 6) ... ignored
+test src/css.rs - css (line 7) ... ignored
+test src/error.rs - error::AttributeResultExt (line 209) ... ignored
+test src/href.rs - href::is_href (line 18) ... ignored
+test src/length.rs - length (line 15) ... ignored
+test src/length.rs - length::Length (line 175) ... ignored
+test src/length.rs - length::Length<N>::check_nonnegative (line 298) ... ignored
+test src/length.rs - length::Length<N>::new (line 279) ... ignored
+test src/property_macros.rs - make_property (line 55) ... ignored
+test src/property_macros.rs - make_property (line 72) ... ignored
+test src/property_macros.rs - make_property (line 82) ... ignored
+
+test result: ok. 0 passed; 0 failed; 11 ignored; 0 measured; 0 filtered out
+
+make[3]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
+Making check in gdk-pixbuf-loader
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/gdk-pixbuf-loader'
+  GEN      gdk-pixbuf-loaders
+  CCLD     rsvg-loader
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/gdk-pixbuf-loader'
+Making check in tests
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make  check-am
+make[3]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make  api loading rsvg-test crash render-crash dimensions errors infinite-loop    \
+                   ./resources/Roboto-Bold.ttf ./resources/Roboto-BoldItalic.ttf ./resources/Roboto-Italic.ttf ./resources/Roboto-Regular.ttf ./fixtures/api/334-element-positions.svg ./fixtures/api/document.svg ./fixtures/api/dpi.svg ./fixtures/api/example.svg ./fixtures/api/geometry-element.svg ./fixtures/api/geometry.svg ./fixtures/api/layers.svg ./fixtures/crash/335-non-svg-toplevel.svg ./fixtures/crash/336-invalid-css.svg ./fixtures/crash/349-empty-data-uri.svg ./fixtures/crash/349-too-big-image-in-href-data.svg ./fixtures/crash/352-feConvolveMatrix-large-allocation.svg ./fixtures/crash/377-xinclude-invalid-xml.svg ./fixtures/crash/463-characters-outside-first-element.svg ./fixtures/crash/467-xinclude-without-parent-element.svg ./fixtures/crash/524-invalid-stylesheet-href.svg ./fixtures/crash/785276-empty.svg ./fixtures/crash/785276-short-file.svg ./fixtures/crash/bug620238.svg ./fixtures/crash/bug759084.svg ./fixtures/crash/feConvolveMatrix-empty-kernel.svg ./fixtures/crash/marker-cycles.svg ./fixtures/crash/mask-cycles.svg ./fixtures/crash/pattern-fallback-cycles.svg ./fixtures/crash/xinclude-text-xml.svg ./fixtures/crash/xml-pi-without-data.svg  ./fixtures/errors/308-doubly-recursive-use.svg ./fixtures/errors/308-recursive-use.svg ./fixtures/errors/308-use-self-ref.svg ./fixtures/errors/323-nested-use.svg ./fixtures/errors/335-non-svg-element.svg ./fixtures/errors/515-pattern-billion-laughs.svg ./fixtures/errors/515-too-many-elements.svgz ./fixtures/infinite-loop/341-recursive-pattern.svg ./fixtures/infinite-loop/398-recursive-gradient.svg ./fixtures/loading/gnome-cool.svg ./fixtures/loading/gnome-cool.svgz ./fixtures/loading/include-fallback.svg ./fixtures/loading/include-text.svg ./fixtures/loading/text.txt ./fixtures/reftests/css-import.css ./fixtures/reftests/483-attribute-selectors.svg ./fixtures/reftests/525-specificity.svg ./fixtures/reftests/css-import-url.svg ./fixtures/reftests/css-import.svg ./fixtures/reftests/duplicate-id.svg ./fixtures/reftests/filter-component-transfer-from-reference-page.svg ./fixtures/reftests/filter-conv-bounds.svg ./fixtures/reftests/filter-effects-region.svg ./fixtures/reftests/filter-image-from-reference-page.svg ./fixtures/reftests/filter-kernel-unit-length.svg ./fixtures/reftests/filter-morphology-from-reference-page.svg ./fixtures/reftests/filter-offset.svg ./fixtures/reftests/font-shorthand.svg ./fixtures/reftests/gzip-compressed.svg ./fixtures/reftests/hexchat.svg ./fixtures/reftests/ignore-filter-composite-color-interpolation-filters.svg ./fixtures/reftests/include-compressed.svg ./fixtures/reftests/include-fallback.svg ./fixtures/reftests/include-text.svg ./fixtures/reftests/specificity.svg ./fixtures/reftests/style-with-xml-comments.svg ./fixtures/reftests/system-language-de.svg ./fixtures/reftests/system-language-en.svg ./fixtures/reftests/system-language-other.svg ./fixtures/reftests/483-attribute-selectors-ref.png ./fixtures/reftests/525-specificity-ref.png ./fixtures/reftests/css-import-ref.png ./fixtures/reftests/css-import-url-ref.png ./fixtures/reftests/duplicate-id-ref.png ./fixtures/reftests/filter-component-transfer-from-reference-page-ref.png ./fixtures/reftests/filter-composite-color-interpolation-filters-ref.png ./fixtures/reftests/filter-conv-bounds-ref.png ./fixtures/reftests/filter-effects-region-ref.png ./fixtures/reftests/filter-image-from-reference-page-ref.png ./fixtures/reftests/filter-kernel-unit-length-ref.png ./fixtures/reftests/filter-morphology-from-reference-page-ref.png ./fixtures/reftests/filter-offset-ref.png ./fixtures/reftests/font-shorthand-ref.png ./fixtures/reftests/gzip-compressed-ref.png ./fixtures/reftests/hexchat-ref.png ./fixtures/reftests/include-compressed-ref.png ./fixtures/reftests/include-fallback-ref.png ./fixtures/reftests/include-text-ref.png ./fixtures/reftests/specificity-ref.png ./fixtures/reftests/style-with-xml-comments-ref.png ./fixtures/reftests/system-language-de-ref.png ./fixtures/reftests/system-language-en-ref.png ./fixtures/reftests/system-language-other-ref.png ./fixtures/reftests/text.txt ./fixtures/reftests/bugs/108-font-size-relative.svg ./fixtures/reftests/bugs/112-svg-delayed-attributes.svg ./fixtures/reftests/bugs/165-zero-length-subpath-square-linecap.svg ./fixtures/reftests/bugs/181-inheritable-attrs-in-svg.svg ./fixtures/reftests/bugs/241-light-source-type.svg ./fixtures/reftests/bugs/245-negative-dashoffset.svg ./fixtures/reftests/bugs/282-drop-shadow.svg ./fixtures/reftests/bugs/310-font-size-at-48dpi.svg ./fixtures/reftests/bugs/340047.svg ./fixtures/reftests/bugs/348-font-size-48dpi.svg ./fixtures/reftests/bugs/363-missing-space.svg ./fixtures/reftests/bugs/372-small-arcs.svg ./fixtures/reftests/bugs/373-gradient-userspaceonuse.svg ./fixtures/reftests/bugs/403357.svg ./fixtures/reftests/bugs/476507.svg ./fixtures/reftests/bugs/481-tspan-uses-at-least-first-x.svg ./fixtures/reftests/bugs/494-text-accumulate-dy.svg ./fixtures/reftests/bugs/506-pattern-fallback.svg ./fixtures/reftests/bugs/510-pattern-fill-opacity.svg ./fixtures/reftests/bugs/510-pattern-fill.svg ./fixtures/reftests/bugs/548-data-url-without-mimetype.svg ./fixtures/reftests/bugs/563933.svg ./fixtures/reftests/bugs/587721-text-transform.svg ./fixtures/reftests/bugs/590-mask-units.svg ./fixtures/reftests/bugs/603550-mask-luminance.svg ./fixtures/reftests/bugs/609-clippath-transform.svg ./fixtures/reftests/bugs/634324-blur-negative-transform.svg ./fixtures/reftests/bugs/642-nested-tspan-dx-dy.svg ./fixtures/reftests/bugs/689832-unresolved-gradient.svg ./fixtures/reftests/bugs/738367.svg ./fixtures/reftests/bugs/749415.svg ./fixtures/reftests/bugs/760180.svg ./fixtures/reftests/bugs/761175-recursive-masks.svg ./fixtures/reftests/bugs/761871-reset-reflection-points.svg ./fixtures/reftests/bugs/763386-marker-coincident.svg ./fixtures/reftests/bugs/776297-marker-on-non-path-elements.svg ./fixtures/reftests/bugs/777834-empty-text-children.svg ./fixtures/reftests/bugs/786372-default-style-type.svg ./fixtures/reftests/bugs/ignore-577-multiple-font-families.svg ./fixtures/reftests/bugs/108-font-size-relative-ref.png ./fixtures/reftests/bugs/112-svg-delayed-attributes-ref.png ./fixtures/reftests/bugs/165-zero-length-subpath-square-linecap-ref.png ./fixtures/reftests/bugs/181-inheritable-attrs-in-svg-ref.png ./fixtures/reftests/bugs/241-light-source-type-ref.png ./fixtures/reftests/bugs/245-negative-dashoffset-ref.png ./fixtures/reftests/bugs/282-drop-shadow-ref.png ./fixtures/reftests/bugs/310-font-size-at-48dpi-ref.png ./fixtures/reftests/bugs/340047-ref.png ./fixtures/reftests/bugs/348-font-size-48dpi-ref.png ./fixtures/reftests/bugs/363-missing-space-ref.png ./fixtures/reftests/bugs/372-small-arcs-ref.png ./fixtures/reftests/bugs/373-gradient-userspaceonuse-ref.png ./fixtures/reftests/bugs/403357-ref.png ./fixtures/reftests/bugs/476507-ref.png ./fixtures/reftests/bugs/481-tspan-uses-at-least-first-x-ref.png ./fixtures/reftests/bugs/494-text-accumulate-dy-ref.png ./fixtures/reftests/bugs/506-pattern-fallback-ref.png ./fixtures/reftests/bugs/510-pattern-fill-opacity-ref.png ./fixtures/reftests/bugs/510-pattern-fill-ref.png ./fixtures/reftests/bugs/548-data-url-without-mimetype-ref.png ./fixtures/reftests/bugs/563933-ref.png ./fixtures/reftests/bugs/577-multiple-font-families-ref.png ./fixtures/reftests/bugs/587721-text-transform-ref.png ./fixtures/reftests/bugs/590-mask-units-ref.png ./fixtures/reftests/bugs/603550-mask-luminance-ref.png ./fixtures/reftests/bugs/609-clippath-transform-ref.png ./fixtures/reftests/bugs/634324-blur-negative-transform-ref.png ./fixtures/reftests/bugs/642-nested-tspan-dx-dy-ref.png ./fixtures/reftests/bugs/689832-unresolved-gradient-ref.png ./fixtures/reftests/bugs/738367-ref.png ./fixtures/reftests/bugs/749415-ref.png ./fixtures/reftests/bugs/760180-ref.png ./fixtures/reftests/bugs/761175-recursive-masks-ref.png ./fixtures/reftests/bugs/761871-reset-reflection-points-ref.png ./fixtures/reftests/bugs/763386-marker-coincident-ref.png ./fixtures/reftests/bugs/776297-marker-on-non-path-elements-ref.png ./fixtures/reftests/bugs/777834-empty-text-children-ref.png ./fixtures/reftests/bugs/786372-default-style-type-ref.png ./fixtures/reftests/svg1.1/coords-trans-01-b.svg ./fixtures/reftests/svg1.1/coords-trans-02-t.svg ./fixtures/reftests/svg1.1/coords-trans-03-t.svg ./fixtures/reftests/svg1.1/coords-trans-04-t.svg ./fixtures/reftests/svg1.1/coords-trans-05-t.svg ./fixtures/reftests/svg1.1/coords-trans-06-t.svg ./fixtures/reftests/svg1.1/coords-trans-07-t.svg ./fixtures/reftests/svg1.1/coords-trans-08-t.svg ./fixtures/reftests/svg1.1/coords-trans-09-t.svg ./fixtures/reftests/svg1.1/coords-viewattr-01-b.svg ./fixtures/reftests/svg1.1/coords-viewattr-02-b.svg ./fixtures/reftests/svg1.1/coords-viewattr-03-b.svg ./fixtures/reftests/svg1.1/filters-background-01-f.svg ./fixtures/reftests/svg1.1/filters-blend-01-b.svg ./fixtures/reftests/svg1.1/filters-color-01-b.svg ./fixtures/reftests/svg1.1/filters-color-02-b.svg ./fixtures/reftests/svg1.1/filters-composite-02-b.svg ./fixtures/reftests/svg1.1/filters-composite-03-f.svg ./fixtures/reftests/svg1.1/filters-composite-04-f.svg ./fixtures/reftests/svg1.1/filters-composite-05-f.svg ./fixtures/reftests/svg1.1/filters-comptran-01-b.svg ./fixtures/reftests/svg1.1/filters-conv-01-f.svg ./fixtures/reftests/svg1.1/filters-conv-02-f.svg ./fixtures/reftests/svg1.1/filters-conv-03-f.svg ./fixtures/reftests/svg1.1/filters-conv-04-f.svg ./fixtures/reftests/svg1.1/filters-conv-05-f.svg ./fixtures/reftests/svg1.1/filters-diffuse-01-f.svg ./fixtures/reftests/svg1.1/filters-displace-02-f.svg ./fixtures/reftests/svg1.1/filters-felem-02-f.svg ./fixtures/reftests/svg1.1/filters-gauss-01-b.svg ./fixtures/reftests/svg1.1/filters-gauss-02-f.svg ./fixtures/reftests/svg1.1/filters-gauss-03-f.svg ./fixtures/reftests/svg1.1/filters-image-01-b.svg ./fixtures/reftests/svg1.1/filters-image-02-b.svg ./fixtures/reftests/svg1.1/filters-image-03-f.svg ./fixtures/reftests/svg1.1/filters-image-04-f.svg ./fixtures/reftests/svg1.1/filters-image-05-f.svg ./fixtures/reftests/svg1.1/filters-light-01-f.svg ./fixtures/reftests/svg1.1/filters-light-02-f.svg ./fixtures/reftests/svg1.1/filters-light-03-f.svg ./fixtures/reftests/svg1.1/filters-light-04-f.svg ./fixtures/reftests/svg1.1/filters-light-05-f.svg ./fixtures/reftests/svg1.1/filters-morph-01-f.svg ./fixtures/reftests/svg1.1/filters-offset-01-b.svg ./fixtures/reftests/svg1.1/filters-overview-01-b.svg ./fixtures/reftests/svg1.1/filters-overview-02-b.svg ./fixtures/reftests/svg1.1/filters-overview-03-b.svg ./fixtures/reftests/svg1.1/filters-specular-01-f.svg ./fixtures/reftests/svg1.1/filters-tile-01-b.svg ./fixtures/reftests/svg1.1/filters-turb-01-f.svg ./fixtures/reftests/svg1.1/filters-turb-02-f.svg ./fixtures/reftests/svg1.1/ignore-filters-displace-01-f.svg ./fixtures/reftests/svg1.1/ignore-filters-example-01-b.svg ./fixtures/reftests/svg1.1/ignore-masking-path-07-b.svg ./fixtures/reftests/svg1.1/masking-filter-01-f.svg ./fixtures/reftests/svg1.1/masking-intro-01-f.svg ./fixtures/reftests/svg1.1/masking-mask-01-b.svg ./fixtures/reftests/svg1.1/masking-mask-02-f.svg ./fixtures/reftests/svg1.1/masking-opacity-01-b.svg ./fixtures/reftests/svg1.1/masking-path-01-b.svg ./fixtures/reftests/svg1.1/masking-path-02-b.svg ./fixtures/reftests/svg1.1/masking-path-03-b.svg ./fixtures/reftests/svg1.1/masking-path-04-b.svg ./fixtures/reftests/svg1.1/masking-path-05-f.svg ./fixtures/reftests/svg1.1/painting-control-02-f.svg ./fixtures/reftests/svg1.1/painting-marker-01-f.svg ./fixtures/reftests/svg1.1/painting-marker-02-f.svg ./fixtures/reftests/svg1.1/painting-marker-03-f.svg ./fixtures/reftests/svg1.1/painting-marker-04-f.svg ./fixtures/reftests/svg1.1/painting-marker-06-f.svg ./fixtures/reftests/svg1.1/painting-marker-07-f.svg ./fixtures/reftests/svg1.1/painting-marker-properties-01-f.svg ./fixtures/reftests/svg1.1/painting-stroke-01-t.svg ./fixtures/reftests/svg1.1/painting-stroke-02-t.svg ./fixtures/reftests/svg1.1/painting-stroke-03-t.svg ./fixtures/reftests/svg1.1/painting-stroke-04-t.svg ./fixtures/reftests/svg1.1/painting-stroke-05-t.svg ./fixtures/reftests/svg1.1/painting-stroke-06-t.svg ./fixtures/reftests/svg1.1/painting-stroke-07-t.svg ./fixtures/reftests/svg1.1/painting-stroke-08-t.svg ./fixtures/reftests/svg1.1/painting-stroke-09-t.svg ./fixtures/reftests/svg1.1/paths-data-01-t.svg ./fixtures/reftests/svg1.1/paths-data-02-t.svg ./fixtures/reftests/svg1.1/paths-data-03-f.svg ./fixtures/reftests/svg1.1/paths-data-04-t.svg ./fixtures/reftests/svg1.1/paths-data-05-t.svg ./fixtures/reftests/svg1.1/paths-data-06-t.svg ./fixtures/reftests/svg1.1/paths-data-07-t.svg ./fixtures/reftests/svg1.1/paths-data-08-t.svg ./fixtures/reftests/svg1.1/paths-data-09-t.svg ./fixtures/reftests/svg1.1/paths-data-10-t.svg ./fixtures/reftests/svg1.1/paths-data-12-t.svg ./fixtures/reftests/svg1.1/paths-data-13-t.svg ./fixtures/reftests/svg1.1/paths-data-14-t.svg ./fixtures/reftests/svg1.1/paths-data-15-t.svg ./fixtures/reftests/svg1.1/paths-data-16-t.svg ./fixtures/reftests/svg1.1/paths-data-17-f.svg ./fixtures/reftests/svg1.1/paths-data-18-f.svg ./fixtures/reftests/svg1.1/paths-data-19-f.svg ./fixtures/reftests/svg1.1/paths-data-20-f.svg ./fixtures/reftests/svg1.1/pservers-grad-01-b.svg ./fixtures/reftests/svg1.1/pservers-grad-02-b.svg ./fixtures/reftests/svg1.1/pservers-grad-03-b.svg ./fixtures/reftests/svg1.1/pservers-grad-04-b.svg ./fixtures/reftests/svg1.1/pservers-grad-05-b.svg ./fixtures/reftests/svg1.1/pservers-grad-06-b.svg ./fixtures/reftests/svg1.1/pservers-grad-07-b.svg ./fixtures/reftests/svg1.1/pservers-grad-08-b.svg ./fixtures/reftests/svg1.1/pservers-grad-09-b.svg ./fixtures/reftests/svg1.1/pservers-grad-10-b.svg ./fixtures/reftests/svg1.1/pservers-grad-11-b.svg ./fixtures/reftests/svg1.1/pservers-grad-12-b.svg ./fixtures/reftests/svg1.1/pservers-grad-14-b.svg ./fixtures/reftests/svg1.1/pservers-grad-15-b.svg ./fixtures/reftests/svg1.1/pservers-grad-16-b.svg ./fixtures/reftests/svg1.1/pservers-grad-18-b.svg ./fixtures/reftests/svg1.1/pservers-grad-22-b.svg ./fixtures/reftests/svg1.1/pservers-grad-23-f.svg ./fixtures/reftests/svg1.1/pservers-grad-24-f.svg ./fixtures/reftests/svg1.1/pservers-grad-stops-01-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-01-b.svg ./fixtures/reftests/svg1.1/pservers-pattern-02-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-03-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-04-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-05-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-06-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-07-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-08-f.svg ./fixtures/reftests/svg1.1/pservers-pattern-09-f.svg ./fixtures/reftests/svg1.1/struct-cond-01-t.svg ./fixtures/reftests/svg1.1/struct-cond-03-t.svg ./fixtures/reftests/svg1.1/struct-svg-03-f.svg ./fixtures/reftests/svg1.1/struct-symbol-01-b.svg ./fixtures/reftests/svg1.1/struct-use-01-t.svg ./fixtures/reftests/svg1.1/struct-use-03-t.svg ./fixtures/reftests/svg1.1/struct-use-04-b.svg ./fixtures/reftests/svg1.1/struct-use-09-b.svg ./fixtures/reftests/svg1.1/text-align-01-b.svg ./fixtures/reftests/svg1.1/text-align-02-b.svg ./fixtures/reftests/svg1.1/text-align-03-b.svg ./fixtures/reftests/svg1.1/text-fonts-02-t.svg ./fixtures/reftests/svg1.1/text-text-03-b.svg ./fixtures/reftests/svg1.1/text-text-08-b.svg ./fixtures/reftests/svg1.1/text-text-10-t.svg ./fixtures/reftests/svg1.1/text-tref-01-b.svg ./fixtures/reftests/svg1.1/text-tref-02-b.svg ./fixtures/reftests/svg1.1/text-tref-03-b.svg ./fixtures/reftests/svg1.1/coords-trans-01-b-ref.png ./fixtures/reftests/svg1.1/coords-trans-02-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-03-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-04-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-05-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-06-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-07-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-08-t-ref.png ./fixtures/reftests/svg1.1/coords-trans-09-t-ref.png ./fixtures/reftests/svg1.1/coords-viewattr-01-b-ref.png ./fixtures/reftests/svg1.1/coords-viewattr-02-b-ref.png ./fixtures/reftests/svg1.1/coords-viewattr-03-b-ref.png ./fixtures/reftests/svg1.1/filters-background-01-f-ref.png ./fixtures/reftests/svg1.1/filters-blend-01-b-ref.png ./fixtures/reftests/svg1.1/filters-color-01-b-ref.png ./fixtures/reftests/svg1.1/filters-color-02-b-ref.png ./fixtures/reftests/svg1.1/filters-composite-02-b-ref.png ./fixtures/reftests/svg1.1/filters-composite-03-f-ref.png ./fixtures/reftests/svg1.1/filters-composite-04-f-ref.png ./fixtures/reftests/svg1.1/filters-composite-05-f-ref.png ./fixtures/reftests/svg1.1/filters-comptran-01-b-ref.png ./fixtures/reftests/svg1.1/filters-conv-01-f-ref.png ./fixtures/reftests/svg1.1/filters-conv-02-f-ref.png ./fixtures/reftests/svg1.1/filters-conv-03-f-ref.png ./fixtures/reftests/svg1.1/filters-conv-04-f-ref.png ./fixtures/reftests/svg1.1/filters-conv-05-f-ref.png ./fixtures/reftests/svg1.1/filters-diffuse-01-f-ref.png ./fixtures/reftests/svg1.1/filters-displace-01-f-ref.png ./fixtures/reftests/svg1.1/filters-displace-02-f-ref.png ./fixtures/reftests/svg1.1/filters-example-01-b-ref.png ./fixtures/reftests/svg1.1/filters-felem-02-f-ref.png ./fixtures/reftests/svg1.1/filters-gauss-01-b-ref.png ./fixtures/reftests/svg1.1/filters-gauss-02-f-ref.png ./fixtures/reftests/svg1.1/filters-gauss-03-f-ref.png ./fixtures/reftests/svg1.1/filters-image-01-b-ref.png ./fixtures/reftests/svg1.1/filters-image-02-b-ref.png ./fixtures/reftests/svg1.1/filters-image-03-f-ref.png ./fixtures/reftests/svg1.1/filters-image-04-f-ref.png ./fixtures/reftests/svg1.1/filters-image-05-f-ref.png ./fixtures/reftests/svg1.1/filters-light-01-f-ref.png ./fixtures/reftests/svg1.1/filters-light-02-f-ref.png ./fixtures/reftests/svg1.1/filters-light-03-f-ref.png ./fixtures/reftests/svg1.1/filters-light-04-f-ref.png ./fixtures/reftests/svg1.1/filters-light-05-f-ref.png ./fixtures/reftests/svg1.1/filters-morph-01-f-ref.png ./fixtures/reftests/svg1.1/filters-offset-01-b-ref.png ./fixtures/reftests/svg1.1/filters-overview-01-b-ref.png ./fixtures/reftests/svg1.1/filters-overview-02-b-ref.png ./fixtures/reftests/svg1.1/filters-overview-03-b-ref.png ./fixtures/reftests/svg1.1/filters-specular-01-f-ref.png ./fixtures/reftests/svg1.1/filters-tile-01-b-ref.png ./fixtures/reftests/svg1.1/filters-turb-01-f-ref.png ./fixtures/reftests/svg1.1/filters-turb-02-f-ref.png ./fixtures/reftests/svg1.1/masking-filter-01-f-ref.png ./fixtures/reftests/svg1.1/masking-intro-01-f-ref.png ./fixtures/reftests/svg1.1/masking-mask-01-b-ref.png ./fixtures/reftests/svg1.1/masking-mask-02-f-ref.png ./fixtures/reftests/svg1.1/masking-opacity-01-b-ref.png ./fixtures/reftests/svg1.1/masking-path-01-b-ref.png ./fixtures/reftests/svg1.1/masking-path-02-b-ref.png ./fixtures/reftests/svg1.1/masking-path-03-b-ref.png ./fixtures/reftests/svg1.1/masking-path-04-b-ref.png ./fixtures/reftests/svg1.1/masking-path-05-f-ref.png ./fixtures/reftests/svg1.1/masking-path-07-b-ref.png ./fixtures/reftests/svg1.1/painting-control-02-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-01-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-02-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-03-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-04-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-06-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-07-f-ref.png ./fixtures/reftests/svg1.1/painting-marker-properties-01-f-ref.png ./fixtures/reftests/svg1.1/painting-stroke-01-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-02-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-03-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-04-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-05-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-06-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-07-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-08-t-ref.png ./fixtures/reftests/svg1.1/painting-stroke-09-t-ref.png ./fixtures/reftests/svg1.1/paths-data-01-t-ref.png ./fixtures/reftests/svg1.1/paths-data-02-t-ref.png ./fixtures/reftests/svg1.1/paths-data-03-f-ref.png ./fixtures/reftests/svg1.1/paths-data-04-t-ref.png ./fixtures/reftests/svg1.1/paths-data-05-t-ref.png ./fixtures/reftests/svg1.1/paths-data-06-t-ref.png ./fixtures/reftests/svg1.1/paths-data-07-t-ref.png ./fixtures/reftests/svg1.1/paths-data-08-t-ref.png ./fixtures/reftests/svg1.1/paths-data-09-t-ref.png ./fixtures/reftests/svg1.1/paths-data-10-t-ref.png ./fixtures/reftests/svg1.1/paths-data-12-t-ref.png ./fixtures/reftests/svg1.1/paths-data-13-t-ref.png ./fixtures/reftests/svg1.1/paths-data-14-t-ref.png ./fixtures/reftests/svg1.1/paths-data-15-t-ref.png ./fixtures/reftests/svg1.1/paths-data-16-t-ref.png ./fixtures/reftests/svg1.1/paths-data-17-f-ref.png ./fixtures/reftests/svg1.1/paths-data-18-f-ref.png ./fixtures/reftests/svg1.1/paths-data-19-f-ref.png ./fixtures/reftests/svg1.1/paths-data-20-f-ref.png ./fixtures/reftests/svg1.1/pservers-grad-01-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-02-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-03-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-04-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-05-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-06-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-07-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-08-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-09-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-10-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-11-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-12-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-14-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-15-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-16-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-18-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-22-b-ref.png ./fixtures/reftests/svg1.1/pservers-grad-23-f-ref.png ./fixtures/reftests/svg1.1/pservers-grad-24-f-ref.png ./fixtures/reftests/svg1.1/pservers-grad-stops-01-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-01-b-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-02-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-03-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-04-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-05-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-06-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-07-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-08-f-ref.png ./fixtures/reftests/svg1.1/pservers-pattern-09-f-ref.png ./fixtures/reftests/svg1.1/struct-cond-01-t-ref.png ./fixtures/reftests/svg1.1/struct-cond-03-t-ref.png ./fixtures/reftests/svg1.1/struct-svg-03-f-ref.png ./fixtures/reftests/svg1.1/struct-symbol-01-b-ref.png ./fixtures/reftests/svg1.1/struct-use-01-t-ref.png ./fixtures/reftests/svg1.1/struct-use-03-t-ref.png ./fixtures/reftests/svg1.1/struct-use-04-b-ref.png ./fixtures/reftests/svg1.1/struct-use-09-b-ref.png ./fixtures/reftests/svg1.1/text-align-01-b-ref.png ./fixtures/reftests/svg1.1/text-align-02-b-ref.png ./fixtures/reftests/svg1.1/text-align-03-b-ref.png ./fixtures/reftests/svg1.1/text-fonts-02-t-ref.png ./fixtures/reftests/svg1.1/text-text-03-b-ref.png ./fixtures/reftests/svg1.1/text-text-08-b-ref.png ./fixtures/reftests/svg1.1/text-text-10-t-ref.png ./fixtures/reftests/svg1.1/text-tref-01-b-ref.png ./fixtures/reftests/svg1.1/text-tref-02-b-ref.png ./fixtures/reftests/svg1.1/text-tref-03-b-ref.png ./fixtures/reftests/svg1.1/images/DisplaceChecker.png ./fixtures/reftests/svg1.1/images/bumpMap2.png ./fixtures/reftests/svg1.1/images/bumpMap3.png ./fixtures/reftests/svg1.1/images/filters-conv-01-f.includeimage.png ./fixtures/reftests/svg1.1/images/image1.jpg ./fixtures/reftests/svg1.1/images/pinksquidj.png ./fixtures/reftests/svg1.1/images/purplesquidj.png ./fixtures/reftests/svg1.1/images/rotate20.png ./fixtures/reftests/svg1.1/images/smiley.png ./fixtures/reftests/svg1.1/images/sphere.png ./fixtures/reftests/svg1.1/images/stefan_252_tRNS_opti.png ./fixtures/reftests/svg1.1/images/townsville.jpg ./fixtures/reftests/svg1.1/resources/20x20.png ./fixtures/reftests/svg1.1/resources/bluesquidj.png ./fixtures/reftests/svg1.1/resources/stefan_252_tRNS_opti.png ./fixtures/reftests/svg1.1/resources/struct-symbol-01.png ./fixtures/reftests/svg1.1/resources/svgRef4.css ./fixtures/reftests/svg1.1/resources/svgRef4.svg ./fixtures/reftests/svg1.1/resources/text-extTref-BE-18-targ.svg ./fixtures/reftests/svg1.1/resources/tree.jpg ./fixtures/reftests/svg2/gradient-01-b.svg ./fixtures/reftests/svg2/mix-blend-mode.svg ./fixtures/reftests/svg2/multi-filter.svg ./fixtures/reftests/svg2/paint-order.svg ./fixtures/reftests/svg2/gradient-01-b-ref.png ./fixtures/reftests/svg2/mix-blend-mode-ref.png ./fixtures/reftests/svg2/multi-filter-ref.png ./fixtures/reftests/svg2/paint-order-ref.png ./fixtures/render-crash/187-set-gradient-on-empty-path.svg ./fixtures/render-crash/193-filters-conv-05-f.svg ./fixtures/render-crash/227-negative-dasharray-value.svg ./fixtures/render-crash/266-filters-with-error-attributes.svg ./fixtures/render-crash/277-filter-on-empty-group.svg ./fixtures/render-crash/292-clip-empty-group.svg ./fixtures/render-crash/293-mask-empty-group.svg ./fixtures/render-crash/324-empty-svg.svg ./fixtures/render-crash/337-font-ex.svg ./fixtures/render-crash/338-zero-sized-image.svg ./fixtures/render-crash/340-marker-with-zero-sized-vbox.svg ./fixtures/render-crash/342-use-references-ancestor.svg ./fixtures/render-crash/343-feComponentTransfer-child-in-error.svg ./fixtures/render-crash/344-too-large-viewbox.svg ./fixtures/render-crash/345-too-large-size.svg ./fixtures/render-crash/395-feMorphology-negative-scaling.svg ./fixtures/render-crash/497-path-with-all-invalid-commands.svg ./fixtures/render-crash/581491-zero-sized-text.svg ./fixtures/render-crash/588-big-viewbox-yields-invalid-transform.svg ./fixtures/render-crash/591-vbox-overflow.svg ./fixtures/render-crash/593-mask-empty-bbox.svg ./fixtures/render-crash/777155-zero-sized-pattern.svg ./fixtures/render-crash/PixelRectangle-duplicate-crash.svg ./fixtures/render-crash/feMerge-color-interpolation-srgb.svg ./fixtures/render-crash/filters-non-invertible-paffine.svg ./fixtures/render-crash/gradient-with-no-children.svg ./fixtures/render-crash/pattern-with-no-children.svg ./fixtures/render-crash/recursive-feimage.svg ./fixtures/dimensions/347-bamboo-16fg-s-pt.svg ./fixtures/dimensions/347-wrapper.svg ./fixtures/dimensions/521-with-viewbox.svg ./fixtures/dimensions/bug564527.svg ./fixtures/dimensions/bug608102.svg ./fixtures/dimensions/bug612951.svg ./fixtures/dimensions/bug614018.svg ./fixtures/dimensions/bug760112-wilber.svg ./fixtures/dimensions/empty.svg ./fixtures/dimensions/sub-rect-no-unit.svg
+make[4]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make[4]: 'api' is up to date.
+make[4]: 'loading' is up to date.
+make[4]: 'rsvg-test' is up to date.
+make[4]: 'crash' is up to date.
+make[4]: 'render-crash' is up to date.
+make[4]: 'dimensions' is up to date.
+make[4]: 'errors' is up to date.
+make[4]: 'infinite-loop' is up to date.
+make[4]: Nothing to be done for 'resources/Roboto-Bold.ttf'.
+make[4]: Nothing to be done for 'resources/Roboto-BoldItalic.ttf'.
+make[4]: Nothing to be done for 'resources/Roboto-Italic.ttf'.
+make[4]: Nothing to be done for 'resources/Roboto-Regular.ttf'.
+make[4]: Nothing to be done for 'fixtures/api/334-element-positions.svg'.
+make[4]: Nothing to be done for 'fixtures/api/document.svg'.
+make[4]: Nothing to be done for 'fixtures/api/dpi.svg'.
+make[4]: Nothing to be done for 'fixtures/api/example.svg'.
+make[4]: Nothing to be done for 'fixtures/api/geometry-element.svg'.
+make[4]: Nothing to be done for 'fixtures/api/geometry.svg'.
+make[4]: Nothing to be done for 'fixtures/api/layers.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/335-non-svg-toplevel.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/336-invalid-css.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/349-empty-data-uri.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/349-too-big-image-in-href-data.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/352-feConvolveMatrix-large-allocation.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/377-xinclude-invalid-xml.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/463-characters-outside-first-element.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/467-xinclude-without-parent-element.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/524-invalid-stylesheet-href.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/785276-empty.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/785276-short-file.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/bug620238.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/bug759084.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/feConvolveMatrix-empty-kernel.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/marker-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/mask-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/pattern-fallback-cycles.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/xinclude-text-xml.svg'.
+make[4]: Nothing to be done for 'fixtures/crash/xml-pi-without-data.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/308-doubly-recursive-use.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/308-recursive-use.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/308-use-self-ref.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/323-nested-use.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/335-non-svg-element.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/515-pattern-billion-laughs.svg'.
+make[4]: Nothing to be done for 'fixtures/errors/515-too-many-elements.svgz'.
+make[4]: Nothing to be done for 'fixtures/infinite-loop/341-recursive-pattern.svg'.
+make[4]: Nothing to be done for 'fixtures/infinite-loop/398-recursive-gradient.svg'.
+make[4]: Nothing to be done for 'fixtures/loading/gnome-cool.svg'.
+make[4]: Nothing to be done for 'fixtures/loading/gnome-cool.svgz'.
+make[4]: Nothing to be done for 'fixtures/loading/include-fallback.svg'.
+make[4]: Nothing to be done for 'fixtures/loading/include-text.svg'.
+make[4]: Nothing to be done for 'fixtures/loading/text.txt'.
+make[4]: Nothing to be done for 'fixtures/reftests/css-import.css'.
+make[4]: Nothing to be done for 'fixtures/reftests/483-attribute-selectors.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/525-specificity.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/css-import-url.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/css-import.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-component-transfer-from-reference-page.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-conv-bounds.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-effects-region.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-image-from-reference-page.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-kernel-unit-length.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-morphology-from-reference-page.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-offset.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/font-shorthand.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/hexchat.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/ignore-filter-composite-color-interpolation-filters.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-fallback.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-text.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/specificity.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/style-with-xml-comments.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-de.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-en.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-other.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/483-attribute-selectors-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/525-specificity-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/css-import-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/css-import-url-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/duplicate-id-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-component-transfer-from-reference-page-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-composite-color-interpolation-filters-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-conv-bounds-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-effects-region-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-image-from-reference-page-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-kernel-unit-length-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-morphology-from-reference-page-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/filter-offset-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/font-shorthand-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/gzip-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/hexchat-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-compressed-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-fallback-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/include-text-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/specificity-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/style-with-xml-comments-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-de-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-en-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/system-language-other-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/text.txt'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/108-font-size-relative.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/112-svg-delayed-attributes.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/165-zero-length-subpath-square-linecap.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/181-inheritable-attrs-in-svg.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/241-light-source-type.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/245-negative-dashoffset.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/282-drop-shadow.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/310-font-size-at-48dpi.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/340047.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/348-font-size-48dpi.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/363-missing-space.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/372-small-arcs.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/373-gradient-userspaceonuse.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/403357.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/476507.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/481-tspan-uses-at-least-first-x.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/494-text-accumulate-dy.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/506-pattern-fallback.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/510-pattern-fill-opacity.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/510-pattern-fill.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/548-data-url-without-mimetype.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/563933.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/587721-text-transform.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/590-mask-units.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/603550-mask-luminance.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/609-clippath-transform.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/634324-blur-negative-transform.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/642-nested-tspan-dx-dy.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/689832-unresolved-gradient.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/738367.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/749415.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/760180.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/761175-recursive-masks.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/761871-reset-reflection-points.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/763386-marker-coincident.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/776297-marker-on-non-path-elements.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/777834-empty-text-children.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/786372-default-style-type.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/ignore-577-multiple-font-families.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/108-font-size-relative-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/112-svg-delayed-attributes-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/165-zero-length-subpath-square-linecap-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/181-inheritable-attrs-in-svg-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/241-light-source-type-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/245-negative-dashoffset-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/282-drop-shadow-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/310-font-size-at-48dpi-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/340047-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/348-font-size-48dpi-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/363-missing-space-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/372-small-arcs-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/373-gradient-userspaceonuse-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/403357-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/476507-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/481-tspan-uses-at-least-first-x-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/494-text-accumulate-dy-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/506-pattern-fallback-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/510-pattern-fill-opacity-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/510-pattern-fill-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/548-data-url-without-mimetype-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/563933-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/577-multiple-font-families-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/587721-text-transform-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/590-mask-units-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/603550-mask-luminance-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/609-clippath-transform-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/634324-blur-negative-transform-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/642-nested-tspan-dx-dy-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/689832-unresolved-gradient-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/738367-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/749415-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/760180-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/761175-recursive-masks-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/761871-reset-reflection-points-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/763386-marker-coincident-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/776297-marker-on-non-path-elements-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/777834-empty-text-children-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/bugs/786372-default-style-type-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-02-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-03-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-04-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-05-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-06-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-07-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-08-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-09-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-background-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-blend-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-color-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-color-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-comptran-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-diffuse-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-displace-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-felem-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-morph-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-offset-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-specular-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-tile-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-turb-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-turb-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/ignore-filters-displace-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/ignore-filters-example-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/ignore-masking-path-07-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-filter-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-intro-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-mask-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-mask-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-opacity-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-04-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-control-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-06-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-07-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-properties-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-01-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-02-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-03-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-04-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-05-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-06-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-07-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-08-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-09-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-01-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-02-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-04-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-05-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-06-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-07-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-08-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-09-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-10-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-12-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-13-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-14-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-15-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-16-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-17-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-18-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-19-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-20-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-04-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-05-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-06-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-07-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-08-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-09-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-10-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-11-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-12-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-14-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-15-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-16-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-18-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-22-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-23-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-24-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-stops-01-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-02-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-04-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-06-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-07-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-08-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-09-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-cond-01-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-cond-03-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-svg-03-f.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-symbol-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-01-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-03-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-04-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-09-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-fonts-02-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-08-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-10-t.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-02-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-03-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-02-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-03-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-04-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-05-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-06-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-07-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-08-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-trans-09-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/coords-viewattr-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-background-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-blend-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-color-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-color-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-composite-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-comptran-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-conv-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-diffuse-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-displace-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-displace-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-example-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-felem-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-gauss-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-image-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-light-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-morph-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-offset-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-overview-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-specular-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-tile-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-turb-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/filters-turb-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-filter-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-intro-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-mask-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-mask-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-opacity-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-04-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/masking-path-07-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-control-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-06-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-07-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-marker-properties-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-01-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-02-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-03-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-04-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-05-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-06-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-07-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-08-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/painting-stroke-09-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-01-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-02-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-04-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-05-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-06-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-07-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-08-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-09-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-10-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-12-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-13-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-14-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-15-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-16-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-17-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-18-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-19-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/paths-data-20-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-04-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-05-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-06-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-07-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-08-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-09-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-10-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-11-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-12-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-14-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-15-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-16-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-18-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-22-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-23-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-24-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-grad-stops-01-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-02-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-04-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-05-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-06-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-07-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-08-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/pservers-pattern-09-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-cond-01-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-cond-03-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-svg-03-f-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-symbol-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-01-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-03-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-04-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/struct-use-09-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-align-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-fonts-02-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-08-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-text-10-t-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-02-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/text-tref-03-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/DisplaceChecker.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/bumpMap2.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/bumpMap3.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/filters-conv-01-f.includeimage.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/image1.jpg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/pinksquidj.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/purplesquidj.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/rotate20.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/smiley.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/sphere.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/stefan_252_tRNS_opti.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/images/townsville.jpg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/20x20.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/bluesquidj.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/stefan_252_tRNS_opti.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/struct-symbol-01.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/svgRef4.css'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/svgRef4.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/text-extTref-BE-18-targ.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg1.1/resources/tree.jpg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/gradient-01-b.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/mix-blend-mode.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/multi-filter.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/paint-order.svg'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/gradient-01-b-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/mix-blend-mode-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/multi-filter-ref.png'.
+make[4]: Nothing to be done for 'fixtures/reftests/svg2/paint-order-ref.png'.
+make[4]: Nothing to be done for 'fixtures/render-crash/187-set-gradient-on-empty-path.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/193-filters-conv-05-f.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/227-negative-dasharray-value.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/266-filters-with-error-attributes.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/277-filter-on-empty-group.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/292-clip-empty-group.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/293-mask-empty-group.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/324-empty-svg.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/337-font-ex.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/338-zero-sized-image.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/340-marker-with-zero-sized-vbox.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/342-use-references-ancestor.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/343-feComponentTransfer-child-in-error.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/344-too-large-viewbox.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/345-too-large-size.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/395-feMorphology-negative-scaling.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/497-path-with-all-invalid-commands.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/581491-zero-sized-text.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/588-big-viewbox-yields-invalid-transform.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/591-vbox-overflow.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/593-mask-empty-bbox.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/777155-zero-sized-pattern.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/PixelRectangle-duplicate-crash.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/feMerge-color-interpolation-srgb.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/filters-non-invertible-paffine.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/gradient-with-no-children.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/pattern-with-no-children.svg'.
+make[4]: Nothing to be done for 'fixtures/render-crash/recursive-feimage.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/347-bamboo-16fg-s-pt.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/347-wrapper.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/521-with-viewbox.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug564527.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug608102.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug612951.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug614018.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/bug760112-wilber.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/empty.svg'.
+make[4]: Nothing to be done for 'fixtures/dimensions/sub-rect-no-unit.svg'.
+make[4]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make  check-TESTS
+make[4]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make[5]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+PASS: api 1 /api/pixbuf_from_file
+PASS: api 2 /api/pixbuf_from_file_at_zoom
+PASS: api 3 /api/pixbuf_from_file_at_size
+PASS: api 4 /api/pixbuf_from_file_at_max_size
+PASS: api 5 /api/pixbuf_from_file_at_zoom_with_max
+PASS: api 6 /api/pixbuf_overflow
+PASS: api 7 /api/handle_has_gtype
+PASS: api 8 /api/flags_registration
+PASS: api 9 /api/error_registration
+PASS: api 10 /api/noops
+PASS: api 11 /api/set_dpi
+PASS: api 12 /api/base_uri
+PASS: api 13 /api/base_gfile
+PASS: api 14 /api/handle_write_close_free
+PASS: api 15 /api/handle_new_from_file
+PASS: api 16 /api/handle_new_from_data
+PASS: api 17 /api/handle_new_from_gfile_sync
+PASS: api 18 /api/handle_new_from_stream_sync
+PASS: api 19 /api/handle_read_stream_sync
+PASS: api 20 /api/handle_has_sub
+PASS: api 21 /api/handle_get_pixbuf
+PASS: api 22 /api/handle_get_pixbuf_sub
+PASS: api 23 /api/dimensions_and_position
+PASS: api 24 /api/set_size_callback
+PASS: api 25 /api/reset_size_callback
+PASS: api 26 /api/render_with_zero_size_callback
+PASS: api 27 /api/get_pixbuf_with_size_callback
+PASS: api 28 /api/detects_cairo_context_in_error
+PASS: api 29 /api/can_draw_to_non_image_surface
+PASS: api 30 /api/render_cairo_sub
+PASS: api 31 /api/get_intrinsic_dimensions
+PASS: api 32 /api/render_document
+PASS: api 33 /api/get_geometry_for_layer
+PASS: api 34 /api/render_layer
+PASS: api 35 /api/untransformed_element
+PASS: api 36 /api/no_write_before_close
+PASS: api 37 /api/empty_write_close
+PASS: api 38 /api/cannot_request_external_elements
+PASS: api 39 /api/property_flags
+PASS: api 40 /api/property_dpi
+PASS: api 41 /api/property_base_uri
+PASS: api 42 /api/property_dimensions
+PASS: api 43 /api/property_deprecated
+PASS: api 44 /api/return_if_fail
+PASS: api 45 /api/return_if_fail_null_check
+PASS: api 46 /api/return_if_fail_type_check
+PASS: loading 1 /loading/one-byte-at-a-time
+PASS: loading 2 /loading/compressed-one-byte-at-a-time
+PASS: loading 3 /loading/compressed-two-bytes-at-a-time
+PASS: rsvg-test 1 /rsvg-test/reftests/483-attribute-selectors.svg
+PASS: rsvg-test 2 /rsvg-test/reftests/525-specificity.svg
+PASS: rsvg-test 3 /rsvg-test/reftests/css-import-url.svg
+PASS: rsvg-test 4 /rsvg-test/reftests/css-import.svg
+PASS: rsvg-test 5 /rsvg-test/reftests/duplicate-id.svg
+PASS: rsvg-test 6 /rsvg-test/reftests/filter-component-transfer-from-reference-page.svg
+PASS: rsvg-test 7 /rsvg-test/reftests/filter-conv-bounds.svg
+PASS: rsvg-test 8 /rsvg-test/reftests/filter-effects-region.svg
+PASS: rsvg-test 9 /rsvg-test/reftests/filter-image-from-reference-page.svg
+PASS: rsvg-test 10 /rsvg-test/reftests/filter-kernel-unit-length.svg
+PASS: rsvg-test 11 /rsvg-test/reftests/filter-morphology-from-reference-page.svg
+PASS: rsvg-test 12 /rsvg-test/reftests/filter-offset.svg
+PASS: rsvg-test 13 /rsvg-test/reftests/font-shorthand.svg
+PASS: rsvg-test 14 /rsvg-test/reftests/gzip-compressed.svg
+PASS: rsvg-test 15 /rsvg-test/reftests/hexchat.svg
+PASS: rsvg-test 16 /rsvg-test/reftests/include-compressed.svg
+PASS: rsvg-test 17 /rsvg-test/reftests/include-fallback.svg
+PASS: rsvg-test 18 /rsvg-test/reftests/include-text.svg
+PASS: rsvg-test 19 /rsvg-test/reftests/specificity.svg
+PASS: rsvg-test 20 /rsvg-test/reftests/style-with-xml-comments.svg
+PASS: rsvg-test 21 /rsvg-test/reftests/system-language-de.svg
+PASS: rsvg-test 22 /rsvg-test/reftests/system-language-en.svg
+PASS: rsvg-test 23 /rsvg-test/reftests/system-language-other.svg
+PASS: rsvg-test 24 /rsvg-test/reftests/bugs/108-font-size-relative.svg
+PASS: rsvg-test 25 /rsvg-test/reftests/bugs/112-svg-delayed-attributes.svg
+PASS: rsvg-test 26 /rsvg-test/reftests/bugs/165-zero-length-subpath-square-linecap.svg
+PASS: rsvg-test 27 /rsvg-test/reftests/bugs/181-inheritable-attrs-in-svg.svg
+PASS: rsvg-test 28 /rsvg-test/reftests/bugs/241-light-source-type.svg
+PASS: rsvg-test 29 /rsvg-test/reftests/bugs/245-negative-dashoffset.svg
+PASS: rsvg-test 30 /rsvg-test/reftests/bugs/282-drop-shadow.svg
+PASS: rsvg-test 31 /rsvg-test/reftests/bugs/310-font-size-at-48dpi.svg
+PASS: rsvg-test 32 /rsvg-test/reftests/bugs/340047.svg
+PASS: rsvg-test 33 /rsvg-test/reftests/bugs/348-font-size-48dpi.svg
+PASS: rsvg-test 34 /rsvg-test/reftests/bugs/363-missing-space.svg
+PASS: rsvg-test 35 /rsvg-test/reftests/bugs/372-small-arcs.svg
+PASS: rsvg-test 36 /rsvg-test/reftests/bugs/373-gradient-userspaceonuse.svg
+PASS: rsvg-test 37 /rsvg-test/reftests/bugs/403357.svg
+PASS: rsvg-test 38 /rsvg-test/reftests/bugs/476507.svg
+PASS: rsvg-test 39 /rsvg-test/reftests/bugs/481-tspan-uses-at-least-first-x.svg
+PASS: rsvg-test 40 /rsvg-test/reftests/bugs/494-text-accumulate-dy.svg
+PASS: rsvg-test 41 /rsvg-test/reftests/bugs/506-pattern-fallback.svg
+PASS: rsvg-test 42 /rsvg-test/reftests/bugs/510-pattern-fill-opacity.svg
+PASS: rsvg-test 43 /rsvg-test/reftests/bugs/510-pattern-fill.svg
+PASS: rsvg-test 44 /rsvg-test/reftests/bugs/548-data-url-without-mimetype.svg
+PASS: rsvg-test 45 /rsvg-test/reftests/bugs/563933.svg
+PASS: rsvg-test 46 /rsvg-test/reftests/bugs/587721-text-transform.svg
+PASS: rsvg-test 47 /rsvg-test/reftests/bugs/590-mask-units.svg
+PASS: rsvg-test 48 /rsvg-test/reftests/bugs/603550-mask-luminance.svg
+PASS: rsvg-test 49 /rsvg-test/reftests/bugs/609-clippath-transform.svg
+PASS: rsvg-test 50 /rsvg-test/reftests/bugs/634324-blur-negative-transform.svg
+PASS: rsvg-test 51 /rsvg-test/reftests/bugs/642-nested-tspan-dx-dy.svg
+PASS: rsvg-test 52 /rsvg-test/reftests/bugs/689832-unresolved-gradient.svg
+PASS: rsvg-test 53 /rsvg-test/reftests/bugs/738367.svg
+PASS: rsvg-test 54 /rsvg-test/reftests/bugs/749415.svg
+PASS: rsvg-test 55 /rsvg-test/reftests/bugs/760180.svg
+PASS: rsvg-test 56 /rsvg-test/reftests/bugs/761175-recursive-masks.svg
+PASS: rsvg-test 57 /rsvg-test/reftests/bugs/761871-reset-reflection-points.svg
+PASS: rsvg-test 58 /rsvg-test/reftests/bugs/763386-marker-coincident.svg
+PASS: rsvg-test 59 /rsvg-test/reftests/bugs/776297-marker-on-non-path-elements.svg
+PASS: rsvg-test 60 /rsvg-test/reftests/bugs/777834-empty-text-children.svg
+PASS: rsvg-test 61 /rsvg-test/reftests/bugs/786372-default-style-type.svg
+PASS: rsvg-test 62 /rsvg-test/reftests/svg1.1/coords-trans-01-b.svg
+PASS: rsvg-test 63 /rsvg-test/reftests/svg1.1/coords-trans-02-t.svg
+PASS: rsvg-test 64 /rsvg-test/reftests/svg1.1/coords-trans-03-t.svg
+PASS: rsvg-test 65 /rsvg-test/reftests/svg1.1/coords-trans-04-t.svg
+PASS: rsvg-test 66 /rsvg-test/reftests/svg1.1/coords-trans-05-t.svg
+PASS: rsvg-test 67 /rsvg-test/reftests/svg1.1/coords-trans-06-t.svg
+PASS: rsvg-test 68 /rsvg-test/reftests/svg1.1/coords-trans-07-t.svg
+PASS: rsvg-test 69 /rsvg-test/reftests/svg1.1/coords-trans-08-t.svg
+PASS: rsvg-test 70 /rsvg-test/reftests/svg1.1/coords-trans-09-t.svg
+PASS: rsvg-test 71 /rsvg-test/reftests/svg1.1/coords-viewattr-01-b.svg
+PASS: rsvg-test 72 /rsvg-test/reftests/svg1.1/coords-viewattr-02-b.svg
+PASS: rsvg-test 73 /rsvg-test/reftests/svg1.1/coords-viewattr-03-b.svg
+PASS: rsvg-test 74 /rsvg-test/reftests/svg1.1/filters-background-01-f.svg
+PASS: rsvg-test 75 /rsvg-test/reftests/svg1.1/filters-blend-01-b.svg
+PASS: rsvg-test 76 /rsvg-test/reftests/svg1.1/filters-color-01-b.svg
+PASS: rsvg-test 77 /rsvg-test/reftests/svg1.1/filters-color-02-b.svg
+PASS: rsvg-test 78 /rsvg-test/reftests/svg1.1/filters-composite-02-b.svg
+PASS: rsvg-test 79 /rsvg-test/reftests/svg1.1/filters-composite-03-f.svg
+PASS: rsvg-test 80 /rsvg-test/reftests/svg1.1/filters-composite-04-f.svg
+PASS: rsvg-test 81 /rsvg-test/reftests/svg1.1/filters-composite-05-f.svg
+PASS: rsvg-test 82 /rsvg-test/reftests/svg1.1/filters-comptran-01-b.svg
+PASS: rsvg-test 83 /rsvg-test/reftests/svg1.1/filters-conv-01-f.svg
+PASS: rsvg-test 84 /rsvg-test/reftests/svg1.1/filters-conv-02-f.svg
+PASS: rsvg-test 85 /rsvg-test/reftests/svg1.1/filters-conv-03-f.svg
+PASS: rsvg-test 86 /rsvg-test/reftests/svg1.1/filters-conv-04-f.svg
+PASS: rsvg-test 87 /rsvg-test/reftests/svg1.1/filters-conv-05-f.svg
+PASS: rsvg-test 88 /rsvg-test/reftests/svg1.1/filters-diffuse-01-f.svg
+PASS: rsvg-test 89 /rsvg-test/reftests/svg1.1/filters-displace-02-f.svg
+PASS: rsvg-test 90 /rsvg-test/reftests/svg1.1/filters-felem-02-f.svg
+PASS: rsvg-test 91 /rsvg-test/reftests/svg1.1/filters-gauss-01-b.svg
+PASS: rsvg-test 92 /rsvg-test/reftests/svg1.1/filters-gauss-02-f.svg
+PASS: rsvg-test 93 /rsvg-test/reftests/svg1.1/filters-gauss-03-f.svg
+PASS: rsvg-test 94 /rsvg-test/reftests/svg1.1/filters-image-01-b.svg
+PASS: rsvg-test 95 /rsvg-test/reftests/svg1.1/filters-image-02-b.svg
+PASS: rsvg-test 96 /rsvg-test/reftests/svg1.1/filters-image-03-f.svg
+PASS: rsvg-test 97 /rsvg-test/reftests/svg1.1/filters-image-04-f.svg
+PASS: rsvg-test 98 /rsvg-test/reftests/svg1.1/filters-image-05-f.svg
+PASS: rsvg-test 99 /rsvg-test/reftests/svg1.1/filters-light-01-f.svg
+PASS: rsvg-test 100 /rsvg-test/reftests/svg1.1/filters-light-02-f.svg
+PASS: rsvg-test 101 /rsvg-test/reftests/svg1.1/filters-light-03-f.svg
+PASS: rsvg-test 102 /rsvg-test/reftests/svg1.1/filters-light-04-f.svg
+PASS: rsvg-test 103 /rsvg-test/reftests/svg1.1/filters-light-05-f.svg
+PASS: rsvg-test 104 /rsvg-test/reftests/svg1.1/filters-morph-01-f.svg
+PASS: rsvg-test 105 /rsvg-test/reftests/svg1.1/filters-offset-01-b.svg
+PASS: rsvg-test 106 /rsvg-test/reftests/svg1.1/filters-overview-01-b.svg
+PASS: rsvg-test 107 /rsvg-test/reftests/svg1.1/filters-overview-02-b.svg
+PASS: rsvg-test 108 /rsvg-test/reftests/svg1.1/filters-overview-03-b.svg
+PASS: rsvg-test 109 /rsvg-test/reftests/svg1.1/filters-specular-01-f.svg
+PASS: rsvg-test 110 /rsvg-test/reftests/svg1.1/filters-tile-01-b.svg
+PASS: rsvg-test 111 /rsvg-test/reftests/svg1.1/filters-turb-01-f.svg
+PASS: rsvg-test 112 /rsvg-test/reftests/svg1.1/filters-turb-02-f.svg
+PASS: rsvg-test 113 /rsvg-test/reftests/svg1.1/masking-filter-01-f.svg
+PASS: rsvg-test 114 /rsvg-test/reftests/svg1.1/masking-intro-01-f.svg
+PASS: rsvg-test 115 /rsvg-test/reftests/svg1.1/masking-mask-01-b.svg
+PASS: rsvg-test 116 /rsvg-test/reftests/svg1.1/masking-mask-02-f.svg
+PASS: rsvg-test 117 /rsvg-test/reftests/svg1.1/masking-opacity-01-b.svg
+PASS: rsvg-test 118 /rsvg-test/reftests/svg1.1/masking-path-01-b.svg
+PASS: rsvg-test 119 /rsvg-test/reftests/svg1.1/masking-path-02-b.svg
+PASS: rsvg-test 120 /rsvg-test/reftests/svg1.1/masking-path-03-b.svg
+PASS: rsvg-test 121 /rsvg-test/reftests/svg1.1/masking-path-04-b.svg
+PASS: rsvg-test 122 /rsvg-test/reftests/svg1.1/masking-path-05-f.svg
+PASS: rsvg-test 123 /rsvg-test/reftests/svg1.1/painting-control-02-f.svg
+PASS: rsvg-test 124 /rsvg-test/reftests/svg1.1/painting-marker-01-f.svg
+PASS: rsvg-test 125 /rsvg-test/reftests/svg1.1/painting-marker-02-f.svg
+PASS: rsvg-test 126 /rsvg-test/reftests/svg1.1/painting-marker-03-f.svg
+PASS: rsvg-test 127 /rsvg-test/reftests/svg1.1/painting-marker-04-f.svg
+PASS: rsvg-test 128 /rsvg-test/reftests/svg1.1/painting-marker-06-f.svg
+PASS: rsvg-test 129 /rsvg-test/reftests/svg1.1/painting-marker-07-f.svg
+PASS: rsvg-test 130 /rsvg-test/reftests/svg1.1/painting-marker-properties-01-f.svg
+PASS: rsvg-test 131 /rsvg-test/reftests/svg1.1/painting-stroke-01-t.svg
+PASS: rsvg-test 132 /rsvg-test/reftests/svg1.1/painting-stroke-02-t.svg
+PASS: rsvg-test 133 /rsvg-test/reftests/svg1.1/painting-stroke-03-t.svg
+PASS: rsvg-test 134 /rsvg-test/reftests/svg1.1/painting-stroke-04-t.svg
+PASS: rsvg-test 135 /rsvg-test/reftests/svg1.1/painting-stroke-05-t.svg
+PASS: rsvg-test 136 /rsvg-test/reftests/svg1.1/painting-stroke-06-t.svg
+PASS: rsvg-test 137 /rsvg-test/reftests/svg1.1/painting-stroke-07-t.svg
+PASS: rsvg-test 138 /rsvg-test/reftests/svg1.1/painting-stroke-08-t.svg
+PASS: rsvg-test 139 /rsvg-test/reftests/svg1.1/painting-stroke-09-t.svg
+PASS: rsvg-test 140 /rsvg-test/reftests/svg1.1/paths-data-01-t.svg
+PASS: rsvg-test 141 /rsvg-test/reftests/svg1.1/paths-data-02-t.svg
+PASS: rsvg-test 142 /rsvg-test/reftests/svg1.1/paths-data-03-f.svg
+PASS: rsvg-test 143 /rsvg-test/reftests/svg1.1/paths-data-04-t.svg
+PASS: rsvg-test 144 /rsvg-test/reftests/svg1.1/paths-data-05-t.svg
+PASS: rsvg-test 145 /rsvg-test/reftests/svg1.1/paths-data-06-t.svg
+PASS: rsvg-test 146 /rsvg-test/reftests/svg1.1/paths-data-07-t.svg
+PASS: rsvg-test 147 /rsvg-test/reftests/svg1.1/paths-data-08-t.svg
+PASS: rsvg-test 148 /rsvg-test/reftests/svg1.1/paths-data-09-t.svg
+PASS: rsvg-test 149 /rsvg-test/reftests/svg1.1/paths-data-10-t.svg
+PASS: rsvg-test 150 /rsvg-test/reftests/svg1.1/paths-data-12-t.svg
+PASS: rsvg-test 151 /rsvg-test/reftests/svg1.1/paths-data-13-t.svg
+PASS: rsvg-test 152 /rsvg-test/reftests/svg1.1/paths-data-14-t.svg
+PASS: rsvg-test 153 /rsvg-test/reftests/svg1.1/paths-data-15-t.svg
+PASS: rsvg-test 154 /rsvg-test/reftests/svg1.1/paths-data-16-t.svg
+PASS: rsvg-test 155 /rsvg-test/reftests/svg1.1/paths-data-17-f.svg
+PASS: rsvg-test 156 /rsvg-test/reftests/svg1.1/paths-data-18-f.svg
+PASS: rsvg-test 157 /rsvg-test/reftests/svg1.1/paths-data-19-f.svg
+PASS: rsvg-test 158 /rsvg-test/reftests/svg1.1/paths-data-20-f.svg
+PASS: rsvg-test 159 /rsvg-test/reftests/svg1.1/pservers-grad-01-b.svg
+PASS: rsvg-test 160 /rsvg-test/reftests/svg1.1/pservers-grad-02-b.svg
+PASS: rsvg-test 161 /rsvg-test/reftests/svg1.1/pservers-grad-03-b.svg
+PASS: rsvg-test 162 /rsvg-test/reftests/svg1.1/pservers-grad-04-b.svg
+PASS: rsvg-test 163 /rsvg-test/reftests/svg1.1/pservers-grad-05-b.svg
+PASS: rsvg-test 164 /rsvg-test/reftests/svg1.1/pservers-grad-06-b.svg
+PASS: rsvg-test 165 /rsvg-test/reftests/svg1.1/pservers-grad-07-b.svg
+PASS: rsvg-test 166 /rsvg-test/reftests/svg1.1/pservers-grad-08-b.svg
+PASS: rsvg-test 167 /rsvg-test/reftests/svg1.1/pservers-grad-09-b.svg
+PASS: rsvg-test 168 /rsvg-test/reftests/svg1.1/pservers-grad-10-b.svg
+PASS: rsvg-test 169 /rsvg-test/reftests/svg1.1/pservers-grad-11-b.svg
+PASS: rsvg-test 170 /rsvg-test/reftests/svg1.1/pservers-grad-12-b.svg
+PASS: rsvg-test 171 /rsvg-test/reftests/svg1.1/pservers-grad-14-b.svg
+PASS: rsvg-test 172 /rsvg-test/reftests/svg1.1/pservers-grad-15-b.svg
+PASS: rsvg-test 173 /rsvg-test/reftests/svg1.1/pservers-grad-16-b.svg
+PASS: rsvg-test 174 /rsvg-test/reftests/svg1.1/pservers-grad-18-b.svg
+PASS: rsvg-test 175 /rsvg-test/reftests/svg1.1/pservers-grad-22-b.svg
+PASS: rsvg-test 176 /rsvg-test/reftests/svg1.1/pservers-grad-23-f.svg
+PASS: rsvg-test 177 /rsvg-test/reftests/svg1.1/pservers-grad-24-f.svg
+PASS: rsvg-test 178 /rsvg-test/reftests/svg1.1/pservers-grad-stops-01-f.svg
+PASS: rsvg-test 179 /rsvg-test/reftests/svg1.1/pservers-pattern-01-b.svg
+PASS: rsvg-test 180 /rsvg-test/reftests/svg1.1/pservers-pattern-02-f.svg
+PASS: rsvg-test 181 /rsvg-test/reftests/svg1.1/pservers-pattern-03-f.svg
+PASS: rsvg-test 182 /rsvg-test/reftests/svg1.1/pservers-pattern-04-f.svg
+PASS: rsvg-test 183 /rsvg-test/reftests/svg1.1/pservers-pattern-05-f.svg
+PASS: rsvg-test 184 /rsvg-test/reftests/svg1.1/pservers-pattern-06-f.svg
+PASS: rsvg-test 185 /rsvg-test/reftests/svg1.1/pservers-pattern-07-f.svg
+PASS: rsvg-test 186 /rsvg-test/reftests/svg1.1/pservers-pattern-08-f.svg
+PASS: rsvg-test 187 /rsvg-test/reftests/svg1.1/pservers-pattern-09-f.svg
+PASS: rsvg-test 188 /rsvg-test/reftests/svg1.1/struct-cond-01-t.svg
+PASS: rsvg-test 189 /rsvg-test/reftests/svg1.1/struct-cond-03-t.svg
+PASS: rsvg-test 190 /rsvg-test/reftests/svg1.1/struct-svg-03-f.svg
+PASS: rsvg-test 191 /rsvg-test/reftests/svg1.1/struct-symbol-01-b.svg
+PASS: rsvg-test 192 /rsvg-test/reftests/svg1.1/struct-use-01-t.svg
+PASS: rsvg-test 193 /rsvg-test/reftests/svg1.1/struct-use-03-t.svg
+PASS: rsvg-test 194 /rsvg-test/reftests/svg1.1/struct-use-04-b.svg
+PASS: rsvg-test 195 /rsvg-test/reftests/svg1.1/struct-use-09-b.svg
+PASS: rsvg-test 196 /rsvg-test/reftests/svg1.1/text-align-01-b.svg
+PASS: rsvg-test 197 /rsvg-test/reftests/svg1.1/text-align-02-b.svg
+PASS: rsvg-test 198 /rsvg-test/reftests/svg1.1/text-align-03-b.svg
+PASS: rsvg-test 199 /rsvg-test/reftests/svg1.1/text-fonts-02-t.svg
+PASS: rsvg-test 200 /rsvg-test/reftests/svg1.1/text-text-03-b.svg
+PASS: rsvg-test 201 /rsvg-test/reftests/svg1.1/text-text-08-b.svg
+PASS: rsvg-test 202 /rsvg-test/reftests/svg1.1/text-text-10-t.svg
+PASS: rsvg-test 203 /rsvg-test/reftests/svg1.1/text-tref-01-b.svg
+PASS: rsvg-test 204 /rsvg-test/reftests/svg1.1/text-tref-02-b.svg
+PASS: rsvg-test 205 /rsvg-test/reftests/svg1.1/text-tref-03-b.svg
+PASS: rsvg-test 206 /rsvg-test/reftests/svg2/gradient-01-b.svg
+PASS: rsvg-test 207 /rsvg-test/reftests/svg2/mix-blend-mode.svg
+PASS: rsvg-test 208 /rsvg-test/reftests/svg2/multi-filter.svg
+PASS: rsvg-test 209 /rsvg-test/reftests/svg2/paint-order.svg
+PASS: crash 1 /crash/335-non-svg-toplevel.svg
+PASS: crash 2 /crash/336-invalid-css.svg
+PASS: crash 3 /crash/349-empty-data-uri.svg
+PASS: crash 4 /crash/349-too-big-image-in-href-data.svg
+PASS: crash 5 /crash/352-feConvolveMatrix-large-allocation.svg
+PASS: crash 6 /crash/377-xinclude-invalid-xml.svg
+PASS: crash 7 /crash/463-characters-outside-first-element.svg
+PASS: crash 8 /crash/467-xinclude-without-parent-element.svg
+PASS: crash 9 /crash/524-invalid-stylesheet-href.svg
+PASS: crash 10 /crash/785276-empty.svg
+PASS: crash 11 /crash/785276-short-file.svg
+PASS: crash 12 /crash/bug620238.svg
+PASS: crash 13 /crash/bug759084.svg
+PASS: crash 14 /crash/feConvolveMatrix-empty-kernel.svg
+PASS: crash 15 /crash/marker-cycles.svg
+PASS: crash 16 /crash/mask-cycles.svg
+PASS: crash 17 /crash/pattern-fallback-cycles.svg
+PASS: crash 18 /crash/xinclude-text-xml.svg
+PASS: crash 19 /crash/xml-pi-without-data.svg
+PASS: render-crash 1 /render-crash/187-set-gradient-on-empty-path.svg
+PASS: render-crash 2 /render-crash/193-filters-conv-05-f.svg
+PASS: render-crash 3 /render-crash/227-negative-dasharray-value.svg
+PASS: render-crash 4 /render-crash/266-filters-with-error-attributes.svg
+PASS: render-crash 5 /render-crash/277-filter-on-empty-group.svg
+PASS: render-crash 6 /render-crash/292-clip-empty-group.svg
+PASS: render-crash 7 /render-crash/293-mask-empty-group.svg
+PASS: render-crash 8 /render-crash/324-empty-svg.svg
+PASS: render-crash 9 /render-crash/337-font-ex.svg
+PASS: render-crash 10 /render-crash/338-zero-sized-image.svg
+PASS: render-crash 11 /render-crash/340-marker-with-zero-sized-vbox.svg
+PASS: render-crash 12 /render-crash/342-use-references-ancestor.svg
+PASS: render-crash 13 /render-crash/343-feComponentTransfer-child-in-error.svg
+PASS: render-crash 14 /render-crash/344-too-large-viewbox.svg
+PASS: render-crash 15 /render-crash/345-too-large-size.svg
+PASS: render-crash 16 /render-crash/395-feMorphology-negative-scaling.svg
+PASS: render-crash 17 /render-crash/497-path-with-all-invalid-commands.svg
+PASS: render-crash 18 /render-crash/581491-zero-sized-text.svg
+PASS: render-crash 19 /render-crash/588-big-viewbox-yields-invalid-transform.svg
+PASS: render-crash 20 /render-crash/591-vbox-overflow.svg
+PASS: render-crash 21 /render-crash/593-mask-empty-bbox.svg
+PASS: render-crash 22 /render-crash/777155-zero-sized-pattern.svg
+PASS: render-crash 23 /render-crash/PixelRectangle-duplicate-crash.svg
+PASS: render-crash 24 /render-crash/feMerge-color-interpolation-srgb.svg
+PASS: render-crash 25 /render-crash/filters-non-invertible-paffine.svg
+PASS: render-crash 26 /render-crash/gradient-with-no-children.svg
+PASS: render-crash 27 /render-crash/pattern-with-no-children.svg
+PASS: render-crash 28 /render-crash/recursive-feimage.svg
+PASS: dimensions 1 /dimensions/no viewbox, width and height
+PASS: dimensions 2 /dimensions/100% width and height
+PASS: dimensions 3 /dimensions/viewbox only
+PASS: dimensions 4 /dimensions/with-viewbox
+PASS: dimensions 5 /dimensions/sub/rect no unit
+PASS: dimensions 6 /dimensions/sub/text_position
+PASS: errors 1 /errors/non_svg_element
+PASS: errors 2 /errors/515-too-many-elements.svgz
+PASS: errors 3 /errors/instancing_limit/323-nested-use.svg
+PASS: errors 4 /errors/instancing_limit/515-pattern-billion-laughs.svg
+PASS: errors 5 /errors/instancing_limit/308-use-self-ref.svg
+PASS: errors 6 /errors/instancing_limit/308-recursive-use.svg
+PASS: errors 7 /errors/instancing_limit/308-doubly-recursive-use.svg
+PASS: infinite-loop 1 /infinite-loop/341-recursive-pattern.svg
+PASS: infinite-loop 2 /infinite-loop/398-recursive-gradient.svg
+============================================================================
+Testsuite summary for RSVG 2.50.3
+============================================================================
+# TOTAL: 320
+# PASS:  320
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make[4]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make[3]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tests'
+Making check in tools
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tools'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/tools'
+Making check in doc
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/doc'
+Making check in win32
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/win32'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/win32'
+Making check in po
+make[2]: Entering directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/po'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3/po'
+make[1]: Leaving directory '/usr/ports/opt/librsvg/work/src/librsvg-2.50.3'
