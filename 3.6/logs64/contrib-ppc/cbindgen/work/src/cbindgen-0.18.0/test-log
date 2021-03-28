@@ -1,0 +1,48 @@
+    Finished test [unoptimized + debuginfo] target(s) in 0.09s
+     Running target/debug/deps/cbindgen-3f6aa85eba06d413
+
+running 2 tests
+test bindgen::builder::tests::with_style ... ok
+test bindgen::mangle::generics ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/debug/deps/cbindgen-2011c82f5a791be6
+
+running 2 tests
+test bindgen::builder::tests::with_style ... ok
+test bindgen::mangle::generics ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out
+
+     Running target/debug/deps/profile-4787c7769e103771
+
+running 6 tests
+test bin_default_uses_debug_build ... ok
+test bin_explicit_debug_build ... ok
+test bin_explicit_release_build ... ok
+test lib_default_uses_debug_build ... FAILED
+test lib_explicit_debug_build ... FAILED
+test lib_explicit_release_build ... FAILED
+
+failures:
+
+---- lib_default_uses_debug_build stdout ----
+thread 'lib_default_uses_debug_build' panicked at 'build should succeed: CargoExpand("expand-dep", Compile("   Compiling dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep/dep)\n     Running `rustc --crate-name dep --edition=2018 dep/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -C metadata=597e380f7153e1a8 -C extra-filename=-597e380f7153e1a8 --out-dir /tmp/cbindgen-test-output-GeFJUo/debug/deps -C incremental=/tmp/cbindgen-test-output-GeFJUo/debug/incremental -L dependency=/tmp/cbindgen-test-output-GeFJUo/debug/deps`\n   Compiling expand-dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep)\n     Running `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -Z unstable-options --pretty=expanded -C metadata=655616a61e3c2d1c -C extra-filename=-655616a61e3c2d1c --out-dir /tmp/cbindgen-test-output-GeFJUo/debug/deps -C incremental=/tmp/cbindgen-test-output-GeFJUo/debug/incremental -L dependency=/tmp/cbindgen-test-output-GeFJUo/debug/deps --extern dep=/tmp/cbindgen-test-output-GeFJUo/debug/deps/libdep-597e380f7153e1a8.rmeta`\nerror: the option `Z` is only accepted on the nightly compiler\n\nerror: could not compile `expand-dep`\n\nCaused by:\n  process didn\'t exit successfully: `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -Z unstable-options --pretty=expanded -C metadata=655616a61e3c2d1c -C extra-filename=-655616a61e3c2d1c --out-dir /tmp/cbindgen-test-output-GeFJUo/debug/deps -C incremental=/tmp/cbindgen-test-output-GeFJUo/debug/incremental -L dependency=/tmp/cbindgen-test-output-GeFJUo/debug/deps --extern dep=/tmp/cbindgen-test-output-GeFJUo/debug/deps/libdep-597e380f7153e1a8.rmeta` (exit code: 1)\n"))', tests/profile.rs:25:24
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- lib_explicit_debug_build stdout ----
+thread 'lib_explicit_debug_build' panicked at 'build should succeed: CargoExpand("expand-dep", Compile("   Compiling dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep/dep)\n     Running `rustc --crate-name dep --edition=2018 dep/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -C metadata=597e380f7153e1a8 -C extra-filename=-597e380f7153e1a8 --out-dir /tmp/cbindgen-test-output-VJnj9H/debug/deps -C incremental=/tmp/cbindgen-test-output-VJnj9H/debug/incremental -L dependency=/tmp/cbindgen-test-output-VJnj9H/debug/deps`\n   Compiling expand-dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep)\n     Running `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -Z unstable-options --pretty=expanded -C metadata=655616a61e3c2d1c -C extra-filename=-655616a61e3c2d1c --out-dir /tmp/cbindgen-test-output-VJnj9H/debug/deps -C incremental=/tmp/cbindgen-test-output-VJnj9H/debug/incremental -L dependency=/tmp/cbindgen-test-output-VJnj9H/debug/deps --extern dep=/tmp/cbindgen-test-output-VJnj9H/debug/deps/libdep-597e380f7153e1a8.rmeta`\nerror: the option `Z` is only accepted on the nightly compiler\n\nerror: could not compile `expand-dep`\n\nCaused by:\n  process didn\'t exit successfully: `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 -Z unstable-options --pretty=expanded -C metadata=655616a61e3c2d1c -C extra-filename=-655616a61e3c2d1c --out-dir /tmp/cbindgen-test-output-VJnj9H/debug/deps -C incremental=/tmp/cbindgen-test-output-VJnj9H/debug/incremental -L dependency=/tmp/cbindgen-test-output-VJnj9H/debug/deps --extern dep=/tmp/cbindgen-test-output-VJnj9H/debug/deps/libdep-597e380f7153e1a8.rmeta` (exit code: 1)\n"))', tests/profile.rs:25:24
+
+---- lib_explicit_release_build stdout ----
+thread 'lib_explicit_release_build' panicked at 'build should succeed: CargoExpand("expand-dep", Compile("   Compiling dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep/dep)\n     Running `rustc --crate-name dep --edition=2018 dep/src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no -C metadata=3a67611853b3348e -C extra-filename=-3a67611853b3348e --out-dir /tmp/cbindgen-test-output-rvmhYH/release/deps -L dependency=/tmp/cbindgen-test-output-rvmhYH/release/deps`\n   Compiling expand-dep v0.1.0 (/root/cruxppc-ng-3.6/ports/contrib-ppc/cbindgen/work/src/cbindgen-0.18.0/tests/rust/expand_dep)\n     Running `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no -Z unstable-options --pretty=expanded -C metadata=ebf2231ff5da7843 -C extra-filename=-ebf2231ff5da7843 --out-dir /tmp/cbindgen-test-output-rvmhYH/release/deps -L dependency=/tmp/cbindgen-test-output-rvmhYH/release/deps --extern dep=/tmp/cbindgen-test-output-rvmhYH/release/deps/libdep-3a67611853b3348e.rmeta`\nerror: the option `Z` is only accepted on the nightly compiler\n\nerror: could not compile `expand-dep`\n\nCaused by:\n  process didn\'t exit successfully: `rustc --crate-name expand_dep --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi --crate-type lib --emit=dep-info,metadata,link -C opt-level=3 -C embed-bitcode=no -Z unstable-options --pretty=expanded -C metadata=ebf2231ff5da7843 -C extra-filename=-ebf2231ff5da7843 --out-dir /tmp/cbindgen-test-output-rvmhYH/release/deps -L dependency=/tmp/cbindgen-test-output-rvmhYH/release/deps --extern dep=/tmp/cbindgen-test-output-rvmhYH/release/deps/libdep-3a67611853b3348e.rmeta` (exit code: 1)\n"))', tests/profile.rs:25:24
+
+
+failures:
+    lib_default_uses_debug_build
+    lib_explicit_debug_build
+    lib_explicit_release_build
+
+test result: FAILED. 3 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out
+
+error: test failed, to rerun pass '--test profile'
