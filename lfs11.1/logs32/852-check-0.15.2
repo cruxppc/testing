@@ -1,0 +1,75 @@
+Tue Mar  1 07:42:01 GMT 2022
+make[1]: Entering directory '/sources/check-0.15.2'
+Making check in lib
+make[2]: Entering directory '/sources/check-0.15.2/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/check-0.15.2/lib'
+Making check in src
+make[2]: Entering directory '/sources/check-0.15.2/src'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/check-0.15.2/src'
+Making check in doc
+make[2]: Entering directory '/sources/check-0.15.2/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/check-0.15.2/doc'
+Making check in .
+make[2]: Entering directory '/sources/check-0.15.2'
+make[2]: Leaving directory '/sources/check-0.15.2'
+Making check in checkmk
+make[2]: Entering directory '/sources/check-0.15.2/checkmk'
+make  check-TESTS
+make[3]: Entering directory '/sources/check-0.15.2/checkmk'
+make[4]: Entering directory '/sources/check-0.15.2/checkmk'
+PASS: test/check_checkmk
+============================================================================
+Testsuite summary for Check 0.15.2
+============================================================================
+# TOTAL: 1
+# PASS:  1
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[4]: Leaving directory '/sources/check-0.15.2/checkmk'
+make[3]: Leaving directory '/sources/check-0.15.2/checkmk'
+make[2]: Leaving directory '/sources/check-0.15.2/checkmk'
+Making check in tests
+make[2]: Entering directory '/sources/check-0.15.2/tests'
+make  check-TESTS
+make[3]: Entering directory '/sources/check-0.15.2/tests'
+make[4]: Entering directory '/sources/check-0.15.2/tests'
+FAIL: check_check_export
+FAIL: check_check
+PASS: test_output.sh
+PASS: test_check_nofork.sh
+PASS: test_check_nofork_teardown.sh
+PASS: test_xml_output.sh
+PASS: test_log_output.sh
+PASS: test_set_max_msg_size.sh
+PASS: test_tap_output.sh
+============================================================================
+Testsuite summary for Check 0.15.2
+============================================================================
+# TOTAL: 9
+# PASS:  7
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  2
+# XPASS: 0
+# ERROR: 0
+============================================================================
+See tests/test-suite.log
+Please report to check-devel at lists dot sourceforge dot net
+============================================================================
+make[4]: *** [Makefile:1303: test-suite.log] Error 1
+make[4]: Leaving directory '/sources/check-0.15.2/tests'
+make[3]: *** [Makefile:1411: check-TESTS] Error 2
+make[3]: Leaving directory '/sources/check-0.15.2/tests'
+make[2]: *** [Makefile:1537: check-am] Error 2
+make[2]: Target 'check' not remade because of errors.
+make[2]: Leaving directory '/sources/check-0.15.2/tests'
+make[1]: *** [Makefile:566: check-recursive] Error 1
+make[1]: Target 'check' not remade because of errors.
+make[1]: Leaving directory '/sources/check-0.15.2'

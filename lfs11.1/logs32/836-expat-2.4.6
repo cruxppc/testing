@@ -1,0 +1,60 @@
+Mon Feb 28 21:48:58 GMT 2022
+make[1]: Entering directory '/sources/expat-2.4.6'
+Making check in lib
+make[2]: Entering directory '/sources/expat-2.4.6/lib'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.4.6/lib'
+Making check in examples
+make[2]: Entering directory '/sources/expat-2.4.6/examples'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.4.6/examples'
+Making check in tests
+make[2]: Entering directory '/sources/expat-2.4.6/tests'
+Making check in .
+make[3]: Entering directory '/sources/expat-2.4.6/tests'
+make  runtests runtestspp
+make[4]: Entering directory '/sources/expat-2.4.6/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib  -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -MT runtests.o -MD -MP -MF .deps/runtests.Tpo -c -o runtests.o runtests.c
+mv -f .deps/runtests.Tpo .deps/runtests.Po
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -fno-strict-aliasing -lm  -o runtests runtests.o libruntests.a ../lib/libexpatinternal.la 
+libtool: link: gcc -Wall -Wextra -fexceptions -fno-strict-aliasing -Wmissing-prototypes -Wstrict-prototypes -pedantic -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wrestrict -Wnull-dereference -Wjump-misses-init -Wdouble-promotion -Wshadow -Wformat=2 -Wno-pedantic-ms-format -Wmisleading-indentation -fvisibility=hidden -g -O2 -fno-strict-aliasing -o runtests runtests.o  -lm libruntests.a ../lib/.libs/libexpatinternal.a
+g++ -DHAVE_CONFIG_H -I. -I..  -DXML_ENABLE_VISIBILITY=1 -I./../lib  -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -MT runtestspp.o -MD -MP -MF .deps/runtestspp.Tpo -c -o runtestspp.o runtestspp.cpp
+mv -f .deps/runtestspp.Tpo .deps/runtestspp.Po
+/bin/sh ../libtool  --tag=CXX   --mode=link g++ -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -fno-strict-aliasing -lm  -o runtestspp runtestspp.o libruntests.a ../lib/libexpatinternal.la 
+libtool: link: g++ -Wall -Wextra -fexceptions -fno-strict-aliasing -g -O2 -fno-strict-aliasing -o runtestspp runtestspp.o  -lm libruntests.a ../lib/.libs/libexpatinternal.a
+make[4]: Leaving directory '/sources/expat-2.4.6/tests'
+make  check-TESTS
+make[4]: Entering directory '/sources/expat-2.4.6/tests'
+make[5]: Entering directory '/sources/expat-2.4.6/tests'
+PASS: runtests
+PASS: runtestspp
+============================================================================
+Testsuite summary for expat 2.4.6
+============================================================================
+# TOTAL: 2
+# PASS:  2
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+============================================================================
+make[5]: Leaving directory '/sources/expat-2.4.6/tests'
+make[4]: Leaving directory '/sources/expat-2.4.6/tests'
+make[3]: Leaving directory '/sources/expat-2.4.6/tests'
+Making check in benchmark
+make[3]: Entering directory '/sources/expat-2.4.6/tests/benchmark'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/sources/expat-2.4.6/tests/benchmark'
+make[2]: Leaving directory '/sources/expat-2.4.6/tests'
+Making check in xmlwf
+make[2]: Entering directory '/sources/expat-2.4.6/xmlwf'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.4.6/xmlwf'
+Making check in doc
+make[2]: Entering directory '/sources/expat-2.4.6/doc'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/sources/expat-2.4.6/doc'
+make[2]: Entering directory '/sources/expat-2.4.6'
+make[2]: Leaving directory '/sources/expat-2.4.6'
+make[1]: Leaving directory '/sources/expat-2.4.6'

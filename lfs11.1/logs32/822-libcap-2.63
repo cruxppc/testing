@@ -1,0 +1,120 @@
+Sun Feb 27 15:31:23 GMT 2022
+make[1]: Entering directory '/sources/libcap-2.63'
+make -C libcap test
+make[2]: Entering directory '/sources/libcap-2.63/libcap'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -fPIC -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.63/libcap/../libcap/include/uapi -I/sources/libcap-2.63/libcap/../libcap/include  cap_test.c cap_alloc.o cap_proc.o cap_extint.o cap_flag.o cap_text.o cap_file.o -o cap_test
+./cap_test
+test_cap_bits: being called
+test_cap_flags: being called
+test_short_bits: being called
+test_alloc: being called
+test_alloc
+test_alloc: drop_launcher
+test_alloc: drop_iab
+test_alloc: drop_cap
+tested
+cap_test PASS
+make libcapsotest
+make[3]: Entering directory '/sources/libcap-2.63/libcap'
+./libcap.so
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+./libcap.so --usage
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --help
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+usage: libcap.so [--help|--usage|--summary]
+./libcap.so --summary
+./libcap.so is the shared library version: libcap-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+
+Current mode: HYBRID
+Number of cap values known to: this libcap=41, running kernel=38
+=> Newer kernels also provide support for: cap_perfmon cap_bpf cap_checkpoint_restore
+make[3]: Leaving directory '/sources/libcap-2.63/libcap'
+make libpsxsotest
+make[3]: Entering directory '/sources/libcap-2.63/libcap'
+./libpsx.so
+./libpsx.so is the shared library version: libpsx-2.63.
+See the License file for distribution information.
+More information on this library is available from:
+
+    https://sites.google.com/site/fullycapable/
+make[3]: Leaving directory '/sources/libcap-2.63/libcap'
+make[2]: Leaving directory '/sources/libcap-2.63/libcap'
+make -C tests test
+make[2]: Entering directory '/sources/libcap-2.63/tests'
+make run_psx_test run_libcap_psx_test
+make[3]: Entering directory '/sources/libcap-2.63/tests'
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.63/tests/../libcap/include/uapi -I/sources/libcap-2.63/tests/../libcap/include  psx_test.c -o psx_test -Wl,-rpath,../libcap -L/sources/libcap-2.63/tests/../libcap -lpsx -lpthread -Wl,-wrap,pthread_create
+./psx_test
+child 32054 starting
+child 32054 exiting
+iteration [32053]: 0
+hello [32053], main<0> b7c2bb2000000000 (keepcaps=1 vs. want=1)
+pid=32053 forked -> 32054
+[32053] started=0 vs 1
+[32053] started=1 vs 1
+iteration [32053]: 1
+hello [32053], main<1> b7c2bb2000000000 (keepcaps=0 vs. want=0)
+hello [32053], thread<0> b7bde3a000000000 (keepcaps=0 vs. want=0)
+[32053] started=1 vs 2
+[32053] started=2 vs 2
+iteration [32053]: 2
+hello [32053], main<2> b7c2bb2000000000 (keepcaps=1 vs. want=1)
+hello [32053], thread<0> b71ff3a000000000 (keepcaps=1 vs. want=1)
+hello [32053], thread<1> b7bde3a000000000 (keepcaps=1 vs. want=1)
+[32053] started=2 vs 3
+[32053] started=3 vs 3
+iteration [32053]: 3
+hello [32053], main<3> b7c2bb2000000000 (keepcaps=0 vs. want=0)
+hello [32053], thread<0> b67ff3a000000000 (keepcaps=0 vs. want=0)
+hello [32053], thread<2> b7bde3a000000000 (keepcaps=0 vs. want=0)
+hello [32053], thread<1> b71ff3a000000000 (keepcaps=0 vs. want=0)
+iteration [32053]: 4
+hello [32053], main<4> b7c2bb2000000000 (keepcaps=1 vs. want=1)
+hello [32053], thread<2> b71ff3a000000000 (keepcaps=1 vs. want=1)
+hello [32053], thread<1> b67ff3a000000000 (keepcaps=1 vs. want=1)
+iteration [32053]: 5
+hello [32053], main<5> b7c2bb2000000000 (keepcaps=0 vs. want=0)
+hello [32053], thread<2> b67ff3a000000000 (keepcaps=0 vs. want=0)
+iteration [32053]: 6
+hello [32053], main<6> b7c2bb2000000000 (keepcaps=1 vs. want=1)
+iteration [32053]: 7
+hello [32053], main<7> b7c2bb2000000000 (keepcaps=0 vs. want=0)
+iteration [32053]: 8
+hello [32053], main<8> b7c2bb2000000000 (keepcaps=1 vs. want=1)
+iteration [32053]: 9
+hello [32053], main<9> b7c2bb2000000000 (keepcaps=0 vs. want=0)
+./psx_test PASSED
+gcc -O2  -Wall -Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Winline -Wshadow -Wunreachable-code -Dlinux -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -I/sources/libcap-2.63/tests/../libcap/include/uapi -I/sources/libcap-2.63/tests/../libcap/include  libcap_psx_test.c -o libcap_psx_test -Wl,-rpath,../libcap -L/sources/libcap-2.63/tests/../libcap -lcap -L/sources/libcap-2.63/tests/../libcap -lpsx -lpthread -Wl,-wrap,pthread_create
+./libcap_psx_test
+hello libcap and libpsx ............ PASSED
+make[3]: Leaving directory '/sources/libcap-2.63/tests'
+make[2]: Leaving directory '/sources/libcap-2.63/tests'
+make -C progs test
+make[2]: Entering directory '/sources/libcap-2.63/progs'
+no program tests without privilege, try 'make sudotest'
+make[2]: Leaving directory '/sources/libcap-2.63/progs'
+make -C doc test
+make[2]: Entering directory '/sources/libcap-2.63/doc'
+no doc tests available
+make[2]: Leaving directory '/sources/libcap-2.63/doc'
+make[1]: Leaving directory '/sources/libcap-2.63'
